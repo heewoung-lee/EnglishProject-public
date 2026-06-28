@@ -1,0 +1,3481 @@
+{
+  "schemaVersion": 1,
+  "level": "A1",
+  "version": 7,
+  "publishedAt": "2026-06-21T00:00:00.000Z",
+  "questions": [
+    {
+      "id": "a1-reading-main-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Tom has a red bag.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tom has a blue bag."
+        },
+        {
+          "id": "b",
+          "text": "Tom has a bag that is red."
+        },
+        {
+          "id": "c",
+          "text": "Tom has two bags."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "red bag은 빨간 가방이라는 뜻입니다.",
+      "weakPointLabel": "기초 독해"
+    },
+    {
+      "id": "a1-conversation-request-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "가장 자연스러운 요청 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water."
+        },
+        {
+          "id": "b",
+          "text": "Can I have some water?"
+        },
+        {
+          "id": "c",
+          "text": "I water have."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "Can I have some water?는 간단하고 자연스러운 요청 표현입니다.",
+      "weakPointLabel": "기초 회화"
+    },
+    {
+      "id": "a1-grammar-be-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "be동사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am a student."
+        },
+        {
+          "id": "b",
+          "text": "I is a student."
+        },
+        {
+          "id": "c",
+          "text": "I are a student."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "I와 함께 쓰는 be동사는 am입니다.",
+      "weakPointLabel": "be동사"
+    },
+    {
+      "id": "a1-reading-detail-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "짧은 글을 읽고 맞는 답을 고르세요.",
+      "questionText": "Mina drinks tea every morning.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mina drinks coffee."
+        },
+        {
+          "id": "b",
+          "text": "Mina drinks tea."
+        },
+        {
+          "id": "c",
+          "text": "Mina eats bread."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "문장에는 Mina가 매일 아침 tea를 마신다고 되어 있습니다.",
+      "weakPointLabel": "세부 정보 파악"
+    },
+    {
+      "id": "a1-conversation-greeting-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "처음 만났을 때 자연스러운 인사를 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nice to meet you."
+        },
+        {
+          "id": "b",
+          "text": "Nice meet you."
+        },
+        {
+          "id": "c",
+          "text": "Meet nice you."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Nice to meet you.는 처음 만났을 때 쓰는 자연스러운 인사입니다.",
+      "weakPointLabel": "인사 표현"
+    },
+    {
+      "id": "a1-grammar-present-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "주어와 동사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She like apples."
+        },
+        {
+          "id": "b",
+          "text": "She likes apples."
+        },
+        {
+          "id": "c",
+          "text": "She liking apples."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "3인칭 단수 주어 she에는 likes를 씁니다.",
+      "weakPointLabel": "현재 시제"
+    },
+    {
+      "id": "a1-reading-place-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "짧은 문장을 읽고 고양이가 어디에 있는지 고르세요.",
+      "questionText": "The cat is under the table.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On the chair."
+        },
+        {
+          "id": "b",
+          "text": "Under the table."
+        },
+        {
+          "id": "c",
+          "text": "Next to the door."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "under the table은 탁자 아래에 있다는 뜻입니다.",
+      "weakPointLabel": "위치 표현"
+    },
+    {
+      "id": "a1-writing-introduction-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제 이름은 미나입니다.",
+      "sampleAnswer": "My name is Mina.",
+      "evaluationFocusKo": "My name is ... 기본 자기소개 문장 구조",
+      "expectedKeywords": [
+        "my",
+        "name",
+        "is"
+      ],
+      "explanationKo": "My name is 뒤에 이름을 쓰면 자연스러운 자기소개 문장이 됩니다.",
+      "weakPointLabel": "기본 자기소개"
+    },
+    {
+      "id": "a1-writing-like-food-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 사과를 좋아합니다.",
+      "sampleAnswer": "I like apples.",
+      "evaluationFocusKo": "I like ... 문장 구조와 음식 단어 사용",
+      "expectedKeywords": [
+        "i",
+        "like"
+      ],
+      "explanationKo": "I like 뒤에 좋아하는 음식을 쓰면 됩니다.",
+      "weakPointLabel": "좋아하는 것 말하기"
+    },
+    {
+      "id": "a1-reading-weather-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "짧은 문장을 읽고 날씨를 고르세요.",
+      "questionText": "It is sunny today.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The weather is sunny today."
+        },
+        {
+          "id": "b",
+          "text": "It is raining today."
+        },
+        {
+          "id": "c",
+          "text": "It is snowing today."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "sunny는 날씨가 맑다는 뜻입니다.",
+      "weakPointLabel": "날씨 표현"
+    },
+    {
+      "id": "a1-reading-family-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "짧은 문장을 읽고 가족 정보를 고르세요.",
+      "questionText": "Jia has two brothers.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jia has one sister."
+        },
+        {
+          "id": "b",
+          "text": "Jia has two male siblings."
+        },
+        {
+          "id": "c",
+          "text": "Jia has no brothers."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "two brothers는 남자 형제가 두 명이라는 뜻입니다.",
+      "weakPointLabel": "가족 정보 파악"
+    },
+    {
+      "id": "a1-reading-time-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "짧은 문장을 읽고 시간을 고르세요.",
+      "questionText": "The class starts at nine.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At eight."
+        },
+        {
+          "id": "b",
+          "text": "It starts at nine."
+        },
+        {
+          "id": "c",
+          "text": "At ten."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "starts at nine은 9시에 시작한다는 뜻입니다.",
+      "weakPointLabel": "시간 표현"
+    },
+    {
+      "id": "a1-conversation-thanks-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "고마움을 자연스럽게 말하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thank you very much."
+        },
+        {
+          "id": "b",
+          "text": "You thank very."
+        },
+        {
+          "id": "c",
+          "text": "Much you thank."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Thank you very much.는 고마움을 표현하는 자연스러운 문장입니다.",
+      "weakPointLabel": "감사 표현"
+    },
+    {
+      "id": "a1-conversation-goodbye-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "내일 다시 만나자는 인사를 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "See you tomorrow."
+        },
+        {
+          "id": "b",
+          "text": "See tomorrow you."
+        },
+        {
+          "id": "c",
+          "text": "Tomorrow you see."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "See you tomorrow.는 내일 보자는 뜻의 자연스러운 인사입니다.",
+      "weakPointLabel": "작별 인사"
+    },
+    {
+      "id": "a1-grammar-plural-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "복수 명사와 be동사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "There is two books."
+        },
+        {
+          "id": "b",
+          "text": "There are two books."
+        },
+        {
+          "id": "c",
+          "text": "There am two books."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "two books는 복수이므로 There are를 씁니다.",
+      "weakPointLabel": "복수 표현"
+    },
+    {
+      "id": "a1-grammar-article-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "관사가 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This is apple."
+        },
+        {
+          "id": "b",
+          "text": "This is an apple."
+        },
+        {
+          "id": "c",
+          "text": "This are an apple."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "apple은 모음 소리로 시작하므로 an apple을 씁니다.",
+      "weakPointLabel": "관사 사용"
+    },
+    {
+      "id": "a1-writing-daily-routine-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 매일 학교에 갑니다.",
+      "sampleAnswer": "I go to school every day.",
+      "evaluationFocusKo": "I + 동사 원형 + every day 기본 현재 시제",
+      "expectedKeywords": [
+        "i",
+        "go",
+        "every"
+      ],
+      "explanationKo": "매일 하는 일은 I go, I eat처럼 현재 시제로 말합니다.",
+      "weakPointLabel": "일상 표현"
+    },
+    {
+      "id": "a1-writing-feeling-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 오늘 기분이 좋습니다.",
+      "sampleAnswer": "I am happy today.",
+      "evaluationFocusKo": "I am ... today 감정 표현",
+      "expectedKeywords": [
+        "i",
+        "am",
+        "today"
+      ],
+      "explanationKo": "I am 뒤에 happy, tired 같은 감정 단어를 넣으면 됩니다.",
+      "weakPointLabel": "감정 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The shop opens at nine.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "가게는 9시에 문을 엽니다."
+        },
+        {
+          "id": "b",
+          "text": "가게는 9시에 문을 닫습니다."
+        },
+        {
+          "id": "c",
+          "text": "가게는 오늘 쉽니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "opens at nine은 9시에 문을 연다는 뜻입니다.",
+      "weakPointLabel": "시간 정보 이해"
+    },
+    {
+      "id": "a1-extra-reading-choice-002",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Mina has a small umbrella.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "미나는 작은 우산을 가지고 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "미나는 큰 가방을 가지고 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "미나는 우산을 잃어버렸습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "has는 가지고 있다는 뜻이고 small umbrella는 작은 우산입니다.",
+      "weakPointLabel": "소유 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-003",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Please sit here.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "여기에 앉아 주세요."
+        },
+        {
+          "id": "b",
+          "text": "여기에서 뛰어 주세요."
+        },
+        {
+          "id": "c",
+          "text": "여기를 떠나 주세요."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "sit here는 여기에 앉으라는 뜻입니다.",
+      "weakPointLabel": "기본 동작 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-004",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "I drink water every morning.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "나는 매일 아침 물을 마십니다."
+        },
+        {
+          "id": "b",
+          "text": "나는 매일 밤 물을 삽니다."
+        },
+        {
+          "id": "c",
+          "text": "나는 아침을 먹지 않습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "drink water는 물을 마신다는 뜻이고 every morning은 매일 아침입니다.",
+      "weakPointLabel": "일상 행동"
+    },
+    {
+      "id": "a1-extra-reading-choice-005",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The book is on the desk.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "책은 책상 위에 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "책은 책상 아래에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "책상은 책 안에 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "on the desk는 책상 위라는 뜻입니다.",
+      "weakPointLabel": "위치 전치사"
+    },
+    {
+      "id": "a1-extra-reading-choice-006",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "He likes music.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그는 음악을 좋아합니다."
+        },
+        {
+          "id": "b",
+          "text": "그는 음악을 만듭니다."
+        },
+        {
+          "id": "c",
+          "text": "그는 조용합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "likes는 좋아한다는 뜻입니다.",
+      "weakPointLabel": "기본 동사"
+    },
+    {
+      "id": "a1-extra-reading-choice-007",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "This bus goes to Seoul.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "이 버스는 서울로 갑니다."
+        },
+        {
+          "id": "b",
+          "text": "이 버스는 서울에서 옵니다."
+        },
+        {
+          "id": "c",
+          "text": "이 버스는 멈추지 않습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "goes to는 어디로 간다는 뜻입니다.",
+      "weakPointLabel": "이동 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-008",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "My phone is new.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "내 휴대폰은 새것입니다."
+        },
+        {
+          "id": "b",
+          "text": "내 휴대폰은 오래되었습니다."
+        },
+        {
+          "id": "c",
+          "text": "내 휴대폰은 없습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "new는 새롭다는 뜻입니다.",
+      "weakPointLabel": "형용사 의미"
+    },
+    {
+      "id": "a1-extra-reading-choice-009",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "They are in the kitchen.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그들은 부엌에 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "그들은 공원에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "그들은 부엌을 청소합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "in the kitchen은 부엌 안에 있다는 뜻입니다.",
+      "weakPointLabel": "장소 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-010",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "I need a pencil.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "나는 연필이 필요합니다."
+        },
+        {
+          "id": "b",
+          "text": "나는 연필을 팔고 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "나는 연필을 찾았습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "need는 필요하다는 뜻입니다.",
+      "weakPointLabel": "필요 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-011",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The door is open.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "문이 열려 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "문이 잠겨 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "문이 빨간색입니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "open은 열린 상태를 말합니다.",
+      "weakPointLabel": "상태 표현"
+    },
+    {
+      "id": "a1-extra-reading-choice-012",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "We eat lunch at twelve.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "우리는 12시에 점심을 먹습니다."
+        },
+        {
+          "id": "b",
+          "text": "우리는 12시에 집에 갑니다."
+        },
+        {
+          "id": "c",
+          "text": "우리는 점심을 먹지 않습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "eat lunch는 점심을 먹는다는 뜻입니다.",
+      "weakPointLabel": "시간과 식사"
+    },
+    {
+      "id": "a1-extra-reading-translation-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I have two pens.",
+      "sampleAnswer": "나는 펜 두 자루를 가지고 있습니다.",
+      "evaluationFocusKo": "have와 two pens의 의미를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "가지고",
+        "펜",
+        "두"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "가지고",
+        "펜",
+        "두"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "have는 소유를 나타내는 기본 동사입니다.",
+      "weakPointLabel": "소유 문장 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-002",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The cafe is near my school.",
+      "sampleAnswer": "그 카페는 우리 학교 근처에 있습니다.",
+      "evaluationFocusKo": "near와 my school의 위치 관계를 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "카페",
+        "학교",
+        "근처"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "카페",
+        "학교",
+        "근처"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "near는 가까이에 있다는 뜻입니다.",
+      "weakPointLabel": "위치 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-003",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "She reads a book after dinner.",
+      "sampleAnswer": "그녀는 저녁 식사 후에 책을 읽습니다.",
+      "evaluationFocusKo": "after dinner와 reads a book의 의미를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "저녁",
+        "후",
+        "책"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "저녁",
+        "후",
+        "책"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "after는 시간상 뒤를 나타냅니다.",
+      "weakPointLabel": "시간 순서 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-004",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "This bag is not heavy.",
+      "sampleAnswer": "이 가방은 무겁지 않습니다.",
+      "evaluationFocusKo": "부정문 not heavy를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "가방",
+        "무겁지",
+        "않"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "가방",
+        "무겁지",
+        "않"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "not은 부정을 만듭니다.",
+      "weakPointLabel": "부정문 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-005",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Please call me tomorrow.",
+      "sampleAnswer": "내일 나에게 전화해 주세요.",
+      "evaluationFocusKo": "please, call, tomorrow의 뜻을 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "내일",
+        "전화",
+        "주세요"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "내일",
+        "전화",
+        "주세요"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "Please는 정중한 요청을 만듭니다.",
+      "weakPointLabel": "요청문 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-006",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "There is a chair in the room.",
+      "sampleAnswer": "방 안에 의자가 하나 있습니다.",
+      "evaluationFocusKo": "There is와 in the room의 의미를 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "방",
+        "의자",
+        "있"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "방",
+        "의자",
+        "있"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "There is는 존재를 나타냅니다.",
+      "weakPointLabel": "존재문 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-007",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "My brother plays soccer on Sunday.",
+      "sampleAnswer": "내 남동생은 일요일에 축구를 합니다.",
+      "evaluationFocusKo": "주어, 운동, 요일 정보를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "남동생",
+        "일요일",
+        "축구"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "남동생",
+        "일요일",
+        "축구"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "on Sunday는 일요일에라는 뜻입니다.",
+      "weakPointLabel": "요일 표현 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-008",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The station is behind the hotel.",
+      "sampleAnswer": "역은 호텔 뒤에 있습니다.",
+      "evaluationFocusKo": "behind의 위치 의미를 정확히 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "역",
+        "호텔",
+        "뒤"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "역",
+        "호텔",
+        "뒤"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "behind는 뒤쪽을 뜻합니다.",
+      "weakPointLabel": "위치 관계 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-009",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I am tired today.",
+      "sampleAnswer": "나는 오늘 피곤합니다.",
+      "evaluationFocusKo": "tired와 today를 자연스럽게 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "오늘",
+        "피곤",
+        "나"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "오늘",
+        "피곤",
+        "나"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "tired는 피곤한 상태를 말합니다.",
+      "weakPointLabel": "상태 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-010",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Do you want some tea?",
+      "sampleAnswer": "차를 좀 마시겠습니까?",
+      "evaluationFocusKo": "Do you want와 some tea의 뜻을 질문 형태로 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "차",
+        "마시",
+        "습니까"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "차",
+        "마시",
+        "습니까"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "Do you want는 원하는지 묻는 표현입니다.",
+      "weakPointLabel": "질문 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-011",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The movie starts at six.",
+      "sampleAnswer": "영화는 6시에 시작합니다.",
+      "evaluationFocusKo": "starts at six의 시간 정보를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "영화",
+        "6시",
+        "시작"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "영화",
+        "6시",
+        "시작"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "start는 시작하다는 뜻입니다.",
+      "weakPointLabel": "일정 번역"
+    },
+    {
+      "id": "a1-extra-reading-translation-012",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "We are friends.",
+      "sampleAnswer": "우리는 친구입니다.",
+      "evaluationFocusKo": "주어와 보어 관계를 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "우리",
+        "친구",
+        "입니다"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "우리",
+        "친구",
+        "입니다"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "be동사는 주어의 상태나 정체를 나타냅니다.",
+      "weakPointLabel": "be동사 번역"
+    },
+    {
+      "id": "a1-extra-conversation-choice-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "물을 정중하게 요청하는 표현을 고르세요.",
+      "questionText": "You are at a restaurant.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I have some water, please?"
+        },
+        {
+          "id": "b",
+          "text": "Water give me."
+        },
+        {
+          "id": "c",
+          "text": "I am water."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can I have ... please?는 정중한 요청입니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a1-extra-conversation-choice-002",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "처음 만난 사람에게 이름을 말하는 표현을 고르세요.",
+      "questionText": "You introduce yourself.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "My name is Jina."
+        },
+        {
+          "id": "b",
+          "text": "Name me Jina."
+        },
+        {
+          "id": "c",
+          "text": "I am name."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "My name is ...는 이름을 말하는 기본 표현입니다.",
+      "weakPointLabel": "자기소개"
+    },
+    {
+      "id": "a1-extra-conversation-choice-003",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대에게 다시 말해 달라고 하는 표현을 고르세요.",
+      "questionText": "You did not hear the sentence.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you say that again?"
+        },
+        {
+          "id": "b",
+          "text": "Again you say that?"
+        },
+        {
+          "id": "c",
+          "text": "I cannot sentence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you say that again?은 다시 말해 달라는 정중한 표현입니다.",
+      "weakPointLabel": "되묻기"
+    },
+    {
+      "id": "a1-extra-conversation-choice-004",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "감사를 표현하는 말을 고르세요.",
+      "questionText": "Someone helps you.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thank you for your help."
+        },
+        {
+          "id": "b",
+          "text": "Help is me."
+        },
+        {
+          "id": "c",
+          "text": "You help yesterday?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Thank you for ...는 감사 이유를 말할 때 씁니다.",
+      "weakPointLabel": "감사 표현"
+    },
+    {
+      "id": "a1-extra-conversation-choice-005",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "가격을 묻는 표현을 고르세요.",
+      "questionText": "You are shopping.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How much is this?"
+        },
+        {
+          "id": "b",
+          "text": "How many this?"
+        },
+        {
+          "id": "c",
+          "text": "This money how?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "How much is this?는 가격을 묻는 기본 표현입니다.",
+      "weakPointLabel": "가격 질문"
+    },
+    {
+      "id": "a1-extra-conversation-choice-006",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "화장실 위치를 묻는 표현을 고르세요.",
+      "questionText": "You need the restroom.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Where is the restroom?"
+        },
+        {
+          "id": "b",
+          "text": "What is restroom?"
+        },
+        {
+          "id": "c",
+          "text": "Restroom where go?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Where is ...?는 위치를 묻는 질문입니다.",
+      "weakPointLabel": "위치 질문"
+    },
+    {
+      "id": "a1-extra-conversation-choice-007",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "작별 인사를 고르세요.",
+      "questionText": "You leave your friend.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "See you tomorrow."
+        },
+        {
+          "id": "b",
+          "text": "Nice to meet you yesterday."
+        },
+        {
+          "id": "c",
+          "text": "I am goodbye you."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "See you tomorrow는 내일 보자는 자연스러운 인사입니다.",
+      "weakPointLabel": "작별 인사"
+    },
+    {
+      "id": "a1-extra-conversation-choice-008",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "도움이 필요한지 묻는 표현을 고르세요.",
+      "questionText": "You want to help someone.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you need help?"
+        },
+        {
+          "id": "b",
+          "text": "Need you help me?"
+        },
+        {
+          "id": "c",
+          "text": "Help is need?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Do you need help?는 도움이 필요한지 묻는 자연스러운 문장입니다.",
+      "weakPointLabel": "도움 제안"
+    },
+    {
+      "id": "a1-extra-conversation-writing-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제 이름은 희웅입니다.",
+      "sampleAnswer": "My name is Heewoung.",
+      "evaluationFocusKo": "My name is ... 구조를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "my name",
+        "is"
+      ],
+      "explanationKo": "자기소개는 My name is ... 또는 I am ...으로 시작할 수 있습니다.",
+      "weakPointLabel": "기본 자기소개"
+    },
+    {
+      "id": "a1-extra-conversation-writing-002",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 초밥을 좋아합니다.",
+      "sampleAnswer": "I like sushi.",
+      "evaluationFocusKo": "I like + 음식 구조를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "i like"
+      ],
+      "explanationKo": "좋아하는 것은 I like ...로 간단히 말할 수 있습니다.",
+      "weakPointLabel": "선호 표현"
+    },
+    {
+      "id": "a1-extra-conversation-writing-003",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 커피 한 잔 주세요.",
+      "sampleAnswer": "Can I have a coffee, please?",
+      "evaluationFocusKo": "Can I have와 please를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "can i have",
+        "coffee",
+        "please"
+      ],
+      "explanationKo": "주문할 때는 Can I have ... please?가 자연스럽습니다.",
+      "weakPointLabel": "주문 표현"
+    },
+    {
+      "id": "a1-extra-conversation-writing-004",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 오늘 피곤합니다.",
+      "sampleAnswer": "I am tired today.",
+      "evaluationFocusKo": "I am + 감정 형용사 구조를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "i am",
+        "today"
+      ],
+      "explanationKo": "기분은 I am happy, tired, fine처럼 말합니다.",
+      "weakPointLabel": "감정 표현"
+    },
+    {
+      "id": "a1-extra-conversation-writing-005",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 잘 지내?",
+      "sampleAnswer": "How are you?",
+      "evaluationFocusKo": "안부를 묻는 기본 질문인지 평가합니다.",
+      "expectedKeywords": [
+        "how",
+        "are",
+        "you"
+      ],
+      "explanationKo": "How are you?는 안부를 묻는 가장 기본적인 표현입니다.",
+      "weakPointLabel": "안부 질문"
+    },
+    {
+      "id": "a1-extra-conversation-writing-006",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 미안합니다.",
+      "sampleAnswer": "I am sorry.",
+      "evaluationFocusKo": "I am sorry 구조를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "sorry"
+      ],
+      "explanationKo": "미안함은 I am sorry 또는 Sorry로 표현합니다.",
+      "weakPointLabel": "사과 표현"
+    },
+    {
+      "id": "a1-extra-conversation-writing-007",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 버스 정류장이 어디에 있나요?",
+      "sampleAnswer": "Where is the bus stop?",
+      "evaluationFocusKo": "Where is와 bus stop을 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "where",
+        "bus stop"
+      ],
+      "explanationKo": "장소를 찾을 때 Where is ...?를 씁니다.",
+      "weakPointLabel": "길 묻기"
+    },
+    {
+      "id": "a1-extra-conversation-writing-008",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 천천히 말해 주세요.",
+      "sampleAnswer": "Please speak slowly.",
+      "evaluationFocusKo": "Please와 slowly를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "please",
+        "slowly"
+      ],
+      "explanationKo": "천천히 말해 달라고 할 때 speak slowly를 씁니다.",
+      "weakPointLabel": "속도 요청"
+    },
+    {
+      "id": "a1-extra-grammar-choice-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "she가 주어일 때 동사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She likes apples."
+        },
+        {
+          "id": "b",
+          "text": "She like apples."
+        },
+        {
+          "id": "c",
+          "text": "She liking apples."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "3인칭 단수 주어 she에는 likes를 씁니다.",
+      "weakPointLabel": "3인칭 단수"
+    },
+    {
+      "id": "a1-extra-grammar-choice-002",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "They와 함께 쓰는 be동사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are students."
+        },
+        {
+          "id": "b",
+          "text": "They is students."
+        },
+        {
+          "id": "c",
+          "text": "They am students."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "They에는 are를 사용합니다.",
+      "weakPointLabel": "be동사 일치"
+    },
+    {
+      "id": "a1-extra-grammar-choice-003",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "관사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have an apple."
+        },
+        {
+          "id": "b",
+          "text": "I have a apple."
+        },
+        {
+          "id": "c",
+          "text": "I have apple an."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "apple은 모음 소리로 시작하므로 an을 씁니다.",
+      "weakPointLabel": "관사 사용"
+    },
+    {
+      "id": "a1-extra-grammar-choice-004",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "복수형이 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have two books."
+        },
+        {
+          "id": "b",
+          "text": "I have two book."
+        },
+        {
+          "id": "c",
+          "text": "I has two books."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "two 뒤에는 복수명사 books가 옵니다.",
+      "weakPointLabel": "복수 명사"
+    },
+    {
+      "id": "a1-extra-grammar-choice-005",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "부정문이 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I do not like milk."
+        },
+        {
+          "id": "b",
+          "text": "I not like milk."
+        },
+        {
+          "id": "c",
+          "text": "I does not like milk."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "I에는 do not을 사용합니다.",
+      "weakPointLabel": "일반동사 부정문"
+    },
+    {
+      "id": "a1-extra-grammar-choice-006",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "의문문이 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you like music?"
+        },
+        {
+          "id": "b",
+          "text": "You do like music?"
+        },
+        {
+          "id": "c",
+          "text": "Does you like music?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "you를 주어로 하는 일반동사 의문문은 Do you ...?입니다.",
+      "weakPointLabel": "일반동사 의문문"
+    },
+    {
+      "id": "a1-extra-grammar-choice-007",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "전치사가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The key is in the bag."
+        },
+        {
+          "id": "b",
+          "text": "The key is at the bag."
+        },
+        {
+          "id": "c",
+          "text": "The key is on the bag inside."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "가방 안은 in the bag입니다.",
+      "weakPointLabel": "장소 전치사"
+    },
+    {
+      "id": "a1-extra-grammar-choice-008",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "현재진행형 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am reading now."
+        },
+        {
+          "id": "b",
+          "text": "I reading now."
+        },
+        {
+          "id": "c",
+          "text": "I am read now."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "현재진행형은 be동사 + 동사-ing입니다.",
+      "weakPointLabel": "현재진행형"
+    },
+    {
+      "id": "a1-extra-grammar-choice-009",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "과거시제 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I watched TV yesterday."
+        },
+        {
+          "id": "b",
+          "text": "I watch TV yesterday."
+        },
+        {
+          "id": "c",
+          "text": "I watching TV yesterday."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "yesterday가 있으므로 과거형 watched가 필요합니다.",
+      "weakPointLabel": "과거시제"
+    },
+    {
+      "id": "a1-extra-grammar-choice-010",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "소유격이 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This is my bag."
+        },
+        {
+          "id": "b",
+          "text": "This is me bag."
+        },
+        {
+          "id": "c",
+          "text": "This is I bag."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "명사 앞에는 소유격 my를 씁니다.",
+      "weakPointLabel": "소유격"
+    },
+    {
+      "id": "a1-extra-grammar-writing-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 학생입니다.",
+      "sampleAnswer": "I am a student.",
+      "evaluationFocusKo": "I am과 a student를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "i am",
+        "student"
+      ],
+      "explanationKo": "직업이나 신분을 말할 때 단수명사 앞에 a를 붙입니다.",
+      "weakPointLabel": "be동사 문장"
+    },
+    {
+      "id": "a1-extra-grammar-writing-002",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그녀는 피자를 좋아합니다.",
+      "sampleAnswer": "She likes pizza.",
+      "evaluationFocusKo": "3인칭 단수 동사 likes를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "she",
+        "likes",
+        "pizza"
+      ],
+      "explanationKo": "she/he/it 주어에는 동사에 s를 붙입니다.",
+      "weakPointLabel": "3인칭 단수 쓰기"
+    },
+    {
+      "id": "a1-extra-grammar-writing-003",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 어제 공부했습니다.",
+      "sampleAnswer": "I studied yesterday.",
+      "evaluationFocusKo": "과거형 studied와 yesterday를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "studied",
+        "yesterday"
+      ],
+      "explanationKo": "어제 한 일은 과거시제로 표현합니다.",
+      "weakPointLabel": "과거시제 쓰기"
+    },
+    {
+      "id": "a1-extra-grammar-writing-004",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 책상 위에 컵이 있습니다.",
+      "sampleAnswer": "There is a cup on the desk.",
+      "evaluationFocusKo": "There is와 on the desk를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "there is",
+        "cup",
+        "desk"
+      ],
+      "explanationKo": "존재를 말할 때 There is ...를 사용합니다.",
+      "weakPointLabel": "존재문 쓰기"
+    },
+    {
+      "id": "a1-extra-grammar-writing-005",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 음악을 좋아하나요?",
+      "sampleAnswer": "Do you like music?",
+      "evaluationFocusKo": "Do you와 like music 어순을 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "do you",
+        "like",
+        "music"
+      ],
+      "explanationKo": "일반동사 의문문은 Do you + 동사원형입니다.",
+      "weakPointLabel": "의문문 쓰기"
+    },
+    {
+      "id": "a1-extra-grammar-writing-006",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 물을 마시지 않습니다.",
+      "sampleAnswer": "I do not drink water.",
+      "evaluationFocusKo": "do not과 동사원형 drink를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "do not",
+        "drink",
+        "water"
+      ],
+      "explanationKo": "일반동사 부정문은 do not + 동사원형입니다.",
+      "weakPointLabel": "부정문 쓰기"
+    },
+    {
+      "id": "a1-reading-translation-bus-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 문장을 읽고 한글로 번역하세요.",
+      "questionText": "The bus arrives at nine.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 30,
+      "readingDifficulty": "easy",
+      "sampleAnswer": "버스는 9시에 도착합니다.",
+      "expectedKeywordsKo": [
+        "버스",
+        "9시",
+        "도착"
+      ],
+      "evaluationFocusKo": "기본 명사, 시간, 동작을 정확히 옮기는지 평가합니다.",
+      "explanationKo": "arrives는 도착한다는 뜻이고 at nine은 9시를 뜻합니다.",
+      "weakPointLabel": "기초 독해 번역"
+    },
+    {
+      "id": "a1-reading-translation-lunch-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 문장을 읽고 한글로 번역하세요.",
+      "questionText": "Mina eats lunch at school.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 30,
+      "readingDifficulty": "easy",
+      "sampleAnswer": "미나는 학교에서 점심을 먹습니다.",
+      "expectedKeywordsKo": [
+        "미나",
+        "학교",
+        "점심",
+        "먹"
+      ],
+      "evaluationFocusKo": "사람, 장소, 행동 정보를 빠뜨리지 않는지 평가합니다.",
+      "explanationKo": "at school은 학교에서, eats lunch는 점심을 먹는다는 뜻입니다.",
+      "weakPointLabel": "장소와 행동 번역"
+    },
+    {
+      "id": "a1-reading-translation-umbrella-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 문장을 읽고 한글로 번역하세요.",
+      "questionText": "It is raining, so I brought an umbrella.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 35,
+      "readingDifficulty": "medium",
+      "sampleAnswer": "비가 와서 우산을 가져왔습니다.",
+      "expectedKeywordsKo": [
+        "비",
+        "우산",
+        "가져"
+      ],
+      "evaluationFocusKo": "원인 so와 핵심 사물을 자연스럽게 번역하는지 평가합니다.",
+      "explanationKo": "It is raining은 비가 온다는 뜻이고, brought an umbrella는 우산을 가져왔다는 뜻입니다.",
+      "weakPointLabel": "원인 관계 번역"
+    },
+    {
+      "id": "a1-reading-translation-library-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 문장을 읽고 한글로 번역하세요.",
+      "questionText": "My sister reads books in the library.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 35,
+      "readingDifficulty": "medium",
+      "sampleAnswer": "내 여동생은 도서관에서 책을 읽습니다.",
+      "expectedKeywordsKo": [
+        "여동생",
+        "도서관",
+        "책",
+        "읽"
+      ],
+      "evaluationFocusKo": "소유 표현 my와 장소 정보를 함께 옮기는지 평가합니다.",
+      "explanationKo": "in the library는 도서관에서라는 뜻입니다.",
+      "weakPointLabel": "소유와 장소 번역"
+    },
+    {
+      "id": "a1-reading-translation-store-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 문장을 읽고 한글로 번역하세요.",
+      "questionText": "The small store opens early every morning.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 40,
+      "readingDifficulty": "hard",
+      "sampleAnswer": "그 작은 가게는 매일 아침 일찍 문을 엽니다.",
+      "expectedKeywordsKo": [
+        "작은",
+        "가게",
+        "매일",
+        "아침",
+        "일찍"
+      ],
+      "evaluationFocusKo": "형용사와 빈도 표현을 빠뜨리지 않는지 평가합니다.",
+      "explanationKo": "opens early는 일찍 문을 연다는 뜻입니다.",
+      "weakPointLabel": "빈도와 시간 표현"
+    },
+    {
+      "id": "a1-reading-translation-phone-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 문장을 읽고 한글로 번역하세요.",
+      "questionText": "I cannot find my phone because my room is messy.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 40,
+      "readingDifficulty": "hard",
+      "sampleAnswer": "내 방이 지저분해서 나는 휴대폰을 찾을 수 없습니다.",
+      "expectedKeywordsKo": [
+        "방",
+        "지저분",
+        "휴대폰",
+        "찾을 수 없"
+      ],
+      "evaluationFocusKo": "cannot과 because의 의미를 정확히 옮기는지 평가합니다.",
+      "explanationKo": "because는 이유를 나타내고 cannot find는 찾을 수 없다는 뜻입니다.",
+      "weakPointLabel": "부정과 이유 번역"
+    },
+    {
+      "id": "a1-double-reading-choice-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The library opens at nine.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "도서관은 9시에 엽니다."
+        },
+        {
+          "id": "b",
+          "text": "카페는 6시에 닫습니다."
+        },
+        {
+          "id": "c",
+          "text": "역은 호텔 근처에 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "opens at nine을 이해해야 합니다.",
+      "weakPointLabel": "시간 정보"
+    },
+    {
+      "id": "a1-double-reading-choice-002",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The cafe closes at six.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "카페는 6시에 닫습니다."
+        },
+        {
+          "id": "b",
+          "text": "역은 호텔 근처에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "은행은 시장 옆에 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "closes at six을 이해해야 합니다.",
+      "weakPointLabel": "시간 정보"
+    },
+    {
+      "id": "a1-double-reading-choice-003",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The station is near the hotel.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "역은 호텔 근처에 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "은행은 시장 옆에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "내 남동생은 일요일에 테니스를 칩니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "near the hotel을 이해해야 합니다.",
+      "weakPointLabel": "장소 관계"
+    },
+    {
+      "id": "a1-double-reading-choice-004",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The bank is next to the market.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "은행은 시장 옆에 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "내 남동생은 일요일에 테니스를 칩니다."
+        },
+        {
+          "id": "c",
+          "text": "내 여동생은 저녁 식사 후 영어를 공부합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "next to the market을 이해해야 합니다.",
+      "weakPointLabel": "장소 관계"
+    },
+    {
+      "id": "a1-double-reading-choice-005",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "My brother plays tennis on Sunday.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "내 남동생은 일요일에 테니스를 칩니다."
+        },
+        {
+          "id": "b",
+          "text": "내 여동생은 저녁 식사 후 영어를 공부합니다."
+        },
+        {
+          "id": "c",
+          "text": "파란 공책은 책상 위에 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "plays tennis on Sunday을 이해해야 합니다.",
+      "weakPointLabel": "요일 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-006",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "My sister studies English after dinner.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "내 여동생은 저녁 식사 후 영어를 공부합니다."
+        },
+        {
+          "id": "b",
+          "text": "파란 공책은 책상 위에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "작은 열쇠는 가방 안에 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "after dinner을 이해해야 합니다.",
+      "weakPointLabel": "시간 순서"
+    },
+    {
+      "id": "a1-double-reading-choice-007",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The blue notebook is on the desk.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "파란 공책은 책상 위에 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "작은 열쇠는 가방 안에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "여기에 주소를 써 주세요."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "on the desk을 이해해야 합니다.",
+      "weakPointLabel": "위치 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-008",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The small key is in the bag.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "작은 열쇠는 가방 안에 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "여기에 주소를 써 주세요."
+        },
+        {
+          "id": "c",
+          "text": "점심 전에 저에게 전화해 주세요."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "in the bag을 이해해야 합니다.",
+      "weakPointLabel": "위치 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-009",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Please write your address here.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "여기에 주소를 써 주세요."
+        },
+        {
+          "id": "b",
+          "text": "점심 전에 저에게 전화해 주세요."
+        },
+        {
+          "id": "c",
+          "text": "나는 친구를 위해 선물을 샀습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "write your address을 이해해야 합니다.",
+      "weakPointLabel": "기본 요청"
+    },
+    {
+      "id": "a1-double-reading-choice-010",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Please call me before lunch.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "점심 전에 저에게 전화해 주세요."
+        },
+        {
+          "id": "b",
+          "text": "나는 친구를 위해 선물을 샀습니다."
+        },
+        {
+          "id": "c",
+          "text": "우리는 여행을 위해 물이 더 필요합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "before lunch을 이해해야 합니다.",
+      "weakPointLabel": "시간 요청"
+    },
+    {
+      "id": "a1-double-reading-choice-011",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "I bought a gift for my friend.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "나는 친구를 위해 선물을 샀습니다."
+        },
+        {
+          "id": "b",
+          "text": "우리는 여행을 위해 물이 더 필요합니다."
+        },
+        {
+          "id": "c",
+          "text": "그 영화는 짧지만 재미있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "for my friend을 이해해야 합니다.",
+      "weakPointLabel": "목적 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-012",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "We need more water for the trip.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "우리는 여행을 위해 물이 더 필요합니다."
+        },
+        {
+          "id": "b",
+          "text": "그 영화는 짧지만 재미있습니다."
+        },
+        {
+          "id": "c",
+          "text": "이 수프는 뜨거우니 조심하세요."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "more water for the trip을 이해해야 합니다.",
+      "weakPointLabel": "필요 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-013",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The movie is short but funny.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 영화는 짧지만 재미있습니다."
+        },
+        {
+          "id": "b",
+          "text": "이 수프는 뜨거우니 조심하세요."
+        },
+        {
+          "id": "c",
+          "text": "아이들은 그림을 그리고 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "short but funny을 이해해야 합니다.",
+      "weakPointLabel": "대조 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-014",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "This soup is hot, so be careful.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "이 수프는 뜨거우니 조심하세요."
+        },
+        {
+          "id": "b",
+          "text": "아이들은 그림을 그리고 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "나는 오늘 아침 지갑을 잃어버렸습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "hot, so be careful을 이해해야 합니다.",
+      "weakPointLabel": "결과 표현"
+    },
+    {
+      "id": "a1-double-reading-choice-015",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The children are drawing pictures.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "아이들은 그림을 그리고 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "나는 오늘 아침 지갑을 잃어버렸습니다."
+        },
+        {
+          "id": "c",
+          "text": "빨간 신발은 침대 아래에 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "are drawing pictures을 이해해야 합니다.",
+      "weakPointLabel": "현재진행형"
+    },
+    {
+      "id": "a1-double-reading-choice-016",
+      "level": "A1",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "I lost my wallet this morning.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "나는 오늘 아침 지갑을 잃어버렸습니다."
+        },
+        {
+          "id": "b",
+          "text": "빨간 신발은 침대 아래에 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "그는 매일 아침 우유를 마십니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "lost my wallet을 이해해야 합니다.",
+      "weakPointLabel": "과거 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-001",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The red shoes are under the bed.",
+      "sampleAnswer": "빨간 신발은 침대 아래에 있습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "빨간",
+        "신발은",
+        "침대"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "under the bed을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "위치 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-002",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "He drinks milk every morning.",
+      "sampleAnswer": "그는 매일 아침 우유를 마십니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "그는",
+        "매일",
+        "아침"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "every morning을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "일상 행동"
+    },
+    {
+      "id": "a1-double-reading-translation-003",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The doctor is in the room.",
+      "sampleAnswer": "의사는 방 안에 있습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "의사는",
+        "안에",
+        "있습니다"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "in the room을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "장소 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-004",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The store sells fresh bread.",
+      "sampleAnswer": "그 가게는 신선한 빵을 팝니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "가게는",
+        "신선한",
+        "빵을"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "sells fresh bread을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "상점 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-005",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The park is behind the school.",
+      "sampleAnswer": "공원은 학교 뒤에 있습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "공원은",
+        "학교",
+        "뒤에"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "behind the school을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "위치 관계"
+    },
+    {
+      "id": "a1-double-reading-translation-006",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I walk to work every day.",
+      "sampleAnswer": "나는 매일 직장까지 걸어갑니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "나는",
+        "매일",
+        "직장까지"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "walk to work을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "일상 행동"
+    },
+    {
+      "id": "a1-double-reading-translation-007",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The green cup is mine.",
+      "sampleAnswer": "초록색 컵은 내 것입니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "초록색",
+        "컵은",
+        "것입니다"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "is mine을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "소유 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-008",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "They eat lunch at twelve.",
+      "sampleAnswer": "그들은 12시에 점심을 먹습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "그들은",
+        "시에",
+        "점심을"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "lunch at twelve을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "시간 정보"
+    },
+    {
+      "id": "a1-double-reading-translation-009",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The bus is late today.",
+      "sampleAnswer": "버스가 오늘 늦습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "버스가",
+        "오늘",
+        "늦습니다"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "late today을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "상태 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-010",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Mina has two pencils.",
+      "sampleAnswer": "미나는 연필 두 자루를 가지고 있습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "미나는",
+        "연필",
+        "자루를"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "has two pencils을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "수량 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-011",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The milk is in the fridge.",
+      "sampleAnswer": "우유는 냉장고 안에 있습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "우유는",
+        "냉장고",
+        "안에"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "in the fridge을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "위치 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-012",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "We visit our grandmother every month.",
+      "sampleAnswer": "우리는 매달 할머니를 방문합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "우리는",
+        "매달",
+        "할머니를"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "every month을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "빈도 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-013",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The cat sleeps on the sofa.",
+      "sampleAnswer": "고양이는 소파 위에서 잡니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "고양이는",
+        "소파",
+        "위에서"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "on the sofa을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "위치 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-014",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I need a new notebook for class.",
+      "sampleAnswer": "나는 수업에 새 공책이 필요합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "나는",
+        "수업에",
+        "공책이"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 45,
+      "explanationKo": "need a new notebook을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "필요 표현"
+    },
+    {
+      "id": "a1-double-reading-translation-015",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "She washes her hands before dinner.",
+      "sampleAnswer": "그녀는 저녁 식사 전에 손을 씻습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "그녀는",
+        "저녁",
+        "식사"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 60,
+      "explanationKo": "before dinner을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "시간 순서"
+    },
+    {
+      "id": "a1-double-reading-translation-016",
+      "level": "A1",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The door is open.",
+      "sampleAnswer": "문이 열려 있습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "문이",
+        "열려",
+        "있습니다"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 30,
+      "explanationKo": "is open을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "상태 표현"
+    },
+    {
+      "id": "a1-double-conversation-choice-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "길을 묻는 표현을 고르세요.",
+      "questionText": "You need the station.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Where is the station?"
+        },
+        {
+          "id": "b",
+          "text": "Where the station?"
+        },
+        {
+          "id": "c",
+          "text": "is Where the station?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Where is ...?는 장소를 묻는 기본 표현입니다.",
+      "weakPointLabel": "길 묻기"
+    },
+    {
+      "id": "a1-double-conversation-choice-002",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "카페에서 차를 주문하는 표현을 고르세요.",
+      "questionText": "You are at a cafe.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I have tea, please?"
+        },
+        {
+          "id": "b",
+          "text": "I have tea, please?"
+        },
+        {
+          "id": "c",
+          "text": "I Can have tea, please?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can I have ... please?는 주문할 때 자연스럽습니다.",
+      "weakPointLabel": "주문 표현"
+    },
+    {
+      "id": "a1-double-conversation-choice-003",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대에게 이름을 묻는 표현을 고르세요.",
+      "questionText": "You meet someone new.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What is your name?"
+        },
+        {
+          "id": "b",
+          "text": "What your name?"
+        },
+        {
+          "id": "c",
+          "text": "is What your name?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "What is your name?은 이름을 묻는 기본 질문입니다.",
+      "weakPointLabel": "이름 묻기"
+    },
+    {
+      "id": "a1-double-conversation-choice-004",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "감사에 답하는 표현을 고르세요.",
+      "questionText": "Someone says thank you.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You are welcome."
+        },
+        {
+          "id": "b",
+          "text": "You welcome."
+        },
+        {
+          "id": "c",
+          "text": "are You welcome."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "You are welcome은 감사에 답할 때 쓰는 표현입니다.",
+      "weakPointLabel": "감사 답변"
+    },
+    {
+      "id": "a1-double-conversation-choice-005",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "날씨를 묻는 표현을 고르세요.",
+      "questionText": "You talk about weather.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How is the weather?"
+        },
+        {
+          "id": "b",
+          "text": "How the weather?"
+        },
+        {
+          "id": "c",
+          "text": "is How the weather?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "How is the weather?는 날씨를 묻는 자연스러운 문장입니다.",
+      "weakPointLabel": "날씨 질문"
+    },
+    {
+      "id": "a1-double-conversation-choice-006",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "사진을 찍어 달라고 부탁하는 표현을 고르세요.",
+      "questionText": "You need a photo.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can you take a picture?"
+        },
+        {
+          "id": "b",
+          "text": "you take a picture?"
+        },
+        {
+          "id": "c",
+          "text": "you Can take a picture?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can you take a picture?는 사진 촬영을 부탁하는 표현입니다.",
+      "weakPointLabel": "부탁하기"
+    },
+    {
+      "id": "a1-double-conversation-choice-007",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "계산서를 요청하는 표현을 고르세요.",
+      "questionText": "You finished eating.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I have the bill, please?"
+        },
+        {
+          "id": "b",
+          "text": "I have the bill, please?"
+        },
+        {
+          "id": "c",
+          "text": "I Can have the bill, please?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can I have the bill, please?는 계산서를 요청하는 표현입니다.",
+      "weakPointLabel": "식당 표현"
+    },
+    {
+      "id": "a1-double-conversation-choice-008",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "시간을 묻는 표현을 고르세요.",
+      "questionText": "You need the time.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What time is it?"
+        },
+        {
+          "id": "b",
+          "text": "What time it?"
+        },
+        {
+          "id": "c",
+          "text": "time What is it?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "What time is it?은 시간을 묻는 기본 표현입니다.",
+      "weakPointLabel": "시간 질문"
+    },
+    {
+      "id": "a1-double-conversation-choice-009",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "천천히 말해 달라는 표현을 고르세요.",
+      "questionText": "The speaker is too fast.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please speak slowly."
+        },
+        {
+          "id": "b",
+          "text": "speak Please slowly."
+        },
+        {
+          "id": "c",
+          "text": "Not please speak slowly."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Please speak slowly는 천천히 말해 달라는 요청입니다.",
+      "weakPointLabel": "속도 요청"
+    },
+    {
+      "id": "a1-double-conversation-choice-010",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "허락을 구하는 표현을 고르세요.",
+      "questionText": "You want to sit.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I sit here?"
+        },
+        {
+          "id": "b",
+          "text": "I sit here?"
+        },
+        {
+          "id": "c",
+          "text": "I Can sit here?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can I ...?는 허락을 구할 때 씁니다.",
+      "weakPointLabel": "허락 구하기"
+    },
+    {
+      "id": "a1-double-conversation-choice-011",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대에게 괜찮은지 묻는 표현을 고르세요.",
+      "questionText": "Your friend looks tired.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Are you okay?"
+        },
+        {
+          "id": "b",
+          "text": "you okay?"
+        },
+        {
+          "id": "c",
+          "text": "you Are okay?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Are you okay?는 상대 상태를 묻는 자연스러운 표현입니다.",
+      "weakPointLabel": "상태 확인"
+    },
+    {
+      "id": "a1-double-conversation-choice-012",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "도움을 요청하는 표현을 고르세요.",
+      "questionText": "You need help.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can you help me?"
+        },
+        {
+          "id": "b",
+          "text": "you help me?"
+        },
+        {
+          "id": "c",
+          "text": "you Can help me?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can you help me?는 도움을 요청하는 기본 표현입니다.",
+      "weakPointLabel": "도움 요청"
+    },
+    {
+      "id": "a1-double-conversation-writing-001",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 물 한 잔 주세요.",
+      "sampleAnswer": "Can I have a glass of water?",
+      "evaluationFocusKo": "기본 요청 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "can",
+        "have",
+        "glass",
+        "water"
+      ],
+      "explanationKo": "음료를 요청할 때 Can I have ...?를 씁니다.",
+      "weakPointLabel": "기본 요청"
+    },
+    {
+      "id": "a1-double-conversation-writing-002",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 서울에 삽니다.",
+      "sampleAnswer": "I live in Seoul.",
+      "evaluationFocusKo": "거주지 말하기 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "live",
+        "seoul"
+      ],
+      "explanationKo": "사는 곳은 I live in + 장소로 말합니다.",
+      "weakPointLabel": "거주지 말하기"
+    },
+    {
+      "id": "a1-double-conversation-writing-003",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 다시 말해 주세요.",
+      "sampleAnswer": "Please say that again.",
+      "evaluationFocusKo": "되묻기 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "please",
+        "say"
+      ],
+      "explanationKo": "못 들었을 때 Please say that again이라고 말할 수 있습니다.",
+      "weakPointLabel": "되묻기"
+    },
+    {
+      "id": "a1-double-conversation-writing-004",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 커피를 좋아하지 않습니다.",
+      "sampleAnswer": "I do not like coffee.",
+      "evaluationFocusKo": "부정 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "not",
+        "like",
+        "coffee"
+      ],
+      "explanationKo": "일반동사 부정문은 do not + 동사원형입니다.",
+      "weakPointLabel": "부정 표현"
+    },
+    {
+      "id": "a1-double-conversation-writing-005",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 화장실이 어디에 있나요?",
+      "sampleAnswer": "Where is the restroom?",
+      "evaluationFocusKo": "장소 질문 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "where",
+        "the",
+        "restroom"
+      ],
+      "explanationKo": "장소를 물을 때 Where is ...?를 씁니다.",
+      "weakPointLabel": "장소 질문"
+    },
+    {
+      "id": "a1-double-conversation-writing-006",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 오늘은 날씨가 좋습니다.",
+      "sampleAnswer": "The weather is nice today.",
+      "evaluationFocusKo": "날씨 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "the",
+        "weather",
+        "nice",
+        "today"
+      ],
+      "explanationKo": "날씨를 말할 때 The weather is ... 구조가 자연스럽습니다.",
+      "weakPointLabel": "날씨 표현"
+    },
+    {
+      "id": "a1-double-conversation-writing-007",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 버스를 기다리고 있습니다.",
+      "sampleAnswer": "I am waiting for the bus.",
+      "evaluationFocusKo": "현재진행형 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "waiting",
+        "for",
+        "the",
+        "bus"
+      ],
+      "explanationKo": "기다리다는 wait for로 표현합니다.",
+      "weakPointLabel": "현재진행형"
+    },
+    {
+      "id": "a1-double-conversation-writing-008",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이것은 얼마인가요?",
+      "sampleAnswer": "How much is this?",
+      "evaluationFocusKo": "가격 질문 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "how",
+        "much"
+      ],
+      "explanationKo": "가격은 How much is this?로 묻습니다.",
+      "weakPointLabel": "가격 질문"
+    },
+    {
+      "id": "a1-double-conversation-writing-009",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 내일 만나요.",
+      "sampleAnswer": "See you tomorrow.",
+      "evaluationFocusKo": "작별 인사 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "see",
+        "you",
+        "tomorrow"
+      ],
+      "explanationKo": "See you tomorrow는 내일 보자는 인사입니다.",
+      "weakPointLabel": "작별 인사"
+    },
+    {
+      "id": "a1-double-conversation-writing-010",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 배가 고픕니다.",
+      "sampleAnswer": "I am hungry.",
+      "evaluationFocusKo": "상태 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "hungry"
+      ],
+      "explanationKo": "배고픈 상태는 I am hungry라고 말합니다.",
+      "weakPointLabel": "상태 표현"
+    },
+    {
+      "id": "a1-double-conversation-writing-011",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제 휴대폰을 찾고 있습니다.",
+      "sampleAnswer": "I am looking for my phone.",
+      "evaluationFocusKo": "찾기 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "looking",
+        "for",
+        "phone"
+      ],
+      "explanationKo": "찾고 있다는 look for로 말합니다.",
+      "weakPointLabel": "찾기 표현"
+    },
+    {
+      "id": "a1-double-conversation-writing-012",
+      "level": "A1",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 천천히 걸어 주세요.",
+      "sampleAnswer": "Please walk slowly.",
+      "evaluationFocusKo": "요청 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "please",
+        "walk",
+        "slowly"
+      ],
+      "explanationKo": "공손한 요청은 Please로 시작할 수 있습니다.",
+      "weakPointLabel": "요청 표현"
+    },
+    {
+      "id": "a1-double-grammar-choice-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그는 선생님입니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He is a teacher."
+        },
+        {
+          "id": "b",
+          "text": "He a teacher."
+        },
+        {
+          "id": "c",
+          "text": "is He a teacher."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "직업을 말할 때 단수명사 앞에 a를 붙입니다.",
+      "weakPointLabel": "be동사 문장"
+    },
+    {
+      "id": "a1-double-grammar-choice-002",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 나는 사과 두 개를 가지고 있습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have two apples."
+        },
+        {
+          "id": "b",
+          "text": "I two apples."
+        },
+        {
+          "id": "c",
+          "text": "have I two apples."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "two 뒤에는 복수명사를 씁니다.",
+      "weakPointLabel": "복수 명사"
+    },
+    {
+      "id": "a1-double-grammar-choice-003",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그들은 지금 공부하고 있습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are studying now."
+        },
+        {
+          "id": "b",
+          "text": "They studying now."
+        },
+        {
+          "id": "c",
+          "text": "are They studying now."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "현재진행형은 be동사 + ing입니다.",
+      "weakPointLabel": "현재진행형 쓰기"
+    },
+    {
+      "id": "a1-double-grammar-choice-004",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그녀는 매일 우유를 마십니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She drinks milk every day."
+        },
+        {
+          "id": "b",
+          "text": "drinks She milk every day."
+        },
+        {
+          "id": "c",
+          "text": "Not she drinks milk every day."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "she 주어에는 동사에 s를 붙입니다.",
+      "weakPointLabel": "3인칭 단수"
+    },
+    {
+      "id": "a1-double-grammar-choice-005",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 나는 어제 집에 있었습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I was at home yesterday."
+        },
+        {
+          "id": "b",
+          "text": "I at home yesterday."
+        },
+        {
+          "id": "c",
+          "text": "was I at home yesterday."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "과거의 상태는 was를 사용합니다.",
+      "weakPointLabel": "과거 be동사"
+    },
+    {
+      "id": "a1-double-grammar-choice-006",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 너는 영어를 좋아하니?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you like English?"
+        },
+        {
+          "id": "b",
+          "text": "you like English?"
+        },
+        {
+          "id": "c",
+          "text": "you Do like English?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "일반동사 의문문은 Do you + 동사원형입니다.",
+      "weakPointLabel": "의문문 쓰기"
+    },
+    {
+      "id": "a1-double-grammar-choice-007",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 책상 아래에 가방이 있습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "There is a bag under the desk."
+        },
+        {
+          "id": "b",
+          "text": "There a bag under the desk."
+        },
+        {
+          "id": "c",
+          "text": "is There a bag under the desk."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "존재와 위치를 함께 말할 수 있습니다.",
+      "weakPointLabel": "존재문"
+    },
+    {
+      "id": "a1-double-grammar-choice-008",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 나는 아침을 먹지 않습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I do not eat breakfast."
+        },
+        {
+          "id": "b",
+          "text": "I not eat breakfast."
+        },
+        {
+          "id": "c",
+          "text": "do I not eat breakfast."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "일반동사 부정문은 do not + 동사원형입니다.",
+      "weakPointLabel": "부정문 쓰기"
+    },
+    {
+      "id": "a1-double-grammar-choice-009",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 이것은 내 지갑입니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This is my wallet."
+        },
+        {
+          "id": "b",
+          "text": "This my wallet."
+        },
+        {
+          "id": "c",
+          "text": "is This my wallet."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "명사 앞에는 소유격 my를 씁니다.",
+      "weakPointLabel": "소유격"
+    },
+    {
+      "id": "a1-double-grammar-choice-010",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 문을 열어 주세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please open the door."
+        },
+        {
+          "id": "b",
+          "text": "Please open door."
+        },
+        {
+          "id": "c",
+          "text": "open Please the door."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Please + 동사원형은 정중한 요청입니다.",
+      "weakPointLabel": "요청문"
+    },
+    {
+      "id": "a1-double-grammar-choice-011",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 우리는 일요일에 축구를 합니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "We play soccer on Sundays."
+        },
+        {
+          "id": "b",
+          "text": "play We soccer on Sundays."
+        },
+        {
+          "id": "c",
+          "text": "Not we play soccer on Sundays."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "요일에는 on을 씁니다.",
+      "weakPointLabel": "요일 표현"
+    },
+    {
+      "id": "a1-double-grammar-choice-012",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 책은 가방 안에 있습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The book is in the bag."
+        },
+        {
+          "id": "b",
+          "text": "The book in the bag."
+        },
+        {
+          "id": "c",
+          "text": "book The is in the bag."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "가방 안은 in the bag으로 표현합니다.",
+      "weakPointLabel": "위치 전치사"
+    },
+    {
+      "id": "a1-double-grammar-writing-001",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그녀는 펜을 가지고 있습니다.",
+      "sampleAnswer": "She has a pen.",
+      "evaluationFocusKo": "She has와 a pen 사용",
+      "expectedKeywords": [
+        "she",
+        "has",
+        "pen"
+      ],
+      "explanationKo": "단수 셀 수 있는 명사 pen 앞에는 a를 씁니다.",
+      "weakPointLabel": "관사 사용"
+    },
+    {
+      "id": "a1-double-grammar-writing-002",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 의자가 두 개 있습니다.",
+      "sampleAnswer": "There are two chairs.",
+      "evaluationFocusKo": "There are와 복수명사 chairs 사용",
+      "expectedKeywords": [
+        "are",
+        "two",
+        "chairs"
+      ],
+      "explanationKo": "two 뒤에는 복수명사 chairs를 씁니다.",
+      "weakPointLabel": "복수 명사"
+    },
+    {
+      "id": "a1-double-grammar-writing-003",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그는 내 형입니다.",
+      "sampleAnswer": "He is my brother.",
+      "evaluationFocusKo": "He is와 my brother 사용",
+      "expectedKeywords": [
+        "brother"
+      ],
+      "explanationKo": "He에는 be동사 is를 씁니다.",
+      "weakPointLabel": "be동사 일치"
+    },
+    {
+      "id": "a1-double-grammar-writing-004",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그들은 피자를 좋아하나요?",
+      "sampleAnswer": "Do they like pizza?",
+      "evaluationFocusKo": "Do they와 like 사용",
+      "expectedKeywords": [
+        "they",
+        "like",
+        "pizza"
+      ],
+      "explanationKo": "they 주어의 의문문은 Do they ...?입니다.",
+      "weakPointLabel": "의문문 어순"
+    },
+    {
+      "id": "a1-double-grammar-writing-005",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 우리는 지금 요리하고 있습니다.",
+      "sampleAnswer": "We are cooking now.",
+      "evaluationFocusKo": "are cooking 현재진행형",
+      "expectedKeywords": [
+        "are",
+        "cooking",
+        "now"
+      ],
+      "explanationKo": "현재진행형은 be동사 + 동사-ing입니다.",
+      "weakPointLabel": "현재진행형"
+    },
+    {
+      "id": "a1-double-grammar-writing-006",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그녀는 어제 부산을 방문했습니다.",
+      "sampleAnswer": "She visited Busan yesterday.",
+      "evaluationFocusKo": "visited와 yesterday 사용",
+      "expectedKeywords": [
+        "she",
+        "visited",
+        "busan",
+        "yesterday"
+      ],
+      "explanationKo": "yesterday가 있으므로 과거형 visited를 씁니다.",
+      "weakPointLabel": "과거시제"
+    },
+    {
+      "id": "a1-double-grammar-writing-007",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 그림은 벽에 걸려 있습니다.",
+      "sampleAnswer": "The picture is on the wall.",
+      "evaluationFocusKo": "on the wall 위치 표현",
+      "expectedKeywords": [
+        "the",
+        "picture",
+        "wall"
+      ],
+      "explanationKo": "벽 표면 위에는 on the wall을 씁니다.",
+      "weakPointLabel": "전치사"
+    },
+    {
+      "id": "a1-double-grammar-writing-008",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이것은 그녀의 책입니다.",
+      "sampleAnswer": "This is her book.",
+      "evaluationFocusKo": "her book 소유격 사용",
+      "expectedKeywords": [
+        "her",
+        "book"
+      ],
+      "explanationKo": "명사 앞에는 소유격 her를 씁니다.",
+      "weakPointLabel": "소유격"
+    },
+    {
+      "id": "a1-double-grammar-writing-009",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 나는 차가 없습니다.",
+      "sampleAnswer": "I do not have a car.",
+      "evaluationFocusKo": "do not have 부정문",
+      "expectedKeywords": [
+        "not",
+        "have",
+        "car"
+      ],
+      "explanationKo": "I 주어에는 do not을 사용합니다.",
+      "weakPointLabel": "부정문"
+    },
+    {
+      "id": "a1-double-grammar-writing-010",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 문을 열어 줄 수 있나요?",
+      "sampleAnswer": "Can you open the door?",
+      "evaluationFocusKo": "Can you와 동사원형 open 사용",
+      "expectedKeywords": [
+        "can",
+        "you",
+        "open",
+        "the"
+      ],
+      "explanationKo": "can 뒤에는 동사원형 open을 씁니다.",
+      "weakPointLabel": "조동사"
+    },
+    {
+      "id": "a1-double-grammar-writing-011",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 문을 닫아 주세요.",
+      "sampleAnswer": "Please close the door.",
+      "evaluationFocusKo": "Please와 close 사용",
+      "expectedKeywords": [
+        "please",
+        "close",
+        "the",
+        "door"
+      ],
+      "explanationKo": "Please + 동사원형으로 정중한 명령을 만듭니다.",
+      "weakPointLabel": "정중한 명령문"
+    },
+    {
+      "id": "a1-double-grammar-writing-012",
+      "level": "A1",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 나는 7시에 일어납니다.",
+      "sampleAnswer": "I get up at seven.",
+      "evaluationFocusKo": "at seven 시간 전치사 사용",
+      "expectedKeywords": [
+        "get",
+        "seven"
+      ],
+      "explanationKo": "시각 앞에는 at을 씁니다.",
+      "weakPointLabel": "시간 전치사"
+    }
+  ]
+}

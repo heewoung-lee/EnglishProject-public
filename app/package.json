@@ -1,0 +1,36 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~56.0.8",
+    "expo-audio": "~56.0.12",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-google-mobile-ads": "^16.3.4",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3",
+    "vitest": "^4.1.8"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "content:validate": "node scripts/validate-content.mjs",
+    "prebuild:android": "expo prebuild --platform android",
+    "build:android:apk": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-android-apk.ps1 -Variant release",
+    "build:android:aab": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-android-aab.ps1",
+    "build:android:release": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-android-apk.ps1 -Variant release",
+    "build:android:debug": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-android-apk.ps1 -Variant debug"
+  },
+  "private": true
+}

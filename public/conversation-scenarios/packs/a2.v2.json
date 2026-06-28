@@ -1,0 +1,660 @@
+{
+  "schemaVersion": 1,
+  "level": "A2",
+  "version": 2,
+  "publishedAt": "2026-06-10T08:00:00.000Z",
+  "scenarios": [
+    {
+      "id": "a2-airport-checkin-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "공항 체크인하기",
+      "titleEn": "Airport Check-In",
+      "situationKo": "당신은 항공사 카운터에서 비행기 체크인을 해야 합니다.",
+      "descriptionKo": "여권, 목적지, 수하물, 좌석 선호를 말하는 연습입니다.",
+      "aiRole": "Airline check-in staff",
+      "userRole": "Passenger",
+      "userGoalKo": "여권을 제시하고, 수하물과 좌석 선호를 말해 체크인을 완료하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Here is my passport.",
+        "I have one bag.",
+        "Could I have a window seat?"
+      ],
+      "targetSkills": [
+        "question_comprehension",
+        "prepositions",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Good morning. May I see your passport, please?",
+      "completionMessage": "Great. Here is your boarding pass. Boarding starts at gate 12.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Respond to the passport request.",
+        "Say the destination or flight context.",
+        "Say baggage information.",
+        "Say a seat preference if asked."
+      ],
+      "requiredSlots": [
+        {
+          "key": "passport",
+          "label": "passport",
+          "prompt": "May I see your passport, please?",
+          "matchKeywords": [
+            "passport",
+            "here it is",
+            "here you go"
+          ]
+        },
+        {
+          "key": "destination",
+          "label": "destination",
+          "prompt": "Where are you flying today?",
+          "matchKeywords": [
+            "destination",
+            "seoul",
+            "tokyo",
+            "new york",
+            "london",
+            "paris",
+            "los angeles",
+            "busan",
+            "jeju",
+            "to seoul",
+            "to tokyo"
+          ]
+        },
+        {
+          "key": "bags",
+          "label": "checked bags",
+          "prompt": "Do you have any bags to check?",
+          "matchKeywords": [
+            "bag",
+            "bags",
+            "luggage",
+            "suitcase",
+            "checked",
+            "carry-on",
+            "carry on",
+            "no bags",
+            "one bag",
+            "two bags"
+          ]
+        },
+        {
+          "key": "seat",
+          "label": "seat preference",
+          "prompt": "Would you prefer a window seat or an aisle seat?",
+          "matchKeywords": [
+            "window",
+            "aisle",
+            "middle seat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-change-plans-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "약속 시간 바꾸기",
+      "titleEn": "Changing Plans",
+      "situationKo": "당신은 친구와의 약속 시간을 바꿔야 합니다.",
+      "descriptionKo": "이유를 짧게 말하고 새 시간을 제안하는 연습입니다.",
+      "aiRole": "Friend",
+      "userRole": "Friend",
+      "userGoalKo": "기존 약속을 바꾸고 새 시간을 자연스럽게 제안하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Can we meet later?",
+        "I have to ...",
+        "How about ...?"
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "verb_tense",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hey, are we still meeting at 3 today?",
+      "completionMessage": "No problem. Let's change it to that time.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say that the plan needs to change.",
+        "Give a short reason.",
+        "Suggest a new time."
+      ],
+      "requiredSlots": [
+        {
+          "key": "planChange",
+          "label": "plan change request",
+          "prompt": "Do you need to change our plan?",
+          "matchKeywords": [
+            "change",
+            "meet later",
+            "reschedule",
+            "can we meet",
+            "another time",
+            "plan"
+          ]
+        },
+        {
+          "key": "reason",
+          "label": "reason for changing plans",
+          "prompt": "Why do you need to change it?",
+          "matchKeywords": [
+            "because i have",
+            "because i am",
+            "i can't because of work",
+            "i can't because of school",
+            "i cannot because of traffic",
+            "busy",
+            "late",
+            "work",
+            "school",
+            "sick",
+            "traffic",
+            "appointment"
+          ]
+        },
+        {
+          "key": "newTime",
+          "label": "new time",
+          "prompt": "What new time works for you?",
+          "matchKeywords": [
+            "later",
+            "earlier",
+            "tomorrow",
+            "tonight",
+            "today",
+            "next week",
+            "morning",
+            "afternoon",
+            "evening",
+            "at 4",
+            "at 5",
+            "at 6",
+            "five",
+            "six",
+            "seven"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-restaurant-request-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "식당에서 요청하기",
+      "titleEn": "Making a Request at a Restaurant",
+      "situationKo": "당신은 식당에서 직원에게 정중하게 요청해야 합니다.",
+      "descriptionKo": "메뉴, 물, 계산서 같은 요청을 공손하게 말하는 연습입니다.",
+      "aiRole": "Restaurant server",
+      "userRole": "Customer",
+      "userGoalKo": "필요한 것을 정중하게 요청하고 대화를 마무리하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Could I have ...?",
+        "Could you bring ...?",
+        "May I get the bill?"
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "articles",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. Are you ready to order, or do you need anything?",
+      "completionMessage": "Of course. I'll bring that right away.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Ask for the needed restaurant item.",
+        "Use a polite request form.",
+        "Close the request naturally."
+      ],
+      "requiredSlots": [
+        {
+          "key": "requestItem",
+          "label": "restaurant request",
+          "prompt": "What would you like me to bring?",
+          "matchKeywords": [
+            "water",
+            "menu",
+            "bill",
+            "check",
+            "fork",
+            "knife",
+            "spoon",
+            "napkin",
+            "plate",
+            "glass",
+            "straw",
+            "salt",
+            "pepper",
+            "sauce",
+            "refill"
+          ]
+        },
+        {
+          "key": "politeRequest",
+          "label": "polite request",
+          "prompt": "Could you ask politely?",
+          "matchKeywords": [
+            "please",
+            "could i",
+            "could you",
+            "can i",
+            "can we",
+            "may i",
+            "would you",
+            "excuse me"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-pharmacy-symptom-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "약국에서 약 요청하기",
+      "titleEn": "Asking for Medicine at a Pharmacy",
+      "situationKo": "약국에서 증상을 설명하고 약을 추천받아야 합니다.",
+      "descriptionKo": "증상과 필요한 약 또는 복용 방법 질문을 연습합니다.",
+      "aiRole": "Pharmacist",
+      "userRole": "Customer",
+      "userGoalKo": "증상을 말하고 필요한 약이나 복용 방법을 물어보세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "I have ...",
+        "Do you have any medicine for ...?",
+        "How often should I take it?"
+      ],
+      "targetSkills": [
+        "question_comprehension",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. How can I help you today?",
+      "completionMessage": "Take this twice a day after meals.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Describe a symptom.",
+        "Ask for medicine or ask how to take it.",
+        "Complete the pharmacy interaction."
+      ],
+      "requiredSlots": [
+        {
+          "key": "symptom",
+          "label": "symptom",
+          "prompt": "What symptoms do you have?",
+          "matchKeywords": [
+            "headache",
+            "fever",
+            "cough",
+            "sore throat",
+            "stomachache",
+            "cold",
+            "pain"
+          ]
+        },
+        {
+          "key": "medicineQuestion",
+          "label": "medicine or dosage question",
+          "prompt": "Do you need medicine, or do you have a question about how to take it?",
+          "matchKeywords": [
+            "medicine",
+            "medicine for",
+            "any medicine",
+            "do you have any medicine",
+            "do you have medicine",
+            "something for",
+            "anything for",
+            "recommend",
+            "for stomachache",
+            "for headache",
+            "for fever",
+            "how often",
+            "how many",
+            "take it",
+            "twice",
+            "once",
+            "after meals",
+            "before meals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-shopping-return-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "상점에서 교환 요청하기",
+      "titleEn": "Exchanging an Item at a Store",
+      "situationKo": "상점에서 산 물건의 사이즈가 맞지 않아 교환해야 합니다.",
+      "descriptionKo": "문제 설명과 교환 요청을 연습합니다.",
+      "aiRole": "Store staff",
+      "userRole": "Customer",
+      "userGoalKo": "문제를 설명하고 교환을 정중하게 요청하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Could I exchange this?",
+        "It is too small."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. How can I help you?",
+      "completionMessage": "No problem. I can exchange it for you.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Explain the problem.",
+        "Ask for an exchange politely.",
+        "Answer any follow-up question."
+      ],
+      "requiredSlots": [
+        {
+          "key": "problem",
+          "label": "item problem",
+          "prompt": "What is wrong with it?",
+          "matchKeywords": [
+            "too small",
+            "too big",
+            "wrong size",
+            "broken",
+            "does not fit",
+            "doesn't fit"
+          ]
+        },
+        {
+          "key": "exchangeRequest",
+          "label": "exchange request",
+          "prompt": "What would you like to do?",
+          "matchKeywords": [
+            "exchange",
+            "change",
+            "return",
+            "refund",
+            "could i",
+            "can i"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-taxi-destination-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "택시에서 목적지 말하기",
+      "titleEn": "Taking a Taxi",
+      "situationKo": "택시 기사에게 목적지와 선호 경로를 말해야 합니다.",
+      "descriptionKo": "목적지와 요청 사항을 자연스럽게 말하는 연습입니다.",
+      "aiRole": "Taxi driver",
+      "userRole": "Passenger",
+      "userGoalKo": "목적지를 말하고 빠른 길 또는 선호 경로를 알려 주세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Please take me to ...",
+        "Could you take the faster route?"
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "prepositions",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. Where would you like to go?",
+      "completionMessage": "Sure. I will take you there.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say the destination.",
+        "Make or decline a route preference.",
+        "Confirm the ride."
+      ],
+      "requiredSlots": [
+        {
+          "key": "destination",
+          "label": "destination",
+          "prompt": "Where would you like to go?",
+          "matchKeywords": [
+            "hotel",
+            "station",
+            "airport",
+            "restaurant",
+            "office",
+            "hospital",
+            "take me to",
+            "go to"
+          ]
+        },
+        {
+          "key": "route",
+          "label": "route preference",
+          "prompt": "Do you have a route preference?",
+          "matchKeywords": [
+            "faster",
+            "quick",
+            "short",
+            "highway",
+            "avoid traffic",
+            "route",
+            "no preference",
+            "any route",
+            "up to you",
+            "either way"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-restaurant-reservation-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "식당 예약하기",
+      "titleEn": "Making a Restaurant Reservation",
+      "situationKo": "전화로 식당 예약을 해야 합니다.",
+      "descriptionKo": "인원, 시간, 이름을 말하는 연습입니다.",
+      "aiRole": "Restaurant host",
+      "userRole": "Customer",
+      "userGoalKo": "예약 인원, 시간, 이름을 말하고 예약을 완료하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "I would like to make a reservation.",
+        "A table for two at seven."
+      ],
+      "targetSkills": [
+        "numbers_dates",
+        "polite_requests",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. How can I help you?",
+      "completionMessage": "Great. Your reservation is confirmed.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say you want a reservation.",
+        "Give party size.",
+        "Give reservation time.",
+        "Give a name."
+      ],
+      "requiredSlots": [
+        {
+          "key": "reservation",
+          "label": "reservation request",
+          "prompt": "Would you like to make a reservation?",
+          "matchKeywords": [
+            "reservation",
+            "book",
+            "table",
+            "reserve"
+          ]
+        },
+        {
+          "key": "partySize",
+          "label": "party size",
+          "prompt": "For how many people?",
+          "matchKeywords": [
+            "one person",
+            "two people",
+            "three people",
+            "four people",
+            "for one",
+            "for two",
+            "for three",
+            "for four",
+            "people"
+          ]
+        },
+        {
+          "key": "reservationTime",
+          "label": "reservation time",
+          "prompt": "What time would you like?",
+          "matchKeywords": [
+            "at 6",
+            "at 7",
+            "at 8",
+            "six",
+            "seven",
+            "eight",
+            "tonight",
+            "tomorrow"
+          ]
+        },
+        {
+          "key": "name",
+          "label": "reservation name",
+          "prompt": "May I have your name?",
+          "matchKeywords": [
+            "my name is",
+            "under",
+            "name is",
+            "i am",
+            "i'm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-work-schedule-001",
+      "level": "A2",
+      "area": "conversation",
+      "titleKo": "근무 일정 바꾸기",
+      "titleEn": "Changing a Work Schedule",
+      "situationKo": "동료에게 근무 시간을 바꿀 수 있는지 물어봐야 합니다.",
+      "descriptionKo": "이유를 말하고 가능한 시간을 제안하는 연습입니다.",
+      "aiRole": "Coworker",
+      "userRole": "Employee",
+      "userGoalKo": "일정 변경 이유와 새 시간을 말하고 동료에게 부탁하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Could we switch shifts?",
+        "I have an appointment."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "verb_tense",
+        "task_completion"
+      ],
+      "openingMessage": "Hey, what did you want to ask me?",
+      "completionMessage": "That works for me. Let us switch shifts.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Ask to switch shifts.",
+        "Give a reason.",
+        "Suggest a new time."
+      ],
+      "requiredSlots": [
+        {
+          "key": "switchRequest",
+          "label": "shift switch request",
+          "prompt": "What do you need to change?",
+          "matchKeywords": [
+            "switch",
+            "change",
+            "shift",
+            "schedule",
+            "work time"
+          ]
+        },
+        {
+          "key": "reason",
+          "label": "reason",
+          "prompt": "Why do you need to change it?",
+          "matchKeywords": [
+            "appointment",
+            "doctor",
+            "family",
+            "class",
+            "because i have",
+            "because i am",
+            "busy"
+          ]
+        },
+        {
+          "key": "newTime",
+          "label": "new time",
+          "prompt": "What time works for you?",
+          "matchKeywords": [
+            "morning",
+            "afternoon",
+            "evening",
+            "tomorrow",
+            "monday",
+            "friday",
+            "at 3",
+            "at 4",
+            "at 5"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3509 @@
+{
+  "schemaVersion": 1,
+  "level": "A2",
+  "version": 7,
+  "publishedAt": "2026-06-21T00:00:00.000Z",
+  "questions": [
+    {
+      "id": "a2-reading-inference-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장을 읽고 알 수 있는 내용을 고르세요.",
+      "questionText": "Jin missed the bus, so he walked to school.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jin went to school by bus."
+        },
+        {
+          "id": "b",
+          "text": "Jin did not go to school."
+        },
+        {
+          "id": "c",
+          "text": "Jin walked because he missed the bus."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanationKo": "missed the bus 때문에 walked to school 했다는 인과관계를 이해해야 합니다.",
+      "weakPointLabel": "문장 추론"
+    },
+    {
+      "id": "a2-conversation-polite-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "더 정중한 요청 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you help me?"
+        },
+        {
+          "id": "b",
+          "text": "Help me now."
+        },
+        {
+          "id": "c",
+          "text": "You help?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you help me?는 정중하게 도움을 요청하는 표현입니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-grammar-perfect-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "현재완료 문장으로 맞는 것을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have visited Busan."
+        },
+        {
+          "id": "b",
+          "text": "I has visited Busan."
+        },
+        {
+          "id": "c",
+          "text": "I have visit Busan."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "현재완료는 have/has + 과거분사 형태입니다.",
+      "weakPointLabel": "현재완료"
+    },
+    {
+      "id": "a2-reading-purpose-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "글의 목적에 가장 가까운 것을 고르세요.",
+      "questionText": "Please bring your notebook tomorrow.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Request"
+        },
+        {
+          "id": "b",
+          "text": "Weather report"
+        },
+        {
+          "id": "c",
+          "text": "Restaurant menu"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Please bring은 상대에게 어떤 행동을 부탁하는 표현입니다.",
+      "weakPointLabel": "글의 목적"
+    },
+    {
+      "id": "a2-conversation-clarify-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "못 알아들었을 때 자연스러운 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you say that again?"
+        },
+        {
+          "id": "b",
+          "text": "You say again now."
+        },
+        {
+          "id": "c",
+          "text": "Again that could?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you say that again?은 다시 말해 달라고 정중하게 요청하는 표현입니다.",
+      "weakPointLabel": "확인 요청"
+    },
+    {
+      "id": "a2-grammar-comparative-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "비교 표현으로 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This bag is cheaper than that one."
+        },
+        {
+          "id": "b",
+          "text": "This bag is more cheap than that one."
+        },
+        {
+          "id": "c",
+          "text": "This bag is cheap than that one."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "cheap의 비교급은 cheaper이고 than과 함께 씁니다.",
+      "weakPointLabel": "비교급"
+    },
+    {
+      "id": "a2-reading-schedule-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장을 읽고 금요일 도서관 마감 시간을 고르세요.",
+      "questionText": "The library closes at six on Fridays.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At six."
+        },
+        {
+          "id": "b",
+          "text": "At seven."
+        },
+        {
+          "id": "c",
+          "text": "On Mondays."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "closes at six on Fridays는 금요일에 여섯 시에 닫는다는 뜻입니다.",
+      "weakPointLabel": "시간 정보 파악"
+    },
+    {
+      "id": "a2-reading-cause-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장을 읽고 일이 일어난 이유를 고르세요.",
+      "questionText": "The streets were wet because it rained all night.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It snowed in the morning."
+        },
+        {
+          "id": "b",
+          "text": "It rained during the night."
+        },
+        {
+          "id": "c",
+          "text": "Someone washed the streets."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "because 뒤의 내용이 이유입니다. 밤새 비가 와서 길이 젖었습니다.",
+      "weakPointLabel": "이유 파악"
+    },
+    {
+      "id": "a2-conversation-invite-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "친구를 자연스럽게 초대하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Would you like to join us for dinner?"
+        },
+        {
+          "id": "b",
+          "text": "You join dinner now."
+        },
+        {
+          "id": "c",
+          "text": "Dinner us join like?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Would you like to ...?는 상대를 정중하고 자연스럽게 초대할 때 쓰는 표현입니다.",
+      "weakPointLabel": "초대 표현"
+    },
+    {
+      "id": "a2-grammar-past-continuous-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "과거진행형으로 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I was reading when you called."
+        },
+        {
+          "id": "b",
+          "text": "I were reading when you called."
+        },
+        {
+          "id": "c",
+          "text": "I was read when you called."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "과거진행형은 was/were + 동사 -ing 형태입니다. I에는 was를 씁니다.",
+      "weakPointLabel": "과거진행형"
+    },
+    {
+      "id": "a2-reading-sequence-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장을 읽고 가장 먼저 한 일을 고르세요.",
+      "questionText": "After Sara finished her homework, she watched a movie.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She watched a movie first."
+        },
+        {
+          "id": "b",
+          "text": "She finished her homework first."
+        },
+        {
+          "id": "c",
+          "text": "She went shopping first."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "After가 있어도 문장의 뜻은 숙제를 끝낸 뒤 영화를 봤다는 순서입니다.",
+      "weakPointLabel": "순서 이해"
+    },
+    {
+      "id": "a2-grammar-modal-advice-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "조언을 나타내는 문장으로 맞는 것을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You should bring an umbrella."
+        },
+        {
+          "id": "b",
+          "text": "You should to bring an umbrella."
+        },
+        {
+          "id": "c",
+          "text": "You should bringing an umbrella."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "should 뒤에는 동사원형을 씁니다. bring이 올바른 형태입니다.",
+      "weakPointLabel": "조언 표현"
+    },
+    {
+      "id": "a2-writing-weekend-plan-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 이번 주말에 친구를 방문할 예정입니다.",
+      "sampleAnswer": "I am going to visit my friend this weekend.",
+      "evaluationFocusKo": "be going to 미래 계획 표현과 시간 표현",
+      "expectedKeywords": [
+        "going",
+        "visit",
+        "weekend"
+      ],
+      "explanationKo": "I am going to 뒤에 할 일을 쓰면 계획을 표현할 수 있습니다.",
+      "weakPointLabel": "미래 계획 표현"
+    },
+    {
+      "id": "a2-writing-polite-request-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제 숙제를 도와줄 수 있나요?",
+      "sampleAnswer": "Could you help me with my homework?",
+      "evaluationFocusKo": "Could you ...? 정중한 요청 표현",
+      "expectedKeywords": [
+        "could",
+        "help",
+        "homework"
+      ],
+      "explanationKo": "Could you help me with ...?는 도움을 정중하게 요청할 때 씁니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-reading-direction-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "안내 문장을 읽고 가야 할 방향을 고르세요.",
+      "questionText": "Turn left at the bank and walk for two minutes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Turn right at the school."
+        },
+        {
+          "id": "b",
+          "text": "Go left at the bank."
+        },
+        {
+          "id": "c",
+          "text": "Stop in front of the park."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "Turn left at the bank는 은행에서 왼쪽으로 돌라는 뜻입니다.",
+      "weakPointLabel": "길 안내 이해"
+    },
+    {
+      "id": "a2-grammar-future-plan-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "미래 계획을 나타내는 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I going to study tonight."
+        },
+        {
+          "id": "b",
+          "text": "I am going to study tonight."
+        },
+        {
+          "id": "c",
+          "text": "I am go study tonight."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "be going to 뒤에는 동사원형을 써서 미래 계획을 말합니다.",
+      "weakPointLabel": "미래 계획"
+    },
+    {
+      "id": "a2-writing-invitation-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저와 점심을 함께 하시겠어요?",
+      "sampleAnswer": "Would you like to have lunch with me?",
+      "evaluationFocusKo": "Would you like to ...? 초대 표현",
+      "expectedKeywords": [
+        "would",
+        "like",
+        "lunch"
+      ],
+      "explanationKo": "Would you like to ...?는 상대를 정중하게 초대할 때 씁니다.",
+      "weakPointLabel": "초대 표현"
+    },
+    {
+      "id": "a2-writing-yesterday-activity-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 어제 영화를 봤습니다.",
+      "sampleAnswer": "I watched a movie yesterday.",
+      "evaluationFocusKo": "과거시제 동사와 yesterday 시간 표현",
+      "expectedKeywords": [
+        "i",
+        "yesterday"
+      ],
+      "explanationKo": "어제 한 일은 watched, visited처럼 과거시제를 사용합니다.",
+      "weakPointLabel": "과거시제"
+    },
+    {
+      "id": "a2-extra-reading-choice-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Bus 24 does not stop at City Hall on Sundays.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "24번 버스는 일요일에 시청에 서지 않습니다."
+        },
+        {
+          "id": "b",
+          "text": "24번 버스는 일요일에만 운행합니다."
+        },
+        {
+          "id": "c",
+          "text": "24번 버스는 매일 시청에 섭니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "does not stop은 정차하지 않는다는 뜻입니다.",
+      "weakPointLabel": "안내문 세부 정보"
+    },
+    {
+      "id": "a2-extra-reading-choice-002",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Can you bring my blue jacket to school? I left it at your house.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "파란 재킷을 학교에 가져와 달라는 부탁입니다."
+        },
+        {
+          "id": "b",
+          "text": "학교에 오지 말라는 안내입니다."
+        },
+        {
+          "id": "c",
+          "text": "재킷을 새로 사 달라는 요청입니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "bring과 left it at your house를 보면 물건을 가져와 달라는 요청입니다.",
+      "weakPointLabel": "글의 목적"
+    },
+    {
+      "id": "a2-extra-reading-choice-003",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "It will rain this afternoon, so the soccer game will be in the gym.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "비 때문에 축구 경기는 체육관에서 열립니다."
+        },
+        {
+          "id": "b",
+          "text": "축구 경기는 이번 주에 취소됩니다."
+        },
+        {
+          "id": "c",
+          "text": "오후에는 날씨가 맑아집니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "so 뒤에 결과가 나오며 in the gym이 장소입니다.",
+      "weakPointLabel": "원인과 결과"
+    },
+    {
+      "id": "a2-extra-reading-choice-004",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The cafe opens at 8 a.m. and closes at 6 p.m. We are closed on Mondays.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "카페는 월요일에 영업하지 않습니다."
+        },
+        {
+          "id": "b",
+          "text": "카페는 월요일에만 영업합니다."
+        },
+        {
+          "id": "c",
+          "text": "카페는 오전 6시에 엽니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "closed on Mondays는 월요일 휴무라는 뜻입니다.",
+      "weakPointLabel": "영업시간 이해"
+    },
+    {
+      "id": "a2-extra-reading-choice-005",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The train to Daejeon leaves from platform 3 at 10:20.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "대전행 기차는 10시 20분에 3번 플랫폼에서 출발합니다."
+        },
+        {
+          "id": "b",
+          "text": "대전행 기차는 3시 20분에 도착합니다."
+        },
+        {
+          "id": "c",
+          "text": "서울행 기차는 10번 플랫폼에서 출발합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "leaves from platform 3와 at 10:20이 핵심 정보입니다.",
+      "weakPointLabel": "교통 안내 이해"
+    },
+    {
+      "id": "a2-extra-reading-choice-006",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "I will be ten minutes late because the subway is slow today.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "지하철이 느려서 10분 늦을 예정입니다."
+        },
+        {
+          "id": "b",
+          "text": "회의가 취소되어 집에 갑니다."
+        },
+        {
+          "id": "c",
+          "text": "오늘 지하철을 타지 않을 예정입니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "because 뒤에 지연 이유가 나옵니다.",
+      "weakPointLabel": "이유 파악"
+    },
+    {
+      "id": "a2-extra-reading-choice-007",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "No photos in the museum, please.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "박물관에서는 사진을 찍으면 안 됩니다."
+        },
+        {
+          "id": "b",
+          "text": "박물관 사진을 사야 합니다."
+        },
+        {
+          "id": "c",
+          "text": "박물관에서 많은 사진을 찍어도 됩니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "No photos는 사진 촬영 금지를 의미합니다.",
+      "weakPointLabel": "표지판 이해"
+    },
+    {
+      "id": "a2-extra-reading-choice-008",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "First, wash the apples. Then cut them and put them in a bowl.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "먼저 사과를 씻고 그다음 자릅니다."
+        },
+        {
+          "id": "b",
+          "text": "사과를 자른 뒤에 씻습니다."
+        },
+        {
+          "id": "c",
+          "text": "그릇을 사과 안에 넣습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "First와 Then이 순서를 알려 줍니다.",
+      "weakPointLabel": "순서 이해"
+    },
+    {
+      "id": "a2-extra-reading-choice-009",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "A black wallet was found near the school gate. Please come to the office.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "학교 정문 근처에서 검은 지갑이 발견되었습니다."
+        },
+        {
+          "id": "b",
+          "text": "검은 가방을 교실에서 잃어버렸습니다."
+        },
+        {
+          "id": "c",
+          "text": "사무실이 학교 정문으로 이동했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "was found는 발견되었다는 뜻입니다.",
+      "weakPointLabel": "분실물 안내"
+    },
+    {
+      "id": "a2-extra-reading-choice-010",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "We need a weekend helper at our bookstore. You must be friendly and enjoy reading.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "서점에서 주말에 일할 친절한 사람을 찾고 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "병원에서 평일마다 일할 사람을 찾고 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "책 읽기를 싫어하는 사람을 원합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "weekend helper at our bookstore가 핵심입니다.",
+      "weakPointLabel": "구인 광고 이해"
+    },
+    {
+      "id": "a2-extra-reading-choice-011",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Please return books within two weeks. Do not eat in the reading room.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "책은 2주 안에 반납하고 열람실에서 먹으면 안 됩니다."
+        },
+        {
+          "id": "b",
+          "text": "책은 두 달 동안 빌릴 수 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "열람실에서 식사할 수 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "within two weeks는 2주 안에라는 뜻입니다.",
+      "weakPointLabel": "규칙 이해"
+    },
+    {
+      "id": "a2-extra-reading-choice-012",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "To make this soup, you need carrots, potatoes, and chicken.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "이 수프에는 당근, 감자, 닭고기가 필요합니다."
+        },
+        {
+          "id": "b",
+          "text": "이 수프에는 쌀, 우유, 양파가 필요합니다."
+        },
+        {
+          "id": "c",
+          "text": "이 수프는 빵과 치즈로 만듭니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "need 뒤에 필요한 재료가 나열됩니다.",
+      "weakPointLabel": "재료 정보 찾기"
+    },
+    {
+      "id": "a2-extra-reading-translation-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The store was crowded, so we waited outside for ten minutes.",
+      "sampleAnswer": "가게가 붐벼서 우리는 밖에서 10분 동안 기다렸습니다.",
+      "evaluationFocusKo": "crowded, waited outside, ten minutes의 의미를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "붐벼",
+        "밖",
+        "10분"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "붐벼",
+        "밖",
+        "10분"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "so는 앞 문장의 결과를 연결합니다.",
+      "weakPointLabel": "결과 연결 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-002",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The shop is closed today, so I will come back tomorrow.",
+      "sampleAnswer": "가게가 오늘 문을 닫아서 나는 내일 다시 올 것입니다.",
+      "evaluationFocusKo": "closed today와 come back tomorrow를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "오늘",
+        "닫",
+        "내일"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "오늘",
+        "닫",
+        "내일"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "will come back은 다시 올 것이라는 미래 행동입니다.",
+      "weakPointLabel": "미래 표현 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-003",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I bought this shirt because it was cheaper than the other one.",
+      "sampleAnswer": "나는 이 셔츠가 다른 것보다 더 싸서 샀습니다.",
+      "evaluationFocusKo": "because와 cheaper than의 의미를 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "셔츠",
+        "더 싸",
+        "샀"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "셔츠",
+        "더 싸",
+        "샀"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "cheaper than은 더 싸다는 비교 표현입니다.",
+      "weakPointLabel": "비교 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-004",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Could you speak more slowly? I could not understand the address.",
+      "sampleAnswer": "좀 더 천천히 말씀해 주시겠어요? 주소를 이해하지 못했습니다.",
+      "evaluationFocusKo": "정중한 요청과 이해하지 못한 내용을 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "천천히",
+        "주소",
+        "이해"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "천천히",
+        "주소",
+        "이해"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "Could you는 정중한 요청을 만들고 more slowly는 더 천천히입니다.",
+      "weakPointLabel": "요청문 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-005",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "We moved the meeting to Friday because many people were busy.",
+      "sampleAnswer": "많은 사람들이 바빠서 우리는 회의를 금요일로 옮겼습니다.",
+      "evaluationFocusKo": "moved the meeting와 because절을 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "회의",
+        "금요일",
+        "바빠"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "회의",
+        "금요일",
+        "바빠"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "move a meeting은 회의 일정을 옮긴다는 뜻입니다.",
+      "weakPointLabel": "일정 변경 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-006",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The museum is free for children under twelve.",
+      "sampleAnswer": "그 박물관은 12세 미만 어린이에게 무료입니다.",
+      "evaluationFocusKo": "free, children, under twelve의 의미를 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "박물관",
+        "무료",
+        "12세"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "박물관",
+        "무료",
+        "12세"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "under twelve는 12세 미만입니다.",
+      "weakPointLabel": "조건 정보 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-007",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I forgot my password, so I cannot log in.",
+      "sampleAnswer": "비밀번호를 잊어버려서 로그인할 수 없습니다.",
+      "evaluationFocusKo": "forgot password와 cannot log in을 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "비밀번호",
+        "잊",
+        "로그인"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "비밀번호",
+        "잊",
+        "로그인"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "cannot은 할 수 없다는 뜻입니다.",
+      "weakPointLabel": "문제 상황 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-008",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "This jacket is too small. Do you have a larger size?",
+      "sampleAnswer": "이 재킷은 너무 작습니다. 더 큰 사이즈가 있나요?",
+      "evaluationFocusKo": "too small과 larger size의 의미를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "재킷",
+        "작",
+        "큰 사이즈"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "재킷",
+        "작",
+        "큰 사이즈"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "larger는 더 큰이라는 비교급입니다.",
+      "weakPointLabel": "쇼핑 표현 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-009",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The class starts in five minutes, so please be quiet.",
+      "sampleAnswer": "수업이 5분 후에 시작하니 조용히 해 주세요.",
+      "evaluationFocusKo": "starts in five minutes와 please be quiet을 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "수업",
+        "5분",
+        "조용히"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "수업",
+        "5분",
+        "조용히"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "in five minutes는 5분 후를 뜻합니다.",
+      "weakPointLabel": "시간 표현 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-010",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I usually take a walk after dinner when the weather is nice.",
+      "sampleAnswer": "나는 날씨가 좋을 때 보통 저녁 식사 후 산책합니다.",
+      "evaluationFocusKo": "usually, after dinner, weather is nice를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "보통",
+        "저녁",
+        "날씨"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "보통",
+        "저녁",
+        "날씨"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "usually는 보통이라는 빈도 표현입니다.",
+      "weakPointLabel": "빈도 표현 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-011",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Please check your email before you leave the office.",
+      "sampleAnswer": "사무실을 떠나기 전에 이메일을 확인해 주세요.",
+      "evaluationFocusKo": "before you leave와 check your email을 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "떠나기 전",
+        "이메일",
+        "확인"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "떠나기 전",
+        "이메일",
+        "확인"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "before는 어떤 일보다 앞선 시간을 나타냅니다.",
+      "weakPointLabel": "시간 접속사 번역"
+    },
+    {
+      "id": "a2-extra-reading-translation-012",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I am looking for a quiet place to study.",
+      "sampleAnswer": "나는 공부할 조용한 장소를 찾고 있습니다.",
+      "evaluationFocusKo": "looking for와 quiet place to study를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "찾고",
+        "조용한",
+        "공부"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "찾고",
+        "조용한",
+        "공부"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "look for는 찾다라는 뜻입니다.",
+      "weakPointLabel": "목적 표현 번역"
+    },
+    {
+      "id": "a2-extra-conversation-choice-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대방에게 천천히 말해 달라고 정중하게 요청하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you speak more slowly, please?"
+        },
+        {
+          "id": "b",
+          "text": "Speak slow now."
+        },
+        {
+          "id": "c",
+          "text": "You are too fast."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you ... please?는 정중한 요청입니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-extra-conversation-choice-002",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "식당에서 물을 요청하는 자연스러운 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I have some water, please?"
+        },
+        {
+          "id": "b",
+          "text": "Give water."
+        },
+        {
+          "id": "c",
+          "text": "Water is me."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Can I have ... please?는 식당에서 자연스럽게 요청할 때 씁니다.",
+      "weakPointLabel": "식당 요청"
+    },
+    {
+      "id": "a2-extra-conversation-choice-003",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "약속을 취소해야 할 때 알맞은 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I need to cancel our plan."
+        },
+        {
+          "id": "b",
+          "text": "I cancel yesterday."
+        },
+        {
+          "id": "c",
+          "text": "Our plan is eat."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "need to cancel은 취소해야 한다는 뜻입니다.",
+      "weakPointLabel": "약속 취소"
+    },
+    {
+      "id": "a2-extra-conversation-choice-004",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "가게에서 다른 색이 있는지 묻는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you have this in another color?"
+        },
+        {
+          "id": "b",
+          "text": "This color is another?"
+        },
+        {
+          "id": "c",
+          "text": "Give me color different."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Do you have this in another color?는 쇼핑 상황에서 자연스럽습니다.",
+      "weakPointLabel": "쇼핑 질문"
+    },
+    {
+      "id": "a2-extra-conversation-choice-005",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "길을 물을 때 가장 자연스러운 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How can I get to the station?"
+        },
+        {
+          "id": "b",
+          "text": "Where station?"
+        },
+        {
+          "id": "c",
+          "text": "Station go me?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "How can I get to ...?는 목적지까지 가는 방법을 묻습니다.",
+      "weakPointLabel": "길 묻기"
+    },
+    {
+      "id": "a2-extra-conversation-choice-006",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "전화 통화에서 잠시 기다려 달라고 말하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please hold on a moment."
+        },
+        {
+          "id": "b",
+          "text": "Stop phone."
+        },
+        {
+          "id": "c",
+          "text": "You wait long yesterday."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Please hold on a moment는 전화에서 잠시 기다려 달라는 표현입니다.",
+      "weakPointLabel": "전화 표현"
+    },
+    {
+      "id": "a2-extra-conversation-choice-007",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대방의 의견에 동의하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I agree with you."
+        },
+        {
+          "id": "b",
+          "text": "I am agree you."
+        },
+        {
+          "id": "c",
+          "text": "You agree me."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "agree with someone 형태로 동의를 표현합니다.",
+      "weakPointLabel": "의견 동의"
+    },
+    {
+      "id": "a2-extra-conversation-choice-008",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "호텔에서 체크인하고 싶다고 말하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'd like to check in, please."
+        },
+        {
+          "id": "b",
+          "text": "I want room now."
+        },
+        {
+          "id": "c",
+          "text": "Check me in room."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "I'd like to ... please는 정중하게 원하는 일을 말할 때 씁니다.",
+      "weakPointLabel": "호텔 체크인"
+    },
+    {
+      "id": "a2-extra-conversation-writing-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이번 토요일에 영화 보러 갈래요?",
+      "sampleAnswer": "Would you like to see a movie this Saturday?",
+      "evaluationFocusKo": "Would you like to와 this Saturday를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "would you like",
+        "movie",
+        "saturday"
+      ],
+      "explanationKo": "Would you like to ...?는 정중한 제안입니다.",
+      "weakPointLabel": "제안하기"
+    },
+    {
+      "id": "a2-extra-conversation-writing-002",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 커피 한 잔 포장해 주세요.",
+      "sampleAnswer": "Can I get a coffee to go, please?",
+      "evaluationFocusKo": "to go와 please를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "coffee",
+        "to go",
+        "please"
+      ],
+      "explanationKo": "to go는 포장해 갈 때 쓰는 표현입니다.",
+      "weakPointLabel": "카페 주문"
+    },
+    {
+      "id": "a2-extra-conversation-writing-003",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 몸이 좋지 않아서 오늘 수업에 갈 수 없습니다.",
+      "sampleAnswer": "I don't feel well, so I can't come to class today.",
+      "evaluationFocusKo": "몸 상태와 불가능한 행동을 so와 can't로 연결했는지 평가합니다.",
+      "expectedKeywords": [
+        "don't feel well",
+        "can't",
+        "class"
+      ],
+      "explanationKo": "I don't feel well은 몸이 좋지 않다는 표현입니다.",
+      "weakPointLabel": "상태 설명"
+    },
+    {
+      "id": "a2-extra-conversation-writing-004",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 공항까지 데려다주시겠어요?",
+      "sampleAnswer": "Could you take me to the airport, please?",
+      "evaluationFocusKo": "Could you take me to와 목적지를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "take me",
+        "airport",
+        "please"
+      ],
+      "explanationKo": "take me to는 어떤 장소로 데려다준다는 뜻입니다.",
+      "weakPointLabel": "교통 요청"
+    },
+    {
+      "id": "a2-extra-conversation-writing-005",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이메일 주소를 다시 말해 주시겠어요?",
+      "sampleAnswer": "Could you repeat your email address, please?",
+      "evaluationFocusKo": "repeat와 email address를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "repeat",
+        "email address",
+        "please"
+      ],
+      "explanationKo": "repeat는 다시 말하다라는 뜻입니다.",
+      "weakPointLabel": "정보 확인 요청"
+    },
+    {
+      "id": "a2-extra-conversation-writing-006",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 오늘 바쁘지만 내일 만날 수 있습니다.",
+      "sampleAnswer": "I am busy today, but I can meet you tomorrow.",
+      "evaluationFocusKo": "but과 can을 사용해 상황과 가능한 시간을 말했는지 평가합니다.",
+      "expectedKeywords": [
+        "busy",
+        "can",
+        "tomorrow"
+      ],
+      "explanationKo": "but은 서로 다른 내용을 연결할 때 씁니다.",
+      "weakPointLabel": "일정 답장"
+    },
+    {
+      "id": "a2-extra-conversation-writing-007",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 물건을 환불받을 수 있을까요?",
+      "sampleAnswer": "Can I get a refund for this item?",
+      "evaluationFocusKo": "refund와 this item을 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "refund",
+        "item"
+      ],
+      "explanationKo": "refund는 환불을 뜻합니다.",
+      "weakPointLabel": "환불 요청"
+    },
+    {
+      "id": "a2-extra-conversation-writing-008",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 늦어서 미안합니다.",
+      "sampleAnswer": "Sorry I am late.",
+      "evaluationFocusKo": "Sorry와 late를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "sorry",
+        "late"
+      ],
+      "explanationKo": "늦었을 때는 Sorry I am late라고 말할 수 있습니다.",
+      "weakPointLabel": "사과 표현"
+    },
+    {
+      "id": "a2-extra-grammar-choice-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "과거시제로 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She went to the market yesterday."
+        },
+        {
+          "id": "b",
+          "text": "She go to the market yesterday."
+        },
+        {
+          "id": "c",
+          "text": "She goes to the market yesterday."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "yesterday가 있으므로 go의 과거형 went를 씁니다.",
+      "weakPointLabel": "과거시제"
+    },
+    {
+      "id": "a2-extra-grammar-choice-002",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "현재진행형으로 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are playing basketball now."
+        },
+        {
+          "id": "b",
+          "text": "They playing basketball now."
+        },
+        {
+          "id": "c",
+          "text": "They is playing basketball now."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "They에는 are를 쓰고 동사는 -ing 형태가 됩니다.",
+      "weakPointLabel": "현재진행형"
+    },
+    {
+      "id": "a2-extra-grammar-choice-003",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "비교급 문장으로 맞는 것을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This bag is heavier than that one."
+        },
+        {
+          "id": "b",
+          "text": "This bag is heavy than that one."
+        },
+        {
+          "id": "c",
+          "text": "This bag is more heavy that one."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "heavy의 비교급은 heavier입니다.",
+      "weakPointLabel": "비교급"
+    },
+    {
+      "id": "a2-extra-grammar-choice-004",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "some과 any 중 알맞은 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you have any questions?"
+        },
+        {
+          "id": "b",
+          "text": "Do you have some questions?"
+        },
+        {
+          "id": "c",
+          "text": "Do you have a questions?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "일반적인 의문문에서는 any를 자주 사용합니다.",
+      "weakPointLabel": "some과 any"
+    },
+    {
+      "id": "a2-extra-grammar-choice-005",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "미래 계획을 나타내는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am going to study tonight."
+        },
+        {
+          "id": "b",
+          "text": "I going to study tonight."
+        },
+        {
+          "id": "c",
+          "text": "I went to study tonight."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "be going to는 미래 계획을 나타냅니다.",
+      "weakPointLabel": "미래 계획"
+    },
+    {
+      "id": "a2-extra-grammar-choice-006",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "조언을 나타내는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You should drink some water."
+        },
+        {
+          "id": "b",
+          "text": "You should drinking water."
+        },
+        {
+          "id": "c",
+          "text": "You should to drink water."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "should 뒤에는 동사원형을 씁니다.",
+      "weakPointLabel": "should 사용"
+    },
+    {
+      "id": "a2-extra-grammar-choice-007",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "전치사가 알맞은 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The picture is on the wall."
+        },
+        {
+          "id": "b",
+          "text": "The picture is in the wall."
+        },
+        {
+          "id": "c",
+          "text": "The picture is at the wall."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "벽 표면에 붙은 것은 on the wall입니다.",
+      "weakPointLabel": "장소 전치사"
+    },
+    {
+      "id": "a2-extra-grammar-choice-008",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈도부사의 위치가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I usually eat breakfast at seven."
+        },
+        {
+          "id": "b",
+          "text": "I eat usually breakfast at seven."
+        },
+        {
+          "id": "c",
+          "text": "Usually I breakfast eat at seven."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "usually는 일반동사 앞에 오는 것이 자연스럽습니다.",
+      "weakPointLabel": "빈도부사 위치"
+    },
+    {
+      "id": "a2-extra-grammar-choice-009",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "There is/are가 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "There are three chairs in the room."
+        },
+        {
+          "id": "b",
+          "text": "There is three chairs in the room."
+        },
+        {
+          "id": "c",
+          "text": "There have three chairs in the room."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "three chairs는 복수이므로 There are를 씁니다.",
+      "weakPointLabel": "존재 구문"
+    },
+    {
+      "id": "a2-extra-grammar-choice-010",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "He가 주어인 현재완료 문장으로 맞는 것을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He has lost his key."
+        },
+        {
+          "id": "b",
+          "text": "He have lost his key."
+        },
+        {
+          "id": "c",
+          "text": "He has lose his key."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "he에는 has를 쓰고 현재완료는 has + 과거분사입니다.",
+      "weakPointLabel": "현재완료"
+    },
+    {
+      "id": "a2-extra-grammar-writing-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 피곤해서 일찍 잤습니다.",
+      "sampleAnswer": "I went to bed early because I was tired.",
+      "evaluationFocusKo": "because와 과거시제를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "because",
+        "tired",
+        "went to bed"
+      ],
+      "explanationKo": "because 뒤에는 이유가 옵니다.",
+      "weakPointLabel": "이유 연결"
+    },
+    {
+      "id": "a2-extra-grammar-writing-002",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제 휴대폰은 당신의 휴대폰보다 더 새롭습니다.",
+      "sampleAnswer": "My phone is newer than your phone.",
+      "evaluationFocusKo": "newer than 구조를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "newer",
+        "than",
+        "phone"
+      ],
+      "explanationKo": "new의 비교급은 newer입니다.",
+      "weakPointLabel": "비교급 문장 작성"
+    },
+    {
+      "id": "a2-extra-grammar-writing-003",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 당신은 의사에게 가야 합니다.",
+      "sampleAnswer": "You should go to the doctor.",
+      "evaluationFocusKo": "should 뒤에 동사원형 go를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "should",
+        "go",
+        "doctor"
+      ],
+      "explanationKo": "should는 조언을 할 때 씁니다.",
+      "weakPointLabel": "조언 문장 작성"
+    },
+    {
+      "id": "a2-extra-grammar-writing-004",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 지금 영어를 공부하고 있습니다.",
+      "sampleAnswer": "I am studying English now.",
+      "evaluationFocusKo": "am studying과 now를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "am studying",
+        "english",
+        "now"
+      ],
+      "explanationKo": "현재진행형은 be동사 + 동사-ing입니다.",
+      "weakPointLabel": "현재진행형 쓰기"
+    },
+    {
+      "id": "a2-extra-grammar-writing-005",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 내일 친구를 만날 예정입니다.",
+      "sampleAnswer": "I am going to meet my friend tomorrow.",
+      "evaluationFocusKo": "am going to와 tomorrow를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "going to",
+        "meet",
+        "tomorrow"
+      ],
+      "explanationKo": "be going to는 계획된 미래를 나타냅니다.",
+      "weakPointLabel": "미래 계획 쓰기"
+    },
+    {
+      "id": "a2-extra-grammar-writing-006",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 지갑을 잃어버렸습니다.",
+      "sampleAnswer": "I have lost my wallet.",
+      "evaluationFocusKo": "have lost와 wallet을 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "have lost",
+        "wallet"
+      ],
+      "explanationKo": "현재완료는 현재와 관련된 과거 결과를 말할 수 있습니다.",
+      "weakPointLabel": "현재완료 쓰기"
+    },
+    {
+      "id": "a2-reading-translation-train-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The train was late, so many people waited outside.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 45,
+      "readingDifficulty": "easy",
+      "sampleAnswer": "기차가 늦어서 많은 사람들이 밖에서 기다렸습니다.",
+      "expectedKeywordsKo": [
+        "기차",
+        "늦",
+        "많은 사람",
+        "밖",
+        "기다렸"
+      ],
+      "evaluationFocusKo": "과거시제와 원인 관계를 자연스럽게 번역하는지 평가합니다.",
+      "explanationKo": "was late는 늦었다는 뜻이고 waited는 기다렸다는 뜻입니다.",
+      "weakPointLabel": "과거시제 독해"
+    },
+    {
+      "id": "a2-reading-translation-market-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I bought fresh vegetables because they were cheaper at the market.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 45,
+      "readingDifficulty": "easy",
+      "sampleAnswer": "시장에서 더 저렴했기 때문에 나는 신선한 채소를 샀습니다.",
+      "expectedKeywordsKo": [
+        "시장",
+        "저렴",
+        "신선한",
+        "채소",
+        "샀"
+      ],
+      "evaluationFocusKo": "because와 비교 의미 cheaper를 정확히 옮기는지 평가합니다.",
+      "explanationKo": "cheaper는 더 저렴하다는 뜻입니다.",
+      "weakPointLabel": "이유와 비교 번역"
+    },
+    {
+      "id": "a2-reading-translation-plan-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "We are going to visit the museum after lunch.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 50,
+      "readingDifficulty": "medium",
+      "sampleAnswer": "우리는 점심 식사 후에 박물관을 방문할 예정입니다.",
+      "expectedKeywordsKo": [
+        "우리",
+        "점심",
+        "후",
+        "박물관",
+        "방문할 예정"
+      ],
+      "evaluationFocusKo": "be going to와 after의 시간 순서를 옮기는지 평가합니다.",
+      "explanationKo": "are going to는 예정된 계획을 나타냅니다.",
+      "weakPointLabel": "미래 계획 번역"
+    },
+    {
+      "id": "a2-reading-translation-email-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Please send me the file before the meeting starts.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 50,
+      "readingDifficulty": "medium",
+      "sampleAnswer": "회의가 시작되기 전에 그 파일을 저에게 보내 주세요.",
+      "expectedKeywordsKo": [
+        "회의",
+        "시작",
+        "전",
+        "파일",
+        "보내"
+      ],
+      "evaluationFocusKo": "요청 표현과 before 절의 시간 관계를 평가합니다.",
+      "explanationKo": "before the meeting starts는 회의가 시작되기 전이라는 뜻입니다.",
+      "weakPointLabel": "시간절 번역"
+    },
+    {
+      "id": "a2-reading-translation-delay-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "If the weather is bad, the picnic will be moved indoors.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 55,
+      "readingDifficulty": "hard",
+      "sampleAnswer": "날씨가 나쁘면 소풍은 실내로 옮겨질 것입니다.",
+      "expectedKeywordsKo": [
+        "날씨",
+        "나쁘",
+        "소풍",
+        "실내",
+        "옮겨질"
+      ],
+      "evaluationFocusKo": "if 조건절과 수동 표현 will be moved를 번역하는지 평가합니다.",
+      "explanationKo": "will be moved는 옮겨질 것이라는 수동 의미입니다.",
+      "weakPointLabel": "조건과 수동태 번역"
+    },
+    {
+      "id": "a2-reading-translation-ticket-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "She checked the ticket twice to make sure the date was correct.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 55,
+      "readingDifficulty": "hard",
+      "sampleAnswer": "그녀는 날짜가 맞는지 확인하려고 표를 두 번 확인했습니다.",
+      "expectedKeywordsKo": [
+        "그녀",
+        "날짜",
+        "맞",
+        "표",
+        "두 번",
+        "확인"
+      ],
+      "evaluationFocusKo": "목적을 나타내는 to make sure를 자연스럽게 번역하는지 평가합니다.",
+      "explanationKo": "to make sure는 확인하기 위해라는 목적 의미입니다.",
+      "weakPointLabel": "목적 표현 번역"
+    },
+    {
+      "id": "a2-double-reading-choice-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The meeting starts at two, but the room opens at one thirty.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "회의는 2시에 시작하지만 방은 1시 30분에 열립니다."
+        },
+        {
+          "id": "b",
+          "text": "저녁에 추울 수 있으니 재킷을 가져와 주세요."
+        },
+        {
+          "id": "c",
+          "text": "직원 워크숍 때문에 금요일에는 사무실이 쉽니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "starts, but opens을 이해해야 합니다.",
+      "weakPointLabel": "시간 정보 비교"
+    },
+    {
+      "id": "a2-double-reading-choice-002",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Please bring a jacket because it may be cold in the evening.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "저녁에 추울 수 있으니 재킷을 가져와 주세요."
+        },
+        {
+          "id": "b",
+          "text": "직원 워크숍 때문에 금요일에는 사무실이 쉽니다."
+        },
+        {
+          "id": "c",
+          "text": "샌드위치 두 개를 사면 음료 하나를 무료로 받습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "because it may be cold을 이해해야 합니다.",
+      "weakPointLabel": "이유 파악"
+    },
+    {
+      "id": "a2-double-reading-choice-003",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The office is closed on Friday for a staff workshop.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "직원 워크숍 때문에 금요일에는 사무실이 쉽니다."
+        },
+        {
+          "id": "b",
+          "text": "샌드위치 두 개를 사면 음료 하나를 무료로 받습니다."
+        },
+        {
+          "id": "c",
+          "text": "호텔 셔틀은 4번 게이트에서 30분마다 출발합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "closed on Friday을 이해해야 합니다.",
+      "weakPointLabel": "공지 이해"
+    },
+    {
+      "id": "a2-double-reading-choice-004",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "If you buy two sandwiches, you get one drink for free.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "샌드위치 두 개를 사면 음료 하나를 무료로 받습니다."
+        },
+        {
+          "id": "b",
+          "text": "호텔 셔틀은 4번 게이트에서 30분마다 출발합니다."
+        },
+        {
+          "id": "c",
+          "text": "사이즈가 너무 작아서 신발을 반품했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "if, get one free을 이해해야 합니다.",
+      "weakPointLabel": "조건 이해"
+    },
+    {
+      "id": "a2-double-reading-choice-005",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The hotel shuttle leaves every thirty minutes from Gate 4.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "호텔 셔틀은 4번 게이트에서 30분마다 출발합니다."
+        },
+        {
+          "id": "b",
+          "text": "사이즈가 너무 작아서 신발을 반품했습니다."
+        },
+        {
+          "id": "c",
+          "text": "도서관 카드는 무료지만 만들려면 신분증이 필요합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "every thirty minutes을 이해해야 합니다.",
+      "weakPointLabel": "교통 안내"
+    },
+    {
+      "id": "a2-double-reading-choice-006",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "I returned the shoes because the size was too small.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "사이즈가 너무 작아서 신발을 반품했습니다."
+        },
+        {
+          "id": "b",
+          "text": "도서관 카드는 무료지만 만들려면 신분증이 필요합니다."
+        },
+        {
+          "id": "c",
+          "text": "폭우 때문에 콘서트가 실내로 옮겨졌습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "returned because too small을 이해해야 합니다.",
+      "weakPointLabel": "원인과 행동"
+    },
+    {
+      "id": "a2-double-reading-choice-007",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The library card is free, but you need an ID to make one.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "도서관 카드는 무료지만 만들려면 신분증이 필요합니다."
+        },
+        {
+          "id": "b",
+          "text": "폭우 때문에 콘서트가 실내로 옮겨졌습니다."
+        },
+        {
+          "id": "c",
+          "text": "추가 요금을 피하려면 11시 전에 체크아웃해야 합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "free, but need ID을 이해해야 합니다.",
+      "weakPointLabel": "조건 정보"
+    },
+    {
+      "id": "a2-double-reading-choice-008",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The concert was moved indoors because of heavy rain.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "폭우 때문에 콘서트가 실내로 옮겨졌습니다."
+        },
+        {
+          "id": "b",
+          "text": "추가 요금을 피하려면 11시 전에 체크아웃해야 합니다."
+        },
+        {
+          "id": "c",
+          "text": "소포는 늦게 도착했지만 손상된 것은 없었습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "moved indoors을 이해해야 합니다.",
+      "weakPointLabel": "날씨와 일정"
+    },
+    {
+      "id": "a2-double-reading-choice-009",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Guests should check out before eleven to avoid an extra fee.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "추가 요금을 피하려면 11시 전에 체크아웃해야 합니다."
+        },
+        {
+          "id": "b",
+          "text": "소포는 늦게 도착했지만 손상된 것은 없었습니다."
+        },
+        {
+          "id": "c",
+          "text": "한 번에 책을 세 권까지 빌릴 수 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "before eleven을 이해해야 합니다.",
+      "weakPointLabel": "규칙 이해"
+    },
+    {
+      "id": "a2-double-reading-choice-010",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The package arrived late, but nothing was damaged.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "소포는 늦게 도착했지만 손상된 것은 없었습니다."
+        },
+        {
+          "id": "b",
+          "text": "한 번에 책을 세 권까지 빌릴 수 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "요리 수업에는 모든 재료가 포함되어 있어서 아무것도 가져올 필요가 없습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "late, but not damaged을 이해해야 합니다.",
+      "weakPointLabel": "대조 이해"
+    },
+    {
+      "id": "a2-double-reading-choice-011",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "You can borrow up to three books at a time.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "한 번에 책을 세 권까지 빌릴 수 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "요리 수업에는 모든 재료가 포함되어 있어서 아무것도 가져올 필요가 없습니다."
+        },
+        {
+          "id": "c",
+          "text": "은행은 토요일 정오까지 문을 엽니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "up to three books을 이해해야 합니다.",
+      "weakPointLabel": "수량 제한"
+    },
+    {
+      "id": "a2-double-reading-choice-012",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The cooking class includes all ingredients, so you do not need to bring anything.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "요리 수업에는 모든 재료가 포함되어 있어서 아무것도 가져올 필요가 없습니다."
+        },
+        {
+          "id": "b",
+          "text": "은행은 토요일 정오까지 문을 엽니다."
+        },
+        {
+          "id": "c",
+          "text": "첫 번째 파일이 비어 있어서 파일을 다시 업로드해 주세요."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "includes all ingredients을 이해해야 합니다.",
+      "weakPointLabel": "수업 안내"
+    },
+    {
+      "id": "a2-double-reading-choice-013",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The bank will be open until noon on Saturday.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "은행은 토요일 정오까지 문을 엽니다."
+        },
+        {
+          "id": "b",
+          "text": "첫 번째 파일이 비어 있어서 파일을 다시 업로드해 주세요."
+        },
+        {
+          "id": "c",
+          "text": "가이드는 박물관 앞에서 모두를 만날 예정입니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "until noon을 이해해야 합니다.",
+      "weakPointLabel": "영업시간"
+    },
+    {
+      "id": "a2-double-reading-choice-014",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Please upload the file again because the first one was blank.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "첫 번째 파일이 비어 있어서 파일을 다시 업로드해 주세요."
+        },
+        {
+          "id": "b",
+          "text": "가이드는 박물관 앞에서 모두를 만날 예정입니다."
+        },
+        {
+          "id": "c",
+          "text": "수업을 다운로드한 뒤에는 앱을 오프라인으로 사용할 수 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "upload again because blank을 이해해야 합니다.",
+      "weakPointLabel": "업무 안내"
+    },
+    {
+      "id": "a2-double-reading-choice-015",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The tour guide will meet everyone in front of the museum.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "가이드는 박물관 앞에서 모두를 만날 예정입니다."
+        },
+        {
+          "id": "b",
+          "text": "수업을 다운로드한 뒤에는 앱을 오프라인으로 사용할 수 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "식당이 가득 차서 우리는 밖에서 자리를 기다렸습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "in front of the museum을 이해해야 합니다.",
+      "weakPointLabel": "장소 파악"
+    },
+    {
+      "id": "a2-double-reading-choice-016",
+      "level": "A2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The app works offline after you download the lesson.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "수업을 다운로드한 뒤에는 앱을 오프라인으로 사용할 수 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "식당이 가득 차서 우리는 밖에서 자리를 기다렸습니다."
+        },
+        {
+          "id": "c",
+          "text": "사무실이 문을 닫기 전에 양식을 보내 주세요."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "after you download을 이해해야 합니다.",
+      "weakPointLabel": "기능 설명"
+    },
+    {
+      "id": "a2-double-reading-translation-001",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The restaurant was full, so we waited for a table outside.",
+      "sampleAnswer": "식당이 가득 차서 우리는 밖에서 자리를 기다렸습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "식당이",
+        "가득",
+        "차서"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "full, so waited outside을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "상황 이해"
+    },
+    {
+      "id": "a2-double-reading-translation-002",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Please send the form before the office closes.",
+      "sampleAnswer": "사무실이 문을 닫기 전에 양식을 보내 주세요.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "사무실이",
+        "문을",
+        "닫기"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "before the office closes을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "시간 접속사"
+    },
+    {
+      "id": "a2-double-reading-translation-003",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I changed my password because I could not log in.",
+      "sampleAnswer": "로그인할 수 없어서 비밀번호를 바꿨습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "로그인할",
+        "없어서",
+        "비밀번호를"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "could not log in을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "문제 상황"
+    },
+    {
+      "id": "a2-double-reading-translation-004",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The museum ticket is cheaper online than at the door.",
+      "sampleAnswer": "박물관 표는 현장보다 온라인에서 더 쌉니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "박물관",
+        "표는",
+        "현장보다"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "cheaper online을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "비교 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-005",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "We need to leave early to catch the first train.",
+      "sampleAnswer": "첫 기차를 타려면 우리는 일찍 출발해야 합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "기차를",
+        "타려면",
+        "우리는"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "to catch the first train을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "목적 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-006",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The class was canceled because the teacher was sick.",
+      "sampleAnswer": "선생님이 아파서 수업이 취소되었습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "선생님이",
+        "아파서",
+        "수업이"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "was canceled을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "수동태 이해"
+    },
+    {
+      "id": "a2-double-reading-translation-007",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Could you print this document for tomorrow morning?",
+      "sampleAnswer": "내일 아침까지 이 문서를 출력해 주시겠어요?",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "내일",
+        "아침까지",
+        "문서를"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "print this document을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-double-reading-translation-008",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I usually check the weather before I ride my bike.",
+      "sampleAnswer": "나는 자전거를 타기 전에 보통 날씨를 확인합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "나는",
+        "자전거를",
+        "타기"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "usually check을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "습관 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-009",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The room was quiet, so I could focus on my work.",
+      "sampleAnswer": "방이 조용해서 나는 일에 집중할 수 있었습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "방이",
+        "조용해서",
+        "나는"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "could focus을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "결과 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-010",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Please keep your receipt in case you need a refund.",
+      "sampleAnswer": "환불이 필요할 경우를 대비해 영수증을 보관해 주세요.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "환불이",
+        "필요할",
+        "경우를"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "in case refund을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "조건 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-011",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The new schedule is easier to understand than the old one.",
+      "sampleAnswer": "새 일정은 예전 것보다 이해하기 쉽습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "일정은",
+        "예전",
+        "것보다"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "easier than을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "비교급"
+    },
+    {
+      "id": "a2-double-reading-translation-012",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "We could not enter the building without a visitor pass.",
+      "sampleAnswer": "방문증 없이는 건물에 들어갈 수 없었습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "방문증",
+        "없이는",
+        "건물에"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "without a visitor pass을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "부정 조건"
+    },
+    {
+      "id": "a2-double-reading-translation-013",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The store offers free delivery for orders over fifty dollars.",
+      "sampleAnswer": "그 가게는 50달러 초과 주문에 무료 배송을 제공합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "가게는",
+        "달러",
+        "초과"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "orders over fifty dollars을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "조건 정보"
+    },
+    {
+      "id": "a2-double-reading-translation-014",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "I saved the address so I can find the cafe later.",
+      "sampleAnswer": "나중에 카페를 찾을 수 있도록 주소를 저장했습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "나중에",
+        "카페를",
+        "찾을"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 60,
+      "explanationKo": "so I can find을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "목적 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-015",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The bus was crowded, but I found a seat near the back.",
+      "sampleAnswer": "버스는 붐볐지만 뒤쪽 근처에서 자리를 찾았습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "버스는",
+        "붐볐지만",
+        "뒤쪽"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 75,
+      "explanationKo": "crowded, but found a seat을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "대조 표현"
+    },
+    {
+      "id": "a2-double-reading-translation-016",
+      "level": "A2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Please arrive ten minutes early for the interview.",
+      "sampleAnswer": "면접에는 10분 일찍 도착해 주세요.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "면접에는",
+        "일찍",
+        "도착해"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 45,
+      "explanationKo": "arrive early을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "일정 안내"
+    },
+    {
+      "id": "a2-double-conversation-choice-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "약속 시간을 바꾸자고 자연스럽게 제안하는 표현을 고르세요.",
+      "questionText": "You need a new time.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could we meet at four instead?"
+        },
+        {
+          "id": "b",
+          "text": "we meet at four instead?"
+        },
+        {
+          "id": "c",
+          "text": "we Could meet at four instead?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could we ... instead?는 다른 시간을 제안할 때 자연스럽습니다.",
+      "weakPointLabel": "일정 변경"
+    },
+    {
+      "id": "a2-double-conversation-choice-002",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "가게 직원에게 환불을 정중히 묻는 표현을 고르세요.",
+      "questionText": "You want a refund.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could I get a refund for this?"
+        },
+        {
+          "id": "b",
+          "text": "I get a refund for this?"
+        },
+        {
+          "id": "c",
+          "text": "I Could get a refund for this?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could I get a refund ...?는 정중한 환불 요청입니다.",
+      "weakPointLabel": "환불 요청"
+    },
+    {
+      "id": "a2-double-conversation-choice-003",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "길을 잘 못 알아들었을 때 다시 설명을 요청하는 표현을 고르세요.",
+      "questionText": "You need clarification.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you explain that again?"
+        },
+        {
+          "id": "b",
+          "text": "you explain that again?"
+        },
+        {
+          "id": "c",
+          "text": "you Could explain that again?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you explain that again?은 다시 설명해 달라는 표현입니다.",
+      "weakPointLabel": "명확화 요청"
+    },
+    {
+      "id": "a2-double-conversation-choice-004",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "식당에서 추천을 묻는 표현을 고르세요.",
+      "questionText": "You want a recommendation.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What do you recommend?"
+        },
+        {
+          "id": "b",
+          "text": "What you recommend?"
+        },
+        {
+          "id": "c",
+          "text": "do What you recommend?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "What do you recommend?는 추천을 묻는 자연스러운 표현입니다.",
+      "weakPointLabel": "추천 질문"
+    },
+    {
+      "id": "a2-double-conversation-choice-005",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "늦게 답장해서 미안하다고 말하는 표현을 고르세요.",
+      "questionText": "You replied late.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sorry for the late reply."
+        },
+        {
+          "id": "b",
+          "text": "Sorry for late reply."
+        },
+        {
+          "id": "c",
+          "text": "for Sorry the late reply."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Sorry for the late reply는 늦은 답장에 대한 사과입니다.",
+      "weakPointLabel": "사과 표현"
+    },
+    {
+      "id": "a2-double-conversation-choice-006",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "문제를 설명하고 도움을 요청하는 표현을 고르세요.",
+      "questionText": "Your app is not working.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The app is not working. Could you help me?"
+        },
+        {
+          "id": "b",
+          "text": "The app not working. Could you help me?"
+        },
+        {
+          "id": "c",
+          "text": "app The is not working. Could you help me?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "문제를 먼저 말하고 Could you help me?로 도움을 요청합니다.",
+      "weakPointLabel": "문제 설명"
+    },
+    {
+      "id": "a2-double-conversation-choice-007",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "호텔에서 예약 확인을 요청하는 표현을 고르세요.",
+      "questionText": "You are checking in.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you check my reservation?"
+        },
+        {
+          "id": "b",
+          "text": "you check my reservation?"
+        },
+        {
+          "id": "c",
+          "text": "you Could check my reservation?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you check my reservation?은 예약 확인 요청입니다.",
+      "weakPointLabel": "호텔 체크인"
+    },
+    {
+      "id": "a2-double-conversation-choice-008",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대 의견에 짧게 동의하는 표현을 고르세요.",
+      "questionText": "You agree.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I agree with you."
+        },
+        {
+          "id": "b",
+          "text": "agree I with you."
+        },
+        {
+          "id": "c",
+          "text": "Not i agree with you."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "agree with someone 구조를 씁니다.",
+      "weakPointLabel": "동의 표현"
+    },
+    {
+      "id": "a2-double-conversation-choice-009",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대에게 이메일 주소를 다시 말해 달라고 하는 표현을 고르세요.",
+      "questionText": "You missed the email address.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you repeat your email address?"
+        },
+        {
+          "id": "b",
+          "text": "you repeat your email address?"
+        },
+        {
+          "id": "c",
+          "text": "you Could repeat your email address?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you repeat ...?는 다시 말해 달라는 정중한 표현입니다.",
+      "weakPointLabel": "되묻기"
+    },
+    {
+      "id": "a2-double-conversation-choice-010",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "약속에 늦을 것이라고 말하는 표현을 고르세요.",
+      "questionText": "You will be late.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will be about ten minutes late."
+        },
+        {
+          "id": "b",
+          "text": "I be about ten minutes late."
+        },
+        {
+          "id": "c",
+          "text": "will I be about ten minutes late."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "will be late는 늦을 예정이라는 뜻입니다.",
+      "weakPointLabel": "지각 알림"
+    },
+    {
+      "id": "a2-double-conversation-choice-011",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "음식 알레르기를 알리는 표현을 고르세요.",
+      "questionText": "You cannot eat peanuts.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am allergic to peanuts."
+        },
+        {
+          "id": "b",
+          "text": "I allergic to peanuts."
+        },
+        {
+          "id": "c",
+          "text": "am I allergic to peanuts."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "be allergic to는 알레르기가 있다는 표현입니다.",
+      "weakPointLabel": "건강 정보"
+    },
+    {
+      "id": "a2-double-conversation-choice-012",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대에게 편한 시간을 묻는 표현을 고르세요.",
+      "questionText": "You need to schedule.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What time works for you?"
+        },
+        {
+          "id": "b",
+          "text": "time What works for you?"
+        },
+        {
+          "id": "c",
+          "text": "Not what time works for you?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "What time works for you?는 가능한 시간을 묻는 표현입니다.",
+      "weakPointLabel": "일정 조율"
+    },
+    {
+      "id": "a2-double-conversation-writing-001",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 오늘 수업에 못 갑니다.",
+      "sampleAnswer": "I can't come to class today.",
+      "evaluationFocusKo": "불참 알림 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "can't",
+        "come",
+        "class",
+        "today"
+      ],
+      "explanationKo": "갈 수 없다는 말은 cannot 또는 can't로 표현합니다.",
+      "weakPointLabel": "불참 알림"
+    },
+    {
+      "id": "a2-double-conversation-writing-002",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 내일 다시 전화하겠습니다.",
+      "sampleAnswer": "I will call you again tomorrow.",
+      "evaluationFocusKo": "미래 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "will",
+        "call",
+        "you",
+        "tomorrow"
+      ],
+      "explanationKo": "미래 행동은 will로 말할 수 있습니다.",
+      "weakPointLabel": "미래 표현"
+    },
+    {
+      "id": "a2-double-conversation-writing-003",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 영수증을 보여 주시겠어요?",
+      "sampleAnswer": "Could you show me the receipt?",
+      "evaluationFocusKo": "정중한 요청 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "you",
+        "show",
+        "the",
+        "receipt"
+      ],
+      "explanationKo": "정중한 요청은 Could you ...?로 시작합니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-double-conversation-writing-004",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 회의 시간을 바꿀 수 있을까요?",
+      "sampleAnswer": "Can we change the meeting time?",
+      "evaluationFocusKo": "일정 변경 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "can",
+        "change",
+        "the",
+        "meeting"
+      ],
+      "explanationKo": "함께 하는 일은 Can we ...?로 물을 수 있습니다.",
+      "weakPointLabel": "일정 변경"
+    },
+    {
+      "id": "a2-double-conversation-writing-005",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 근처에 약국이 있나요?",
+      "sampleAnswer": "Is there a pharmacy near here?",
+      "evaluationFocusKo": "장소 질문 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "pharmacy",
+        "near",
+        "here"
+      ],
+      "explanationKo": "주변 장소를 물을 때 Is there ... near here?를 씁니다.",
+      "weakPointLabel": "장소 질문"
+    },
+    {
+      "id": "a2-double-conversation-writing-006",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 음식은 너무 맵습니다.",
+      "sampleAnswer": "This food is too spicy.",
+      "evaluationFocusKo": "상태 설명 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "food",
+        "too",
+        "spicy"
+      ],
+      "explanationKo": "too는 지나치게라는 의미를 더합니다.",
+      "weakPointLabel": "상태 설명"
+    },
+    {
+      "id": "a2-double-conversation-writing-007",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제 음료가 아직 나오지 않았습니다.",
+      "sampleAnswer": "My drink has not arrived yet.",
+      "evaluationFocusKo": "문제 설명 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "drink",
+        "has",
+        "not",
+        "arrived"
+      ],
+      "explanationKo": "아직 도착하지 않았다는 현재완료로 말할 수 있습니다.",
+      "weakPointLabel": "문제 설명"
+    },
+    {
+      "id": "a2-double-conversation-writing-008",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이번 주말에 시간이 있나요?",
+      "sampleAnswer": "Are you free this weekend?",
+      "evaluationFocusKo": "약속 질문 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "are",
+        "you",
+        "free",
+        "weekend"
+      ],
+      "explanationKo": "상대가 시간이 있는지 Are you free ...?로 묻습니다.",
+      "weakPointLabel": "약속 질문"
+    },
+    {
+      "id": "a2-double-conversation-writing-009",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 가격이 생각보다 비쌉니다.",
+      "sampleAnswer": "The price is higher than I expected.",
+      "evaluationFocusKo": "비교 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "the",
+        "price",
+        "higher",
+        "than"
+      ],
+      "explanationKo": "예상보다 높다는 higher than I expected로 말합니다.",
+      "weakPointLabel": "비교 표현"
+    },
+    {
+      "id": "a2-double-conversation-writing-010",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 예약을 취소하고 싶습니다.",
+      "sampleAnswer": "I would like to cancel my reservation.",
+      "evaluationFocusKo": "예약 취소 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "like",
+        "cancel",
+        "reservation"
+      ],
+      "explanationKo": "I would like to ...는 정중한 의사 표현입니다.",
+      "weakPointLabel": "예약 취소"
+    },
+    {
+      "id": "a2-double-conversation-writing-011",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 문자를 보내 주시겠어요?",
+      "sampleAnswer": "Could you send me a text message?",
+      "evaluationFocusKo": "부탁하기 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "you",
+        "send",
+        "text",
+        "message"
+      ],
+      "explanationKo": "send me는 나에게 보내 달라는 뜻입니다.",
+      "weakPointLabel": "부탁하기"
+    },
+    {
+      "id": "a2-double-conversation-writing-012",
+      "level": "A2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 잠시 기다려 주시겠어요?",
+      "sampleAnswer": "Could you wait a moment?",
+      "evaluationFocusKo": "대기 요청 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "you",
+        "wait",
+        "moment"
+      ],
+      "explanationKo": "잠시 기다려 달라는 요청은 wait a moment를 씁니다.",
+      "weakPointLabel": "대기 요청"
+    },
+    {
+      "id": "a2-double-grammar-choice-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 나는 어제 지갑을 잃어버렸습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I lost my wallet yesterday."
+        },
+        {
+          "id": "b",
+          "text": "lost I my wallet yesterday."
+        },
+        {
+          "id": "c",
+          "text": "Not i lost my wallet yesterday."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "yesterday가 있으면 과거시제를 사용합니다.",
+      "weakPointLabel": "과거시제"
+    },
+    {
+      "id": "a2-double-grammar-choice-002",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그녀는 나보다 키가 큽니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is taller than me."
+        },
+        {
+          "id": "b",
+          "text": "She taller than me."
+        },
+        {
+          "id": "c",
+          "text": "is She taller than me."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "비교할 때 형용사 비교급 + than을 씁니다.",
+      "weakPointLabel": "비교급"
+    },
+    {
+      "id": "a2-double-grammar-choice-003",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 몸이 아파서 집에 있었습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I stayed home because I was sick."
+        },
+        {
+          "id": "b",
+          "text": "I stayed home because I sick."
+        },
+        {
+          "id": "c",
+          "text": "stayed I home because I was sick."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "이유를 말할 때 because를 사용할 수 있습니다.",
+      "weakPointLabel": "이유 연결"
+    },
+    {
+      "id": "a2-double-grammar-choice-004",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 숙제를 끝냈습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have finished my homework."
+        },
+        {
+          "id": "b",
+          "text": "I finished my homework."
+        },
+        {
+          "id": "c",
+          "text": "have I finished my homework."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "완료된 경험이나 결과는 현재완료로 말할 수 있습니다.",
+      "weakPointLabel": "현재완료"
+    },
+    {
+      "id": "a2-double-grammar-choice-005",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 우리는 우유를 사려고 가게에 갔습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "We went to the store to buy milk."
+        },
+        {
+          "id": "b",
+          "text": "We went to store to buy milk."
+        },
+        {
+          "id": "c",
+          "text": "went We to the store to buy milk."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "목적을 나타낼 때 to + 동사원형을 씁니다.",
+      "weakPointLabel": "목적 표현"
+    },
+    {
+      "id": "a2-double-grammar-choice-006",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 창문을 열어 주시겠어요?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you open the window?"
+        },
+        {
+          "id": "b",
+          "text": "you open the window?"
+        },
+        {
+          "id": "c",
+          "text": "you Could open the window?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Could you 뒤에는 동사원형을 씁니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-double-grammar-choice-007",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 내일 이모를 방문할 예정입니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am going to visit my aunt tomorrow."
+        },
+        {
+          "id": "b",
+          "text": "I going to visit my aunt tomorrow."
+        },
+        {
+          "id": "c",
+          "text": "am I going to visit my aunt tomorrow."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "계획된 미래는 be going to로 말할 수 있습니다.",
+      "weakPointLabel": "미래 표현"
+    },
+    {
+      "id": "a2-double-grammar-choice-008",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 나는 책 읽는 것을 즐깁니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I enjoy reading books."
+        },
+        {
+          "id": "b",
+          "text": "enjoy I reading books."
+        },
+        {
+          "id": "c",
+          "text": "Not i enjoy reading books."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "enjoy 뒤에는 동명사가 자연스럽습니다.",
+      "weakPointLabel": "동명사"
+    },
+    {
+      "id": "a2-double-grammar-choice-009",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 떠나기 전에 전화해 주세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please call me before you leave."
+        },
+        {
+          "id": "b",
+          "text": "call Please me before you leave."
+        },
+        {
+          "id": "c",
+          "text": "Not please call me before you leave."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "before 뒤에 주어와 동사를 이어 시간 관계를 말합니다.",
+      "weakPointLabel": "시간 접속사"
+    },
+    {
+      "id": "a2-double-grammar-choice-010",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 물을 더 마셔야 합니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You should drink more water."
+        },
+        {
+          "id": "b",
+          "text": "You drink more water."
+        },
+        {
+          "id": "c",
+          "text": "should You drink more water."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "should 뒤에는 동사원형을 씁니다.",
+      "weakPointLabel": "조언 표현"
+    },
+    {
+      "id": "a2-double-grammar-choice-011",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 상자는 너무 무거워서 들 수 없습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The box is too heavy to carry."
+        },
+        {
+          "id": "b",
+          "text": "The box too heavy to carry."
+        },
+        {
+          "id": "c",
+          "text": "box The is too heavy to carry."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "too ... to는 너무 ~해서 할 수 없다는 뜻입니다.",
+      "weakPointLabel": "정도 표현"
+    },
+    {
+      "id": "a2-double-grammar-choice-012",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 나는 근처에 사는 선생님을 압니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I know a teacher who lives nearby."
+        },
+        {
+          "id": "b",
+          "text": "I know teacher who lives nearby."
+        },
+        {
+          "id": "c",
+          "text": "know I a teacher who lives nearby."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "사람을 설명할 때 who를 사용할 수 있습니다.",
+      "weakPointLabel": "관계대명사"
+    },
+    {
+      "id": "a2-double-grammar-writing-001",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 가방은 저것보다 가볍습니다.",
+      "sampleAnswer": "This bag is lighter than that one.",
+      "evaluationFocusKo": "lighter than 비교급 사용",
+      "expectedKeywords": [
+        "bag",
+        "lighter",
+        "than",
+        "one"
+      ],
+      "explanationKo": "light의 비교급은 lighter입니다.",
+      "weakPointLabel": "비교급"
+    },
+    {
+      "id": "a2-double-grammar-writing-002",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 아파서 집에 있었습니다.",
+      "sampleAnswer": "I stayed home because I was sick.",
+      "evaluationFocusKo": "because 이유 연결",
+      "expectedKeywords": [
+        "stayed",
+        "home",
+        "because",
+        "was"
+      ],
+      "explanationKo": "because절 하나로 이유를 연결할 수 있습니다.",
+      "weakPointLabel": "이유 연결"
+    },
+    {
+      "id": "a2-double-grammar-writing-003",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 저는 숙제를 끝냈습니다.",
+      "sampleAnswer": "I have finished my homework.",
+      "evaluationFocusKo": "have finished 사용",
+      "expectedKeywords": [
+        "have",
+        "finished",
+        "homework"
+      ],
+      "explanationKo": "have + 과거분사 finished가 필요합니다.",
+      "weakPointLabel": "현재완료"
+    },
+    {
+      "id": "a2-double-grammar-writing-004",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 나는 우유를 사려고 가게에 갔습니다.",
+      "sampleAnswer": "I went to the store to buy milk.",
+      "evaluationFocusKo": "to buy 목적 표현",
+      "expectedKeywords": [
+        "went",
+        "the",
+        "store",
+        "buy"
+      ],
+      "explanationKo": "목적은 to buy로 나타낼 수 있습니다.",
+      "weakPointLabel": "목적 표현"
+    },
+    {
+      "id": "a2-double-grammar-writing-005",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 방 안에는 사람이 많습니다.",
+      "sampleAnswer": "There are many people in the room.",
+      "evaluationFocusKo": "There are와 many people 사용",
+      "expectedKeywords": [
+        "are",
+        "many",
+        "people",
+        "the"
+      ],
+      "explanationKo": "people은 복수 취급하므로 are와 many를 씁니다.",
+      "weakPointLabel": "수량 표현"
+    },
+    {
+      "id": "a2-double-grammar-writing-006",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 창문을 열어 주시겠어요?",
+      "sampleAnswer": "Could you open the window?",
+      "evaluationFocusKo": "Could you와 open 사용",
+      "expectedKeywords": [
+        "you",
+        "open",
+        "the",
+        "window"
+      ],
+      "explanationKo": "Could you 뒤에는 동사원형을 씁니다.",
+      "weakPointLabel": "정중한 요청"
+    },
+    {
+      "id": "a2-double-grammar-writing-007",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 나는 내일 이모를 방문할 예정입니다.",
+      "sampleAnswer": "I am going to visit my aunt tomorrow.",
+      "evaluationFocusKo": "going to 미래 표현",
+      "expectedKeywords": [
+        "going",
+        "visit",
+        "aunt",
+        "tomorrow"
+      ],
+      "explanationKo": "be going to + 동사원형으로 예정된 미래를 말합니다.",
+      "weakPointLabel": "미래 표현"
+    },
+    {
+      "id": "a2-double-grammar-writing-008",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 나는 책 읽기를 즐깁니다.",
+      "sampleAnswer": "I enjoy reading books.",
+      "evaluationFocusKo": "enjoy reading 사용",
+      "expectedKeywords": [
+        "enjoy",
+        "reading",
+        "books"
+      ],
+      "explanationKo": "enjoy 뒤에는 동명사 reading이 자연스럽습니다.",
+      "weakPointLabel": "동명사"
+    },
+    {
+      "id": "a2-double-grammar-writing-009",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 떠나기 전에 저에게 전화해 주세요.",
+      "sampleAnswer": "Please call me before you leave.",
+      "evaluationFocusKo": "before you leave 사용",
+      "expectedKeywords": [
+        "please",
+        "call",
+        "you",
+        "leave"
+      ],
+      "explanationKo": "before 뒤에는 주어+동사 구조를 쓸 수 있습니다.",
+      "weakPointLabel": "시간 접속사"
+    },
+    {
+      "id": "a2-double-grammar-writing-010",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 당신은 물을 더 마셔야 합니다.",
+      "sampleAnswer": "You should drink more water.",
+      "evaluationFocusKo": "should drink 사용",
+      "expectedKeywords": [
+        "you",
+        "drink",
+        "more",
+        "water"
+      ],
+      "explanationKo": "should 뒤에는 동사원형을 씁니다.",
+      "weakPointLabel": "조언 표현"
+    },
+    {
+      "id": "a2-double-grammar-writing-011",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 상자는 너무 무거워서 들 수 없습니다.",
+      "sampleAnswer": "This box is too heavy to carry.",
+      "evaluationFocusKo": "too heavy to carry 사용",
+      "expectedKeywords": [
+        "box",
+        "too",
+        "heavy",
+        "carry"
+      ],
+      "explanationKo": "too heavy to carry는 너무 무거워서 들 수 없다는 뜻입니다.",
+      "weakPointLabel": "정도 표현"
+    },
+    {
+      "id": "a2-double-grammar-writing-012",
+      "level": "A2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 나는 근처에 사는 선생님을 알고 있습니다.",
+      "sampleAnswer": "I know a teacher who lives nearby.",
+      "evaluationFocusKo": "who lives nearby 사용",
+      "expectedKeywords": [
+        "know",
+        "teacher",
+        "who",
+        "lives"
+      ],
+      "explanationKo": "사람을 설명할 때 who를 씁니다.",
+      "weakPointLabel": "관계대명사"
+    }
+  ]
+}

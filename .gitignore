@@ -1,0 +1,49 @@
+# dependencies
+node_modules/
+app/node_modules/
+
+# Expo
+.expo/
+app/.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# logs
+*.log
+app/expo-web.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# local env files
+.env
+.env.*
+.secret.local
+!.env.example
+!**/.env.example
+ProjectAPI/
+
+# generated verification artifacts
+artifacts/
+tmp/
+.firebase/
+.gstack/
+.codex/
+.codex-remote-attachments/
+.agents/
+.claude/
+app/.claude/
+
+# TypeScript
+*.tsbuildinfo
+
+# native build output
+ios/
+android/
+app/ios/
+app/android/
+
+# OS/editor
+.DS_Store
+Thumbs.db

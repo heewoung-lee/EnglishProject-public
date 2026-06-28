@@ -1,0 +1,132 @@
+{
+  "scenario": {
+    "id": "a2-pharmacy-symptom-001",
+    "level": "A2",
+    "area": "conversation",
+    "titleKo": "약국에서 약 요청하기",
+    "titleEn": "Asking for Medicine at a Pharmacy",
+    "situationKo": "약국에서 증상을 설명하고 약을 추천받아야 합니다.",
+    "descriptionKo": "증상과 필요한 약 또는 복용 방법 질문을 연습합니다.",
+    "aiRole": "Pharmacist",
+    "userRole": "Customer",
+    "userGoalKo": "증상을 말하고 필요한 약이나 복용 방법을 물어보세요.",
+    "difficulty": "intermediate",
+    "maxUserTurns": 5,
+    "targetExpressions": [
+      "I have ...",
+      "Do you have any medicine for ...?",
+      "How often should I take it?"
+    ],
+    "targetSkills": [
+      "question_comprehension",
+      "vocabulary_range",
+      "task_completion"
+    ],
+    "openingMessage": "Hello. How can I help you today?",
+    "completionMessage": "Take this twice a day after meals.",
+    "repairPolicy": {
+      "unclear": "Sorry, could you say that again in English?",
+      "offTopic": "Let us come back to the pharmacy. Tell me your symptom.",
+      "correction": "No problem. Thanks for correcting that.",
+      "koreanOnly": "Please try saying that in English."
+    },
+    "successCriteria": [
+      "Describe a symptom.",
+      "Ask for medicine or ask how to take it.",
+      "Complete the pharmacy interaction."
+    ],
+    "requiredSlots": [
+      {
+        "key": "symptom",
+        "label": "symptom",
+        "prompt": "What symptoms do you have?",
+        "matchKeywords": [
+          "headache",
+          "fever",
+          "cough",
+          "sore throat",
+          "stomachache",
+          "cold",
+          "pain"
+        ]
+      },
+      {
+        "key": "medicineQuestion",
+        "label": "medicine or dosage question",
+        "prompt": "Do you need medicine, or do you have a question about how to take it?",
+        "matchKeywords": [
+          "medicine",
+          "medicine for",
+          "any medicine",
+          "do you have any medicine",
+          "do you have medicine",
+          "something for",
+          "anything for",
+          "recommend",
+          "for stomachache",
+          "for headache",
+          "for fever",
+          "how often",
+          "how many",
+          "take it",
+          "twice",
+          "once",
+          "after meals",
+          "before meals"
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "name": "goal completion after symptom and medicine request",
+      "turns": [
+        {
+          "userMessage": "I'm feeling stomachache.",
+          "expectedEndReason": null,
+          "expectedPendingSlotKey": "medicineQuestion"
+        },
+        {
+          "userMessage": "Do you have any medicine for stomachache?",
+          "expectedEndReason": "goal_completed",
+          "expectedPendingSlotKey": null
+        }
+      ]
+    },
+    {
+      "name": "off topic repairs twice before ending as too many failures",
+      "turns": [
+        {
+          "userMessage": "I like soccer.",
+          "expectedEndReason": null,
+          "expectedPendingSlotKey": "symptom"
+        },
+        {
+          "userMessage": "I still want to talk about soccer.",
+          "expectedEndReason": null,
+          "expectedPendingSlotKey": "symptom"
+        },
+        {
+          "userMessage": "soccer again",
+          "expectedEndReason": "too_many_failures",
+          "expectedPendingSlotKey": "symptom"
+        }
+      ]
+    },
+    {
+      "name": "on topic no progress skips missing slots",
+      "turns": [
+        {
+          "userMessage": "I need help.",
+          "expectedEndReason": null,
+          "expectedPendingSlotKey": "medicineQuestion"
+        },
+        {
+          "userMessage": "Can you help me?",
+          "expectedEndReason": "no_progress",
+          "expectedPendingSlotKey": null
+        }
+      ]
+    }
+  ]
+}

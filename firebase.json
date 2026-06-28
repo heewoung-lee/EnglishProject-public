@@ -1,0 +1,50 @@
+{
+  "functions": {
+    "source": "server",
+    "runtime": "nodejs22",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      ".env",
+      ".env.*",
+      ".secret.local",
+      "*.test.mjs"
+    ]
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "/question-packs/**",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=300" }
+        ]
+      },
+      {
+        "source": "/conversation-scenarios/**",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=300" }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "function": {
+          "functionId": "api",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "/health",
+        "function": {
+          "functionId": "api",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}

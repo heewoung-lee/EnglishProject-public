@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "level": "B2",
+  "version": 1,
+  "publishedAt": "2026-06-11T00:00:00.000Z",
+  "scenarios": [
+    {
+      "id": "b2-project-scope-negotiation-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "프로젝트 범위 협상하기",
+      "titleEn": "Negotiating Project Scope",
+      "situationKo": "당신은 고객과 프로젝트 범위가 늘어난 상황을 논의해야 합니다.",
+      "descriptionKo": "추가 요청의 영향을 설명하고 우선순위, 일정, 비용을 협상하는 연습입니다.",
+      "aiRole": "Client stakeholder",
+      "userRole": "Project manager",
+      "userGoalKo": "추가 요청을 무조건 수락하지 않고 영향과 대안을 설명하며 합의 가능한 범위를 정하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "That would affect the timeline.",
+        "Could we prioritize the must-have items first?",
+        "One option is to move this to a later phase."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "clarification",
+        "numbers_dates",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Thanks for joining. We'd like to add the reporting dashboard and advanced export feature before launch. Can your team include both?",
+      "completionMessage": "That sounds reasonable. Let's confirm the must-have items now and schedule the remaining features for the next phase.",
+      "repairPolicy": {
+        "unclear": "I am not sure I understood your proposal. Could you clarify it in English?",
+        "offTopic": "Let's focus on the project scope, timeline, and trade-offs.",
+        "correction": "Thanks for clarifying. Please continue with your proposal.",
+        "koreanOnly": "Please try to explain your point in English."
+      },
+      "successCriteria": [
+        "Acknowledge the client's added request professionally.",
+        "Explain the impact on timeline, budget, or quality.",
+        "Ask about priorities or must-have requirements.",
+        "Suggest a realistic compromise or phased plan."
+      ],
+      "requiredSlots": [
+        {
+          "key": "acknowledgeRequest",
+          "label": "acknowledgement of added scope",
+          "prompt": "How would you respond to the request for extra features?",
+          "matchKeywords": [
+            "i understand you want",
+            "i see why",
+            "thanks for explaining",
+            "additional feature",
+            "extra scope",
+            "new requirement",
+            "reporting dashboard",
+            "advanced export"
+          ],
+          "required": true
+        },
+        {
+          "key": "impact",
+          "label": "impact explanation",
+          "prompt": "What impact would these additions have?",
+          "matchKeywords": [
+            "affect the timeline",
+            "extend the deadline",
+            "additional cost",
+            "increase the budget",
+            "risk to quality",
+            "delay the launch",
+            "more development time",
+            "trade-off"
+          ],
+          "required": true
+        },
+        {
+          "key": "priorityQuestion",
+          "label": "priority clarification",
+          "prompt": "Which parts should be prioritized?",
+          "matchKeywords": [
+            "which is most important",
+            "must-have",
+            "nice-to-have",
+            "prioritize",
+            "priority",
+            "business critical",
+            "core requirement",
+            "which feature matters most"
+          ],
+          "required": true
+        },
+        {
+          "key": "compromise",
+          "label": "compromise proposal",
+          "prompt": "What compromise can you suggest?",
+          "matchKeywords": [
+            "later phase",
+            "phase two",
+            "reduce the scope",
+            "adjust the deadline",
+            "split the work",
+            "deliver first",
+            "alternative option",
+            "we could include"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-complaint-diplomatic-response-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "불만을 외교적으로 처리하기",
+      "titleEn": "Handling a Complaint Diplomatically",
+      "situationKo": "고객이 서비스 지연과 불친절한 응대에 대해 강하게 항의하고 있습니다.",
+      "descriptionKo": "감정을 인정하고 책임 있게 사과한 뒤 해결책과 후속 조치를 제안하는 연습입니다.",
+      "aiRole": "Upset customer",
+      "userRole": "Customer support lead",
+      "userGoalKo": "방어적으로 대응하지 말고 고객의 불만을 인정하며 구체적인 해결책을 제시하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I can understand why that was frustrating.",
+        "Let me look into what happened.",
+        "Here is what I can do to resolve this."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "verb_tense",
+        "clarification",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "I waited three days for a response, and the agent I finally spoke to was dismissive. This is unacceptable.",
+      "completionMessage": "Thank you for taking this seriously. Please send me the update by tomorrow as promised.",
+      "repairPolicy": {
+        "unclear": "Could you restate that more clearly in English so I know how you plan to resolve the complaint?",
+        "offTopic": "Let's stay with the customer's complaint and the next step you can offer.",
+        "correction": "Understood. Please continue with the corrected response.",
+        "koreanOnly": "Please respond to the customer in English."
+      },
+      "successCriteria": [
+        "Acknowledge the customer's frustration.",
+        "Apologize or accept responsibility without sounding defensive.",
+        "Ask for or confirm key details.",
+        "Offer a specific resolution or follow-up timeline."
+      ],
+      "requiredSlots": [
+        {
+          "key": "empathy",
+          "label": "empathy statement",
+          "prompt": "How will you acknowledge the customer's frustration?",
+          "matchKeywords": [
+            "i understand why",
+            "i can see why",
+            "that sounds frustrating",
+            "you had to wait",
+            "i appreciate you telling us",
+            "your frustration is understandable",
+            "unacceptable experience"
+          ],
+          "required": true
+        },
+        {
+          "key": "apology",
+          "label": "apology or responsibility",
+          "prompt": "What responsibility will you take?",
+          "matchKeywords": [
+            "i apologize",
+            "i'm sorry",
+            "we should have",
+            "we did not meet",
+            "we failed to",
+            "not the standard",
+            "take responsibility"
+          ],
+          "required": true
+        },
+        {
+          "key": "details",
+          "label": "detail confirmation",
+          "prompt": "What details do you need to confirm?",
+          "matchKeywords": [
+            "case number",
+            "order number",
+            "who you spoke with",
+            "when you contacted",
+            "confirm the details",
+            "look into what happened",
+            "review the conversation"
+          ],
+          "required": true
+        },
+        {
+          "key": "resolution",
+          "label": "resolution and follow-up",
+          "prompt": "What concrete next step can you offer?",
+          "matchKeywords": [
+            "follow up by tomorrow",
+            "send you an update",
+            "refund",
+            "replacement",
+            "escalate this",
+            "priority review",
+            "within 24 hours",
+            "resolve this"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-performance-review-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "성과 평가 면담하기",
+      "titleEn": "Performance Review Discussion",
+      "situationKo": "당신은 상사와 성과 평가 면담을 하며 성과, 개선점, 성장 목표를 논의합니다.",
+      "descriptionKo": "자신의 기여를 근거와 함께 설명하고 피드백을 요청하며 다음 목표를 합의하는 연습입니다.",
+      "aiRole": "Manager",
+      "userRole": "Employee",
+      "userGoalKo": "성과를 구체적으로 설명하고 개선 의지를 보이며 향후 목표와 지원을 논의하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "One achievement I am proud of is ...",
+        "I would appreciate feedback on ...",
+        "My goal for the next quarter is ..."
+      ],
+      "targetSkills": [
+        "verb_tense",
+        "vocabulary_range",
+        "clarification",
+        "numbers_dates",
+        "task_completion"
+      ],
+      "openingMessage": "Let's review your performance this quarter. What achievement would you like to highlight first?",
+      "completionMessage": "Good. We have clear achievements, one development area, and a realistic goal for next quarter.",
+      "repairPolicy": {
+        "unclear": "Could you make that more specific in English?",
+        "offTopic": "Let's return to your performance, feedback, and next-quarter goals.",
+        "correction": "Thanks. Continue with the corrected point.",
+        "koreanOnly": "Please discuss your review in English."
+      },
+      "successCriteria": [
+        "Describe a concrete achievement.",
+        "Mention evidence such as results, dates, or metrics.",
+        "Acknowledge one area for improvement.",
+        "Set a future goal or ask for support."
+      ],
+      "requiredSlots": [
+        {
+          "key": "achievement",
+          "label": "specific achievement",
+          "prompt": "What achievement do you want to highlight?",
+          "matchKeywords": [
+            "i completed",
+            "i led",
+            "i improved",
+            "i delivered",
+            "one achievement",
+            "successful project",
+            "reduced errors",
+            "reduced response time",
+            "increased sales",
+            "improved response time"
+          ],
+          "required": true
+        },
+        {
+          "key": "evidence",
+          "label": "supporting evidence",
+          "prompt": "What evidence supports that achievement?",
+          "matchKeywords": [
+            "by 10 percent",
+            "by 20 percent",
+            "on time",
+            "before the deadline",
+            "this quarter",
+            "customer feedback",
+            "metrics",
+            "measurable result",
+            "in june"
+          ],
+          "required": true
+        },
+        {
+          "key": "improvementArea",
+          "label": "area for improvement",
+          "prompt": "What would you like to improve?",
+          "matchKeywords": [
+            "i need to improve",
+            "i would like to improve",
+            "development area",
+            "work on",
+            "better at",
+            "communication",
+            "time management",
+            "delegation",
+            "presentation skills"
+          ],
+          "required": true
+        },
+        {
+          "key": "futureGoal",
+          "label": "future goal or support request",
+          "prompt": "What goal or support do you want for next quarter?",
+          "matchKeywords": [
+            "next quarter",
+            "my goal is",
+            "i would like support",
+            "training",
+            "mentor",
+            "clear target",
+            "promotion path",
+            "take ownership"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-landlord-lease-negotiation-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "임대 계약 조건 협상하기",
+      "titleEn": "Landlord Lease Negotiation",
+      "situationKo": "집주인이 월세 인상과 계약 조건 변경을 제안했습니다.",
+      "descriptionKo": "정중하게 우려를 설명하고 임대료, 수리, 계약 기간에 대해 현실적인 대안을 협상하는 연습입니다.",
+      "aiRole": "Landlord",
+      "userRole": "Tenant",
+      "userGoalKo": "월세 인상에 대한 부담을 설명하고 합리적인 인상 폭이나 수리 조건을 협상하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "Would you be open to a smaller increase?",
+        "Given the repair issues, I would like to discuss ...",
+        "Could we put that in writing?"
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "prepositions",
+        "numbers_dates",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "I plan to raise the rent by 15 percent when your lease renews next month. I also need a decision by Friday.",
+      "completionMessage": "I can agree to that compromise if we include the repair timeline in the lease renewal.",
+      "repairPolicy": {
+        "unclear": "Could you explain your lease proposal more clearly in English?",
+        "offTopic": "Let's focus on rent, repairs, lease dates, and written terms.",
+        "correction": "Thanks for correcting that. Please continue.",
+        "koreanOnly": "Please negotiate with the landlord in English."
+      },
+      "successCriteria": [
+        "Respond politely to the rent increase.",
+        "Explain a financial or housing-related concern.",
+        "Make a counterproposal with a number or date.",
+        "Ask to document the final agreement."
+      ],
+      "requiredSlots": [
+        {
+          "key": "rentConcern",
+          "label": "rent increase concern",
+          "prompt": "How do you respond to the proposed rent increase?",
+          "matchKeywords": [
+            "15 percent",
+            "rent increase",
+            "too high",
+            "difficult for my budget",
+            "monthly rent",
+            "afford",
+            "financial pressure",
+            "concerned about the increase"
+          ],
+          "required": true
+        },
+        {
+          "key": "counterOffer",
+          "label": "counteroffer",
+          "prompt": "What counteroffer can you make?",
+          "matchKeywords": [
+            "smaller increase",
+            "5 percent",
+            "8 percent",
+            "10 percent",
+            "gradual increase",
+            "same rent",
+            "renew for one year",
+            "another six months",
+            "would you consider"
+          ],
+          "required": true
+        },
+        {
+          "key": "repairIssue",
+          "label": "repair or condition issue",
+          "prompt": "Are there any apartment issues that should be included?",
+          "matchKeywords": [
+            "repair",
+            "leak",
+            "heating",
+            "air conditioning",
+            "maintenance",
+            "broken",
+            "fix the",
+            "before renewal",
+            "repair timeline"
+          ],
+          "required": true
+        },
+        {
+          "key": "writtenAgreement",
+          "label": "written agreement request",
+          "prompt": "How will you confirm the final terms?",
+          "matchKeywords": [
+            "in writing",
+            "written agreement",
+            "lease renewal",
+            "add it to the lease",
+            "email confirmation",
+            "document the terms",
+            "signed agreement"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-conference-networking-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "컨퍼런스 네트워킹하기",
+      "titleEn": "Conference Networking",
+      "situationKo": "국제 컨퍼런스 휴식 시간에 업계 전문가와 자연스럽게 대화를 시작해야 합니다.",
+      "descriptionKo": "자기소개, 관심사 공유, 후속 연락 제안까지 자연스럽게 이어 가는 연습입니다.",
+      "aiRole": "Industry professional",
+      "userRole": "Conference attendee",
+      "userGoalKo": "짧고 전문적으로 자신을 소개하고 공통 관심사를 찾은 뒤 후속 연락을 제안하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I enjoyed your point about ...",
+        "My work focuses on ...",
+        "Would you be open to staying in touch?"
+      ],
+      "targetSkills": [
+        "question_comprehension",
+        "vocabulary_range",
+        "clarification",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hi, I noticed you were in the AI ethics session too. What did you think of the panel?",
+      "completionMessage": "Great speaking with you. Please send me a message on LinkedIn, and let's continue the conversation.",
+      "repairPolicy": {
+        "unclear": "Could you phrase that more clearly in English?",
+        "offTopic": "Let's keep this as a professional networking conversation.",
+        "correction": "Thanks. Go ahead with your corrected sentence.",
+        "koreanOnly": "Please continue the networking conversation in English."
+      },
+      "successCriteria": [
+        "Respond to the opening topic.",
+        "Introduce your role or professional interest.",
+        "Ask a thoughtful follow-up question.",
+        "Suggest a concrete way to stay in touch."
+      ],
+      "requiredSlots": [
+        {
+          "key": "topicResponse",
+          "label": "conference topic response",
+          "prompt": "What did you think of the session?",
+          "matchKeywords": [
+            "i thought the panel",
+            "interesting point",
+            "ai ethics",
+            "session",
+            "speaker mentioned",
+            "i enjoyed",
+            "the discussion about",
+            "takeaway"
+          ],
+          "required": true
+        },
+        {
+          "key": "selfIntroduction",
+          "label": "professional introduction",
+          "prompt": "How would you introduce your work?",
+          "matchKeywords": [
+            "i work in",
+            "my role is",
+            "my work focuses on",
+            "i'm responsible for",
+            "product strategy",
+            "data analysis",
+            "education technology",
+            "research"
+          ],
+          "required": true
+        },
+        {
+          "key": "followUpQuestion",
+          "label": "thoughtful follow-up question",
+          "prompt": "What would you like to ask the other attendee?",
+          "matchKeywords": [
+            "what do you think about",
+            "how do you approach",
+            "i'm curious about",
+            "could you tell me more",
+            "what challenges",
+            "how has your team",
+            "what brought you"
+          ],
+          "required": true
+        },
+        {
+          "key": "stayInTouch",
+          "label": "follow-up contact",
+          "prompt": "How will you suggest staying in touch?",
+          "matchKeywords": [
+            "stay in touch",
+            "connect on linkedin",
+            "exchange contact",
+            "send you a message",
+            "follow up",
+            "continue the conversation",
+            "share my card",
+            "email you"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-medical-second-opinion-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "의학적 소견 다시 묻기",
+      "titleEn": "Medical Second Opinion",
+      "situationKo": "당신은 이전 진단과 치료 계획이 걱정되어 다른 의사에게 두 번째 소견을 구합니다.",
+      "descriptionKo": "증상과 이전 진단을 설명하고 치료 선택지, 위험, 추가 검사를 질문하는 연습입니다.",
+      "aiRole": "Doctor",
+      "userRole": "Patient",
+      "userGoalKo": "이전 진단을 명확히 설명하고 치료 대안과 위험, 추가 검사 필요성을 질문하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I would like a second opinion.",
+        "What are the risks and benefits?",
+        "Are there any alternative treatments?"
+      ],
+      "targetSkills": [
+        "question_comprehension",
+        "vocabulary_range",
+        "clarification",
+        "verb_tense",
+        "task_completion"
+      ],
+      "openingMessage": "I understand you are here for a second opinion. Could you tell me what diagnosis or treatment plan you were given?",
+      "completionMessage": "I can review your records and explain the possible options, including whether more tests would be useful.",
+      "repairPolicy": {
+        "unclear": "Could you explain your medical concern more clearly in English?",
+        "offTopic": "Let's focus on your symptoms, previous diagnosis, treatment options, and questions.",
+        "correction": "Thank you for clarifying. Please continue.",
+        "koreanOnly": "Please describe your concern to the doctor in English."
+      },
+      "successCriteria": [
+        "State that you want a second opinion.",
+        "Describe symptoms or previous diagnosis.",
+        "Ask about treatment alternatives or risks.",
+        "Ask about next steps such as tests or records."
+      ],
+      "requiredSlots": [
+        {
+          "key": "secondOpinionRequest",
+          "label": "second opinion request",
+          "prompt": "Why are you seeing this doctor today?",
+          "matchKeywords": [
+            "second opinion",
+            "another opinion",
+            "not sure about the diagnosis",
+            "concerned about the treatment",
+            "want to confirm",
+            "review the diagnosis",
+            "different perspective"
+          ],
+          "required": true
+        },
+        {
+          "key": "medicalBackground",
+          "label": "symptoms or previous diagnosis",
+          "prompt": "What symptoms or diagnosis should the doctor know about?",
+          "matchKeywords": [
+            "symptoms",
+            "diagnosed with",
+            "pain",
+            "fatigue",
+            "test result",
+            "mri",
+            "blood test",
+            "treatment plan",
+            "medication"
+          ],
+          "required": true
+        },
+        {
+          "key": "riskQuestion",
+          "label": "risk or alternative question",
+          "prompt": "What would you like to know about the treatment?",
+          "matchKeywords": [
+            "risks and benefits",
+            "side effects",
+            "alternative treatments",
+            "other options",
+            "less invasive",
+            "what happens if",
+            "benefits",
+            "long-term risk"
+          ],
+          "required": true
+        },
+        {
+          "key": "nextSteps",
+          "label": "next step question",
+          "prompt": "What next step do you want to ask about?",
+          "matchKeywords": [
+            "additional tests",
+            "more tests",
+            "medical records",
+            "next step",
+            "follow-up appointment",
+            "specialist",
+            "review my records",
+            "what should i do next"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-vendor-contract-delay-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "공급업체 계약 지연 대응하기",
+      "titleEn": "Vendor Contract Delay",
+      "situationKo": "공급업체가 계약서 검토와 납품 일정을 계속 지연하고 있습니다.",
+      "descriptionKo": "지연의 영향을 설명하고 새 마감일, 책임자, 임시 해결책을 협의하는 연습입니다.",
+      "aiRole": "Vendor account manager",
+      "userRole": "Procurement manager",
+      "userGoalKo": "지연 상황을 명확히 짚고 구체적인 일정과 책임 있는 후속 조치를 요구하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "The delay is affecting our launch plan.",
+        "Can you commit to a revised deadline?",
+        "We need a temporary workaround."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "numbers_dates",
+        "clarification",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "I'm sorry, but our legal team still has not finalized the contract. Delivery may also slip by another week.",
+      "completionMessage": "Understood. I will send a revised timeline today and assign a single point of contact for daily updates.",
+      "repairPolicy": {
+        "unclear": "Could you state your requested timeline or action more clearly in English?",
+        "offTopic": "Let's stay focused on the contract delay, delivery impact, and next steps.",
+        "correction": "Thanks for correcting that. Continue with your request.",
+        "koreanOnly": "Please handle the vendor discussion in English."
+      },
+      "successCriteria": [
+        "Name the business impact of the delay.",
+        "Ask for the reason or current blocker.",
+        "Request a specific revised deadline or owner.",
+        "Discuss a temporary workaround or escalation."
+      ],
+      "requiredSlots": [
+        {
+          "key": "impact",
+          "label": "business impact",
+          "prompt": "How is the delay affecting your company?",
+          "matchKeywords": [
+            "affecting our launch",
+            "project timeline",
+            "customer commitment",
+            "delivery delay",
+            "risk to the rollout",
+            "operational impact",
+            "miss our deadline"
+          ],
+          "required": true
+        },
+        {
+          "key": "blockerQuestion",
+          "label": "blocker clarification",
+          "prompt": "What do you need to know about the cause of the delay?",
+          "matchKeywords": [
+            "what is blocking",
+            "legal team",
+            "approval process",
+            "why is it delayed",
+            "current status",
+            "main blocker",
+            "what remains",
+            "contract review"
+          ],
+          "required": true
+        },
+        {
+          "key": "deadlineRequest",
+          "label": "revised deadline request",
+          "prompt": "What deadline or owner do you need?",
+          "matchKeywords": [
+            "revised deadline",
+            "commit to",
+            "by friday",
+            "by monday",
+            "this week",
+            "specific date",
+            "single point of contact",
+            "responsible owner"
+          ],
+          "required": true
+        },
+        {
+          "key": "workaround",
+          "label": "workaround or escalation",
+          "prompt": "What temporary solution or escalation should be discussed?",
+          "matchKeywords": [
+            "temporary workaround",
+            "interim solution",
+            "partial delivery",
+            "escalate",
+            "daily update",
+            "backup option",
+            "ship the first batch",
+            "manual process"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "b2-team-conflict-mediation-001",
+      "level": "B2",
+      "area": "conversation",
+      "titleKo": "팀 갈등 중재하기",
+      "titleEn": "Team Conflict Mediation",
+      "situationKo": "두 팀원이 업무 방식과 책임 범위를 두고 갈등하고 있어 당신이 중재해야 합니다.",
+      "descriptionKo": "양쪽 입장을 인정하고 사실을 정리한 뒤 역할, 의사소통 방식, 다음 행동을 합의하는 연습입니다.",
+      "aiRole": "Frustrated team member",
+      "userRole": "Team lead",
+      "userGoalKo": "한쪽 편을 들지 않고 갈등의 핵심을 정리하며 역할과 후속 조치를 명확히 하세요.",
+      "difficulty": "advanced",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "Let me make sure I understand both perspectives.",
+        "Can we separate facts from assumptions?",
+        "Let's agree on responsibilities going forward."
+      ],
+      "targetSkills": [
+        "clarification",
+        "question_comprehension",
+        "natural_phrasing",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "I feel like Alex keeps changing the requirements and then blaming me when the work is late.",
+      "completionMessage": "That plan is fair. I will share my concerns directly, and we can use the agreed process going forward.",
+      "repairPolicy": {
+        "unclear": "Could you explain your mediation step more clearly in English?",
+        "offTopic": "Let's return to the team conflict, responsibilities, and next actions.",
+        "correction": "Thanks for clarifying. Please continue mediating the conversation.",
+        "koreanOnly": "Please mediate the conflict in English."
+      },
+      "successCriteria": [
+        "Acknowledge the team member's concern neutrally.",
+        "Ask for facts or examples instead of assumptions.",
+        "Clarify roles or expectations.",
+        "Propose a follow-up action or communication process."
+      ],
+      "requiredSlots": [
+        {
+          "key": "neutralAcknowledgement",
+          "label": "neutral acknowledgement",
+          "prompt": "How will you acknowledge the concern without taking sides?",
+          "matchKeywords": [
+            "i hear your concern",
+            "i understand this is frustrating",
+            "both perspectives",
+            "let me make sure i understand",
+            "without blaming",
+            "fair to both",
+            "stay neutral",
+            "neutral summary"
+          ],
+          "required": true
+        },
+        {
+          "key": "factFinding",
+          "label": "fact-finding question",
+          "prompt": "What facts or examples do you need?",
+          "matchKeywords": [
+            "specific example",
+            "what changed",
+            "when did this happen",
+            "specific facts",
+            "check assumptions",
+            "requirements changed",
+            "could you walk me through",
+            "supporting evidence"
+          ],
+          "required": true
+        },
+        {
+          "key": "roleClarification",
+          "label": "role clarification",
+          "prompt": "How will you clarify responsibilities?",
+          "matchKeywords": [
+            "clear responsibilities",
+            "who owns",
+            "role expectations",
+            "clear expectations",
+            "decision maker",
+            "approval process",
+            "scope owner",
+            "clear handoff"
+          ],
+          "required": true
+        },
+        {
+          "key": "followUpProcess",
+          "label": "follow-up process",
+          "prompt": "What process should the team use going forward?",
+          "matchKeywords": [
+            "going forward",
+            "weekly check-in",
+            "document changes",
+            "shared tracker",
+            "follow-up meeting",
+            "communication process",
+            "confirm in writing",
+            "next action"
+          ],
+          "required": true
+        }
+      ]
+    }
+  ]
+}

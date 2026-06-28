@@ -1,0 +1,73 @@
+name: Security scan
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  sensitive-file-and-secret-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Block sensitive files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          hits="$(
+            find . \
+              -path './.git' -prune -o \
+              \( \
+                -name '.env' -o \
+                -name '.env.*' -o \
+                -name '*.pem' -o \
+                -name '*.key' -o \
+                -name '*.p12' -o \
+                -name '*.pfx' -o \
+                -name '*.keystore' -o \
+                -name '*.jks' -o \
+                -name 'Login Data' -o \
+                -name 'Cookies' -o \
+                -name 'Web Data' -o \
+                -path './tmp/*' \
+              \) -print | grep -vE '(^|/)\.env\.example$' || true
+          )"
+
+          if [ -n "$hits" ]; then
+            echo "Sensitive files are not allowed in this repository:"
+            echo "$hits"
+            exit 1
+          fi
+
+      - name: Scan for high-risk secret patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          hits="$(
+            grep -RIn \
+              --binary-files=without-match \
+              --exclude-dir=.git \
+              --exclude-dir=node_modules \
+              --exclude-dir=.expo \
+              --exclude-dir=android \
+              --exclude-dir=ios \
+              --exclude='*.png' \
+              --exclude='*.jpg' \
+              --exclude='*.jpeg' \
+              --exclude='*.wav' \
+              -E 'sk-proj-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,}|AKIA[0-9A-Z]{16}|BEGIN (RSA|OPENSSH|PRIVATE) KEY|AI_QUOTA_MASTER_TEST_TOKEN=[A-Za-z0-9_=/+]{30,}' \
+              . || true
+          )"
+
+          if [ -n "$hits" ]; then
+            echo "Potential secret patterns were found:"
+            echo "$hits"
+            exit 1
+          fi

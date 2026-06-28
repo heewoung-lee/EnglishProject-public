@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "레벨핏영어",
+    "slug": "level-fit-english",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.LevelFitEnglish.LevelFitEnglish",
+      "versionCode": 3,
+      "usesCleartextTraffic": false,
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#F2F7A6",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f02197e-d947-4061-9fa8-718aaa55ecf7"
+      }
+    },
+    "owner": "leehuiung"
+  }
+}

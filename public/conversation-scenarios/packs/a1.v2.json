@@ -1,0 +1,560 @@
+{
+  "schemaVersion": 1,
+  "level": "A1",
+  "version": 2,
+  "publishedAt": "2026-06-10T07:00:00.000Z",
+  "scenarios": [
+    {
+      "id": "a1-cafe-order-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "카페에서 음료 주문하기",
+      "titleEn": "Ordering at a Cafe",
+      "situationKo": "당신은 카페에서 원하는 음료를 주문해야 합니다.",
+      "descriptionKo": "음료, 크기, 포장 여부를 영어로 말하는 연습입니다.",
+      "aiRole": "Barista",
+      "userRole": "Customer",
+      "userGoalKo": "원하는 음료, 크기, 포장 여부를 말하고 주문을 완료하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "I'd like ...",
+        "Can I get ...?",
+        "To go, please."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "articles",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hi, what would you like to order?",
+      "completionMessage": "Got it. I'll have that ready at the pickup counter.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say the drink you want.",
+        "Say the size.",
+        "Say whether it is for here or to go."
+      ],
+      "requiredSlots": [
+        {
+          "key": "drink",
+          "label": "drink",
+          "prompt": "Sure. What would you like to drink?",
+          "matchKeywords": [
+            "coffee",
+            "americano",
+            "latte",
+            "tea",
+            "cappuccino",
+            "mocha",
+            "espresso",
+            "juice",
+            "water"
+          ]
+        },
+        {
+          "key": "size",
+          "label": "size",
+          "prompt": "Sure. What size would you like?",
+          "matchKeywords": [
+            "small",
+            "medium",
+            "large",
+            "tall",
+            "grande",
+            "venti"
+          ]
+        },
+        {
+          "key": "diningOption",
+          "label": "for here or to go",
+          "prompt": "Is that for here or to go?",
+          "matchKeywords": [
+            "to go",
+            "takeout",
+            "take out",
+            "for here",
+            "dine in"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-hotel-checkin-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "호텔에서 체크인하기",
+      "titleEn": "Checking In at a Hotel",
+      "situationKo": "당신은 호텔 프런트에서 예약한 방에 체크인해야 합니다.",
+      "descriptionKo": "이름, 예약, 숙박 정보를 간단히 말하는 연습입니다.",
+      "aiRole": "Hotel receptionist",
+      "userRole": "Guest",
+      "userGoalKo": "이름을 말하고 예약 확인과 체크인을 완료하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "I have a reservation.",
+        "My name is ...",
+        "For two nights."
+      ],
+      "targetSkills": [
+        "numbers_dates",
+        "polite_requests",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Hello, welcome to our hotel. How can I help you?",
+      "completionMessage": "Perfect. You're checked in. Here is your room key.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say that you have a reservation.",
+        "Provide the reservation name.",
+        "Respond to the ID or passport request."
+      ],
+      "requiredSlots": [
+        {
+          "key": "reservation",
+          "label": "reservation",
+          "prompt": "Do you have a reservation?",
+          "matchKeywords": [
+            "reservation",
+            "booking",
+            "booked",
+            "check in",
+            "check-in",
+            "i have a room"
+          ]
+        },
+        {
+          "key": "name",
+          "label": "guest name",
+          "prompt": "May I have your name, please?",
+          "matchKeywords": [
+            "my name is",
+            "i am",
+            "i'm",
+            "this is",
+            "under",
+            "name is"
+          ]
+        },
+        {
+          "key": "id",
+          "label": "id or passport",
+          "prompt": "May I see your ID or passport?",
+          "matchKeywords": [
+            "id",
+            "passport",
+            "here it is",
+            "here you go",
+            "driver license",
+            "driver's license"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-directions-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "길 묻기",
+      "titleEn": "Asking for Directions",
+      "situationKo": "당신은 길에서 지하철역 위치를 물어봐야 합니다.",
+      "descriptionKo": "위치와 방향을 묻고 확인하는 연습입니다.",
+      "aiRole": "Local person",
+      "userRole": "Traveler",
+      "userGoalKo": "지하철역 위치를 묻고, 방향을 확인한 뒤 감사 인사를 하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "Where is ...?",
+        "How can I get to ...?",
+        "Thank you."
+      ],
+      "targetSkills": [
+        "question_comprehension",
+        "prepositions",
+        "clarification",
+        "task_completion"
+      ],
+      "openingMessage": "Hi. Do you need help?",
+      "completionMessage": "Sure. Go straight for two blocks, then turn left. It will be on your right.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Ask where the destination is.",
+        "Understand or confirm the direction.",
+        "Close with thanks."
+      ],
+      "requiredSlots": [
+        {
+          "key": "destination",
+          "label": "destination",
+          "prompt": "Where would you like to go?",
+          "matchKeywords": [
+            "station",
+            "subway",
+            "bus stop",
+            "airport",
+            "hotel",
+            "cafe",
+            "restaurant",
+            "museum",
+            "bank",
+            "pharmacy",
+            "hospital",
+            "restroom",
+            "bathroom",
+            "library",
+            "park"
+          ]
+        },
+        {
+          "key": "confirmation",
+          "label": "direction confirmation",
+          "prompt": "Did you understand the directions?",
+          "matchKeywords": [
+            "thank you",
+            "thanks",
+            "got it",
+            "i understand",
+            "straight",
+            "left",
+            "right"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-convenience-store-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "편의점에서 물건 사기",
+      "titleEn": "Buying Something at a Convenience Store",
+      "situationKo": "편의점에서 원하는 물건을 말하고 계산해야 합니다.",
+      "descriptionKo": "간단한 구매 요청과 결제 표현을 연습합니다.",
+      "aiRole": "Store clerk",
+      "userRole": "Customer",
+      "userGoalKo": "사고 싶은 물건을 말하고 결제 방법을 말하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "I want ...",
+        "Can I buy ...?",
+        "I will pay by card."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. What would you like?",
+      "completionMessage": "Sure. You can pay over here.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say what you want to buy.",
+        "Answer how you will pay.",
+        "Finish the purchase."
+      ],
+      "requiredSlots": [
+        {
+          "key": "item",
+          "label": "item to buy",
+          "prompt": "What would you like to buy?",
+          "matchKeywords": [
+            "water",
+            "snack",
+            "sandwich",
+            "coffee",
+            "milk",
+            "juice",
+            "this",
+            "that"
+          ]
+        },
+        {
+          "key": "payment",
+          "label": "payment method",
+          "prompt": "How would you like to pay?",
+          "matchKeywords": [
+            "card",
+            "cash",
+            "credit card",
+            "with card",
+            "with cash",
+            "by card",
+            "by cash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-bus-ticket-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "버스 표 사기",
+      "titleEn": "Buying a Bus Ticket",
+      "situationKo": "버스 터미널에서 목적지와 표 한 장을 말해야 합니다.",
+      "descriptionKo": "목적지와 수량을 간단히 말하는 연습입니다.",
+      "aiRole": "Ticket clerk",
+      "userRole": "Traveler",
+      "userGoalKo": "목적지와 표 수량을 말하고 표를 받으세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "One ticket to ...",
+        "I want to go to ..."
+      ],
+      "targetSkills": [
+        "numbers_dates",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. Where are you going?",
+      "completionMessage": "Here is your ticket. The bus leaves soon.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say the destination.",
+        "Say the number of tickets.",
+        "Complete the ticket purchase."
+      ],
+      "requiredSlots": [
+        {
+          "key": "destination",
+          "label": "destination",
+          "prompt": "Where are you going?",
+          "matchKeywords": [
+            "seoul",
+            "busan",
+            "incheon",
+            "daegu",
+            "station",
+            "airport"
+          ]
+        },
+        {
+          "key": "ticketCount",
+          "label": "ticket count",
+          "prompt": "How many tickets do you need?",
+          "matchKeywords": [
+            "one",
+            "two",
+            "three",
+            "1",
+            "2",
+            "3",
+            "ticket"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-clinic-visit-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "병원 접수하기",
+      "titleEn": "Checking In at a Clinic",
+      "situationKo": "병원 접수대에서 이름과 아픈 곳을 말해야 합니다.",
+      "descriptionKo": "이름과 간단한 증상 표현을 연습합니다.",
+      "aiRole": "Clinic receptionist",
+      "userRole": "Patient",
+      "userGoalKo": "이름과 증상을 말하고 진료 접수를 하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "My name is ...",
+        "I have a headache."
+      ],
+      "targetSkills": [
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. What is your name?",
+      "completionMessage": "Thank you. Please wait for the doctor.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say your name.",
+        "Say a simple symptom.",
+        "Complete check-in."
+      ],
+      "requiredSlots": [
+        {
+          "key": "name",
+          "label": "patient name",
+          "prompt": "What is your name?",
+          "matchKeywords": [
+            "my name is",
+            "i am",
+            "i'm",
+            "name is"
+          ]
+        },
+        {
+          "key": "symptom",
+          "label": "symptom",
+          "prompt": "What is the problem?",
+          "matchKeywords": [
+            "headache",
+            "stomachache",
+            "fever",
+            "cold",
+            "cough",
+            "sick",
+            "hurt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-phone-message-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "전화 메시지 남기기",
+      "titleEn": "Leaving a Phone Message",
+      "situationKo": "상대가 전화를 받을 수 없어 짧은 메시지를 남겨야 합니다.",
+      "descriptionKo": "이름과 다시 전화해 달라는 표현을 연습합니다.",
+      "aiRole": "Office assistant",
+      "userRole": "Caller",
+      "userGoalKo": "이름을 말하고 다시 전화해 달라고 요청하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "This is ...",
+        "Please call me back."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. She is not here right now. Can I take a message?",
+      "completionMessage": "Okay. I will give her your message.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say who is calling.",
+        "Ask for a call back.",
+        "End the call."
+      ],
+      "requiredSlots": [
+        {
+          "key": "caller",
+          "label": "caller name",
+          "prompt": "Who is calling?",
+          "matchKeywords": [
+            "this is",
+            "my name is",
+            "i am",
+            "i'm"
+          ]
+        },
+        {
+          "key": "callback",
+          "label": "call back request",
+          "prompt": "What message would you like to leave?",
+          "matchKeywords": [
+            "call me back",
+            "call back",
+            "please call",
+            "message"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-school-help-001",
+      "level": "A1",
+      "area": "conversation",
+      "titleKo": "수업에서 도움 요청하기",
+      "titleEn": "Asking for Help in Class",
+      "situationKo": "수업 중 이해하지 못한 부분을 선생님에게 말해야 합니다.",
+      "descriptionKo": "다시 설명해 달라는 표현을 연습합니다.",
+      "aiRole": "Teacher",
+      "userRole": "Student",
+      "userGoalKo": "이해하지 못했다고 말하고 다시 설명을 요청하세요.",
+      "difficulty": "beginner",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "I don't understand.",
+        "Can you explain again?"
+      ],
+      "targetSkills": [
+        "clarification",
+        "polite_requests",
+        "task_completion"
+      ],
+      "openingMessage": "Do you understand the question?",
+      "completionMessage": "Of course. I will explain it again.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you say that again in English?",
+        "offTopic": "Let us come back to this situation. What do you need?",
+        "correction": "No problem. Thanks for correcting that.",
+        "koreanOnly": "Please try saying that in English."
+      },
+      "successCriteria": [
+        "Say you do not understand.",
+        "Ask for another explanation.",
+        "Respond politely."
+      ],
+      "requiredSlots": [
+        {
+          "key": "confusion",
+          "label": "not understanding",
+          "prompt": "What is difficult?",
+          "matchKeywords": [
+            "i don't understand",
+            "do not understand",
+            "hard",
+            "difficult",
+            "confused"
+          ]
+        },
+        {
+          "key": "helpRequest",
+          "label": "help request",
+          "prompt": "What do you need?",
+          "matchKeywords": [
+            "explain again",
+            "say again",
+            "help",
+            "please",
+            "can you"
+          ]
+        }
+      ]
+    }
+  ]
+}

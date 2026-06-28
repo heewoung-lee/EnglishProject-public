@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-06-10T08:00:00.000Z",
+  "packs": [
+    {
+      "level": "A1",
+      "version": 2,
+      "path": "packs/a1.v2.json",
+      "scenarioCount": 8
+    },
+    {
+      "level": "A2",
+      "version": 2,
+      "path": "packs/a2.v2.json",
+      "scenarioCount": 8
+    },
+    {
+      "level": "B1",
+      "version": 1,
+      "path": "packs/b1.v1.json",
+      "scenarioCount": 8
+    },
+    {
+      "level": "B2",
+      "version": 1,
+      "path": "packs/b2.v1.json",
+      "scenarioCount": 8
+    }
+  ]
+}

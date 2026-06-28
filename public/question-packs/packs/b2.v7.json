@@ -1,0 +1,3546 @@
+{
+  "schemaVersion": 1,
+  "level": "B2",
+  "version": 7,
+  "publishedAt": "2026-06-21T00:00:00.000Z",
+  "questions": [
+    {
+      "id": "b2-reading-argument-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "글의 주장에 가장 가까운 것을 고르세요.",
+      "questionText": "Flexible work can improve productivity when teams set clear expectations.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flexible work always fails."
+        },
+        {
+          "id": "b",
+          "text": "Clear expectations can make flexible work effective."
+        },
+        {
+          "id": "c",
+          "text": "Teams should avoid expectations."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "명확한 기대치가 있을 때 유연 근무가 생산성을 높일 수 있다는 주장입니다.",
+      "weakPointLabel": "주장 파악"
+    },
+    {
+      "id": "b2-conversation-negotiate-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "협상 상황에서 가장 자연스러운 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Would you be open to adjusting the deadline?"
+        },
+        {
+          "id": "b",
+          "text": "Change deadline now."
+        },
+        {
+          "id": "c",
+          "text": "Deadline adjust open you?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Would you be open to...?는 상대의 의사를 존중하며 제안할 때 적합합니다.",
+      "weakPointLabel": "협상 표현"
+    },
+    {
+      "id": "b2-grammar-subjunctive-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "가정법으로 가장 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Had I known, I would have called you."
+        },
+        {
+          "id": "b",
+          "text": "Had I know, I would called you."
+        },
+        {
+          "id": "c",
+          "text": "If had I known, I call you."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "도치된 가정법 과거완료는 Had + 주어 + 과거분사 형태를 씁니다.",
+      "weakPointLabel": "가정법 심화"
+    },
+    {
+      "id": "b2-reading-nuance-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장의 뉘앙스로 가장 알맞은 것을 고르세요.",
+      "questionText": "The proposal is promising, but it requires further evidence.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The proposal is rejected completely."
+        },
+        {
+          "id": "b",
+          "text": "The proposal has potential but needs support."
+        },
+        {
+          "id": "c",
+          "text": "The proposal needs no changes."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanationKo": "promising은 가능성이 있다는 뜻이고, further evidence는 추가 근거가 필요하다는 뜻입니다.",
+      "weakPointLabel": "뉘앙스 파악"
+    },
+    {
+      "id": "b2-conversation-disagree-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "공손하게 반대하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I see your point, but I have a different perspective."
+        },
+        {
+          "id": "b",
+          "text": "You are wrong."
+        },
+        {
+          "id": "c",
+          "text": "Different I think wrong."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "상대 의견을 인정한 뒤 다른 관점을 말하면 공손하게 반대할 수 있습니다.",
+      "weakPointLabel": "공손한 반대"
+    },
+    {
+      "id": "b2-grammar-participle-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "보고서를 끝낸 뒤 사무실을 떠났다는 뜻으로 가장 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Having finished the report, she left the office."
+        },
+        {
+          "id": "b",
+          "text": "Finished having the report, she left the office."
+        },
+        {
+          "id": "c",
+          "text": "Having finish the report, she left the office."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "먼저 끝난 일을 짧게 앞에 붙일 때는 Having + 과거분사를 사용합니다.",
+      "weakPointLabel": "먼저 끝난 일을 줄여 말하기"
+    },
+    {
+      "id": "b2-reading-evidence-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장의 의미로 가장 알맞은 것을 고르세요.",
+      "questionText": "The study's findings are preliminary and should be interpreted cautiously.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The results are early, so readers should be careful."
+        },
+        {
+          "id": "b",
+          "text": "The study proves the answer completely."
+        },
+        {
+          "id": "c",
+          "text": "The findings should be ignored."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "preliminary는 초기 단계라는 뜻이고 cautiously는 조심스럽게 해석해야 한다는 뜻입니다.",
+      "weakPointLabel": "학술 문장 의미"
+    },
+    {
+      "id": "b2-reading-assumption-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "글쓴이의 숨은 전제로 가장 알맞은 것을 고르세요.",
+      "questionText": "The company should invest in training because new tools only help when employees know how to use them.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Training is necessary for tools to be useful."
+        },
+        {
+          "id": "b",
+          "text": "New tools are never useful at work."
+        },
+        {
+          "id": "c",
+          "text": "Employees should avoid learning new tools."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "도구의 효과가 사용 능력에 달려 있다는 전제가 글의 주장에 깔려 있습니다.",
+      "weakPointLabel": "숨은 전제"
+    },
+    {
+      "id": "b2-conversation-qualify-opinion-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "의견을 조심스럽게 제한해 말하는 표현을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I agree to some extent, but we need more data."
+        },
+        {
+          "id": "b",
+          "text": "I agree everything and no data."
+        },
+        {
+          "id": "c",
+          "text": "Some extent agree need data more."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "to some extent는 부분적으로 동의한다는 뉘앙스를 주어 의견을 더 정교하게 만듭니다.",
+      "weakPointLabel": "의견 제한"
+    },
+    {
+      "id": "b2-grammar-inversion-emphasis-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "Rarely처럼 부정적인 말을 앞에 놓았을 때 어순이 맞는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rarely have I seen such a clear explanation."
+        },
+        {
+          "id": "b",
+          "text": "Rarely I have seen such a clear explanation."
+        },
+        {
+          "id": "c",
+          "text": "Rarely have seen I such a clear explanation."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Rarely처럼 부정적 의미의 부사가 문두에 오면 조동사와 주어의 순서가 바뀝니다.",
+      "weakPointLabel": "부정어가 앞에 올 때의 어순"
+    },
+    {
+      "id": "b2-reading-implication-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "문장에서 암시하는 내용으로 가장 알맞은 것을 고르세요.",
+      "questionText": "The policy reduced costs, but several managers questioned whether the savings justified the lower customer satisfaction.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cost savings may have created a serious trade-off."
+        },
+        {
+          "id": "b",
+          "text": "Managers were fully satisfied with the policy."
+        },
+        {
+          "id": "c",
+          "text": "Customer satisfaction improved because costs fell."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "비용은 줄었지만 고객 만족도가 낮아졌으므로 절감 효과와 부작용 사이의 균형이 쟁점입니다.",
+      "weakPointLabel": "암시 이해"
+    },
+    {
+      "id": "b2-grammar-concession-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "비록 마감이 빡빡했지만 좋은 결과를 냈다는 뜻을 가장 자연스럽게 나타내는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Even though the deadline was tight, the team delivered a strong result."
+        },
+        {
+          "id": "b",
+          "text": "Even the deadline tight, the team delivered a strong result."
+        },
+        {
+          "id": "c",
+          "text": "Because the deadline was tight, but the team delivered."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Even though는 \"비록 ~이지만 / ~임에도 불구하고\"라는 뜻으로, 어려운 조건과 반대되는 결과를 연결합니다.",
+      "weakPointLabel": "비록 ~이지만 표현"
+    },
+    {
+      "id": "b2-writing-flexible-work-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 팀이 명확하게 소통한다면 유연근무는 생산성을 높일 수 있습니다.",
+      "sampleAnswer": "Flexible work can improve productivity if teams communicate clearly.",
+      "evaluationFocusKo": "주장, 조건절, productivity 같은 추상 명사 사용",
+      "expectedKeywords": [
+        "flexible",
+        "productivity",
+        "if",
+        "communicate"
+      ],
+      "explanationKo": "조건절 if를 사용해 주장이 성립하는 조건을 함께 제시할 수 있습니다.",
+      "weakPointLabel": "조건이 있는 주장"
+    },
+    {
+      "id": "b2-writing-polite-disagreement-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 당신의 요점은 이해하지만, 저는 그 문제를 다르게 봅니다.",
+      "sampleAnswer": "I understand your point, but I see the issue differently.",
+      "evaluationFocusKo": "상대 의견 인정 후 but으로 다른 관점 제시",
+      "expectedKeywords": [
+        "understand",
+        "point",
+        "but",
+        "differently"
+      ],
+      "explanationKo": "I understand your point로 상대를 인정한 뒤 다른 관점을 말하면 공손합니다.",
+      "weakPointLabel": "공손한 반대"
+    },
+    {
+      "id": "b2-reading-survey-conclusion-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "조사 결과에서 가장 타당한 결론을 고르세요.",
+      "questionText": "Most respondents supported the policy, but younger workers were less enthusiastic than older workers.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Support for the policy differs by age group."
+        },
+        {
+          "id": "b",
+          "text": "No one supported the policy."
+        },
+        {
+          "id": "c",
+          "text": "Younger workers were the strongest supporters."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "전체 지지는 높지만 연령대별 반응 차이가 있다는 점이 핵심입니다.",
+      "weakPointLabel": "조사 결과 해석"
+    },
+    {
+      "id": "b2-grammar-reduced-clause-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "보고서를 검토하는 동안 오류를 발견했다는 뜻으로 가장 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "While reviewing the report, I found several errors."
+        },
+        {
+          "id": "b",
+          "text": "While reviewed the report, I found several errors."
+        },
+        {
+          "id": "c",
+          "text": "Review the report, I found several errors."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "동시에 진행되는 동작은 While reviewing처럼 현재분사를 사용해 줄일 수 있습니다.",
+      "weakPointLabel": "동시에 일어난 일을 줄여 말하기"
+    },
+    {
+      "id": "b2-writing-remote-work-balance-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 재택근무는 시간을 절약하지만 팀워크를 줄일 수 있습니다.",
+      "sampleAnswer": "Remote work saves time, but it can reduce teamwork.",
+      "evaluationFocusKo": "장점과 단점을 but으로 균형 있게 연결",
+      "expectedKeywords": [
+        "remote",
+        "but",
+        "teamwork"
+      ],
+      "explanationKo": "but을 사용하면 장점 뒤에 한계나 단점을 자연스럽게 연결할 수 있습니다.",
+      "weakPointLabel": "균형 있는 주장"
+    },
+    {
+      "id": "b2-writing-formal-request-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 문서를 검토해 주시면 감사하겠습니다.",
+      "sampleAnswer": "I would appreciate it if you could review the document.",
+      "evaluationFocusKo": "I would appreciate it if ... 공식적 요청 표현",
+      "expectedKeywords": [
+        "appreciate",
+        "could",
+        "review"
+      ],
+      "explanationKo": "I would appreciate it if ...는 업무 상황에서 정중하게 요청할 때 유용합니다.",
+      "weakPointLabel": "공식적 요청"
+    },
+    {
+      "id": "b2-extra-reading-choice-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Many cities are replacing wide roads with bike lanes. Critics argue this slows traffic, but supporters say it reduces pollution.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "도시의 자전거 도로 확대에 대한 찬반 의견을 비교합니다."
+        },
+        {
+          "id": "b",
+          "text": "자전거 제조 방법만 설명합니다."
+        },
+        {
+          "id": "c",
+          "text": "자동차를 즉시 금지해야 한다고 증명합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "critics와 supporters가 서로 다른 의견을 제시합니다.",
+      "weakPointLabel": "글의 목적 파악"
+    },
+    {
+      "id": "b2-extra-reading-choice-002",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The new policy will be introduced gradually so that employees can get used to it.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "새 정책은 직원들이 적응할 수 있도록 점진적으로 도입됩니다."
+        },
+        {
+          "id": "b",
+          "text": "새 정책은 경고 없이 갑자기 중단됩니다."
+        },
+        {
+          "id": "c",
+          "text": "새 정책은 고위 직원에게만 적용됩니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "gradually는 서서히 또는 점진적으로라는 뜻입니다.",
+      "weakPointLabel": "문맥 속 어휘"
+    },
+    {
+      "id": "b2-extra-reading-choice-003",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Although the restaurant had excellent reviews, Mina decided not to go because reservations were required weeks in advance.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "미나는 더 빨리 갈 수 있는 식당을 원했을 가능성이 큽니다."
+        },
+        {
+          "id": "b",
+          "text": "그 식당은 이미 폐업했습니다."
+        },
+        {
+          "id": "c",
+          "text": "미나는 온라인 리뷰가 있는 식당을 싫어합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "몇 주 전 예약이 필요해서 가지 않기로 했다는 점에서 추론할 수 있습니다.",
+      "weakPointLabel": "암시 정보 추론"
+    },
+    {
+      "id": "b2-extra-reading-choice-004",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Remote work gives flexibility, but it can make communication harder for some teams.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "원격근무는 유연성을 주지만 팀 소통을 어렵게 할 수 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "원격근무는 모든 회의를 없애야 한다는 뜻입니다."
+        },
+        {
+          "id": "c",
+          "text": "원격근무는 항상 사무실 근무보다 나쁩니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "but 뒤에 장점과 대비되는 문제점이 제시됩니다.",
+      "weakPointLabel": "요지 파악"
+    },
+    {
+      "id": "b2-extra-reading-choice-005",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Despite the delay, the research team believed extra testing would make the product safer.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "연구팀은 지연에도 불구하고 추가 테스트를 긍정적으로 봅니다."
+        },
+        {
+          "id": "b",
+          "text": "연구팀은 제품을 포기했습니다."
+        },
+        {
+          "id": "c",
+          "text": "연구팀은 안전성 검사를 거부했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Despite는 반대 상황에도 이어지는 태도를 보여 줍니다.",
+      "weakPointLabel": "글의 어조"
+    },
+    {
+      "id": "b2-extra-reading-choice-006",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The product was expensive. However, many customers chose it because of its excellent warranty.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "비쌌지만 좋은 보증 때문에 많은 고객이 선택했습니다."
+        },
+        {
+          "id": "b",
+          "text": "저렴해서 모든 고객이 선택했습니다."
+        },
+        {
+          "id": "c",
+          "text": "보증이 없어서 아무도 사지 않았습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "However가 가격과 선택 이유의 대조를 연결합니다.",
+      "weakPointLabel": "논리 연결어"
+    },
+    {
+      "id": "b2-extra-reading-choice-007",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Some schools rely heavily on educational apps, but teachers worry students may become less independent.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "교사들은 학생들이 앱에 지나치게 의존할까 봐 우려합니다."
+        },
+        {
+          "id": "b",
+          "text": "교사들은 모든 앱 사용을 금지했습니다."
+        },
+        {
+          "id": "c",
+          "text": "학생들은 앱 없이 더 의존적입니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "worry that 이하가 핵심 우려입니다.",
+      "weakPointLabel": "핵심 우려 파악"
+    },
+    {
+      "id": "b2-extra-reading-choice-008",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "A four-day workweek requires clearer priorities, fewer unnecessary meetings, and better use of technology.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "짧은 근무 주간은 더 똑똑한 업무 조직을 요구합니다."
+        },
+        {
+          "id": "b",
+          "text": "회의 시간을 항상 늘려야 합니다."
+        },
+        {
+          "id": "c",
+          "text": "기술 사용을 피해야 합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "clearer priorities와 fewer meetings가 조직 방식 개선을 말합니다.",
+      "weakPointLabel": "주제문 파악"
+    },
+    {
+      "id": "b2-extra-reading-choice-009",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The museum extended evening hours, yet visitor numbers barely changed.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "운영 시간뿐 아니라 접근성 같은 다른 요소도 중요할 수 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "박물관 방문객은 더 이상 관심이 없습니다."
+        },
+        {
+          "id": "c",
+          "text": "저녁 프로그램은 반드시 없애야 합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "yet과 barely changed에서 단순 시간 연장만으로 충분하지 않음을 알 수 있습니다.",
+      "weakPointLabel": "추론 독해"
+    },
+    {
+      "id": "b2-extra-reading-choice-010",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Local farmers use sensors to monitor soil conditions. They help farmers decide when crops need water.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They는 sensors를 가리킵니다."
+        },
+        {
+          "id": "b",
+          "text": "They는 soil conditions를 가리킵니다."
+        },
+        {
+          "id": "c",
+          "text": "They는 crops를 가리킵니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "농부들이 물 줄 시점을 판단하도록 돕는 것은 sensors입니다.",
+      "weakPointLabel": "대명사 지칭"
+    },
+    {
+      "id": "b2-extra-reading-choice-011",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Electric buses are costly at first, but they require less maintenance and produce no exhaust fumes.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "전기 버스는 장기적으로 가치 있는 투자가 될 수 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "전기 버스는 구매 비용이 항상 가장 낮습니다."
+        },
+        {
+          "id": "c",
+          "text": "도시는 대중교통을 중단해야 합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "초기 비용과 장기 이점을 함께 비교하고 있습니다.",
+      "weakPointLabel": "결론 추론"
+    },
+    {
+      "id": "b2-extra-reading-choice-012",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Survey results should be interpreted carefully because the sample may not represent the whole population.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "표본이 전체 집단을 대표하지 못할 수 있어 결과 해석에 주의해야 합니다."
+        },
+        {
+          "id": "b",
+          "text": "설문은 항상 완벽하게 정확합니다."
+        },
+        {
+          "id": "c",
+          "text": "표본이 작을수록 전체를 더 잘 대표합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "represent는 대표하다라는 뜻입니다.",
+      "weakPointLabel": "학술 어휘"
+    },
+    {
+      "id": "b2-extra-reading-translation-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Many cities are replacing wide roads with bike lanes to reduce pollution and improve public health.",
+      "sampleAnswer": "많은 도시들이 오염을 줄이고 공중 보건을 개선하기 위해 넓은 도로를 자전거 도로로 바꾸고 있습니다.",
+      "evaluationFocusKo": "목적 표현 to reduce와 improve를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "도시",
+        "오염",
+        "건강"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "도시",
+        "오염",
+        "건강"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "replace A with B는 A를 B로 대체한다는 뜻입니다.",
+      "weakPointLabel": "목적 표현 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-002",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The manager said the new policy would be introduced gradually so employees could get used to it.",
+      "sampleAnswer": "관리자는 직원들이 적응할 수 있도록 새 정책이 점진적으로 도입될 것이라고 말했습니다.",
+      "evaluationFocusKo": "would be introduced와 gradually를 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "정책",
+        "점진적",
+        "적응"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "정책",
+        "점진적",
+        "적응"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "수동태와 목적절을 함께 이해해야 합니다.",
+      "weakPointLabel": "복합문 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-003",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Although remote work offers flexibility, it can also make communication more difficult for some teams.",
+      "sampleAnswer": "원격근무는 유연성을 제공하지만 일부 팀에게는 의사소통을 더 어렵게 만들 수도 있습니다.",
+      "evaluationFocusKo": "Although와 make communication difficult 구조를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "원격근무",
+        "유연성",
+        "의사소통"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "원격근무",
+        "유연성",
+        "의사소통"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "Although는 양보 관계를 나타냅니다.",
+      "weakPointLabel": "양보 구문 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-004",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The museum extended its evening hours, yet visitor numbers barely changed.",
+      "sampleAnswer": "박물관은 저녁 운영 시간을 연장했지만 방문객 수는 거의 변하지 않았습니다.",
+      "evaluationFocusKo": "yet과 barely changed의 대조 의미를 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "박물관",
+        "연장",
+        "변하지"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "박물관",
+        "연장",
+        "변하지"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "barely는 거의 ~하지 않다는 뜻입니다.",
+      "weakPointLabel": "대조 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-005",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Because the company simplified its return process, customer complaints dropped sharply.",
+      "sampleAnswer": "회사가 반품 절차를 간소화했기 때문에 고객 불만이 급격히 줄었습니다.",
+      "evaluationFocusKo": "simplified, return process, dropped sharply를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "반품",
+        "절차",
+        "불만"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "반품",
+        "절차",
+        "불만"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "dropped sharply는 급격히 감소했다는 뜻입니다.",
+      "weakPointLabel": "원인 결과 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-006",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Monitoring can reveal productivity problems, but it may reduce trust if employees feel constantly watched.",
+      "sampleAnswer": "감시는 생산성 문제를 드러낼 수 있지만 직원들이 계속 감시받는다고 느끼면 신뢰를 떨어뜨릴 수 있습니다.",
+      "evaluationFocusKo": "장점과 조건부 단점을 모두 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "감시",
+        "생산성",
+        "신뢰"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "감시",
+        "생산성",
+        "신뢰"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "if절이 부정적 결과의 조건을 나타냅니다.",
+      "weakPointLabel": "균형 의견 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-007",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The proposal, which was submitted last week, still needs approval.",
+      "sampleAnswer": "지난주 제출된 그 제안서는 아직 승인이 필요합니다.",
+      "evaluationFocusKo": "비제한적 관계절 which was submitted를 자연스럽게 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "제안서",
+        "지난주",
+        "승인"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "제안서",
+        "지난주",
+        "승인"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "which절은 proposal을 추가 설명합니다.",
+      "weakPointLabel": "관계절 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-008",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "No sooner had the announcement been made than people started asking questions.",
+      "sampleAnswer": "발표가 이루어지자마자 사람들이 질문하기 시작했습니다.",
+      "evaluationFocusKo": "No sooner ... than 구조를 자연스럽게 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "발표",
+        "하자마자",
+        "질문"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "발표",
+        "하자마자",
+        "질문"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "No sooner had ... than은 ~하자마자라는 뜻입니다.",
+      "weakPointLabel": "도치 구문 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-009",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The more carefully you check the data, the fewer errors you are likely to find later.",
+      "sampleAnswer": "자료를 더 꼼꼼히 확인할수록 나중에 발견할 오류는 더 적을 가능성이 큽니다.",
+      "evaluationFocusKo": "the 비교급, the 비교급 구조를 정확히 번역했는지 평가합니다.",
+      "expectedKeywords": [
+        "자료",
+        "확인",
+        "오류"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "자료",
+        "확인",
+        "오류"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "상관 비교급은 비례 관계를 나타냅니다.",
+      "weakPointLabel": "비교급 상관구문 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-010",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Had I known about the delay, I would have taken a later train.",
+      "sampleAnswer": "그 지연에 대해 알았더라면 나는 더 늦은 기차를 탔을 것입니다.",
+      "evaluationFocusKo": "가정법 과거완료의 반대 사실 의미를 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "알았더라면",
+        "기차",
+        "탔을"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "알았더라면",
+        "기차",
+        "탔을"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "Had I known은 If I had known과 같은 의미입니다.",
+      "weakPointLabel": "가정법 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-011",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Artificial intelligence can support doctors, but it should not replace professional judgment.",
+      "sampleAnswer": "인공지능은 의사를 도울 수 있지만 전문적인 판단을 대체해서는 안 됩니다.",
+      "evaluationFocusKo": "support와 replace professional judgment를 정확히 옮겼는지 평가합니다.",
+      "expectedKeywords": [
+        "인공지능",
+        "의사",
+        "판단"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "인공지능",
+        "의사",
+        "판단"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "replace는 대체하다라는 뜻입니다.",
+      "weakPointLabel": "대조 주장 번역"
+    },
+    {
+      "id": "b2-extra-reading-translation-012",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "More people are borrowing rarely used items instead of buying them to save money and reduce waste.",
+      "sampleAnswer": "더 많은 사람들이 돈을 아끼고 낭비를 줄이기 위해 잘 쓰지 않는 물건을 사는 대신 빌리고 있습니다.",
+      "evaluationFocusKo": "instead of buying과 목적 표현을 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "빌리",
+        "사는 대신",
+        "낭비"
+      ],
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "빌리",
+        "사는 대신",
+        "낭비"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "instead of는 ~대신에라는 뜻입니다.",
+      "weakPointLabel": "소비 경향 번역"
+    },
+    {
+      "id": "b2-extra-conversation-choice-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "업무 일정 연장을 요청하는 자연스러운 표현을 고르세요.",
+      "questionText": "You cannot finish a report by Friday.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How much extra time do you need?"
+        },
+        {
+          "id": "b",
+          "text": "Why did you finish it yesterday?"
+        },
+        {
+          "id": "c",
+          "text": "Would you like to cancel lunch?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "추가 시간이 필요하다는 상황에는 필요한 기간을 묻는 말이 자연스럽습니다.",
+      "weakPointLabel": "업무 대화 흐름"
+    },
+    {
+      "id": "b2-extra-conversation-choice-002",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대의 제안을 정중하게 거절하는 표현을 고르세요.",
+      "questionText": "Your colleague suggests another daily meeting.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I see the value, but I am concerned it may add too much pressure."
+        },
+        {
+          "id": "b",
+          "text": "That idea is completely ridiculous."
+        },
+        {
+          "id": "c",
+          "text": "I never attend meetings at any time."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "상대 의견을 인정하면서 우려를 말하면 정중한 거절이 됩니다.",
+      "weakPointLabel": "정중한 반대"
+    },
+    {
+      "id": "b2-extra-conversation-choice-003",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "대화의 의도로 가장 알맞은 표현을 고르세요.",
+      "questionText": "Would you mind looking over my presentation slides before tomorrow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A is asking for feedback."
+        },
+        {
+          "id": "b",
+          "text": "A is refusing to present."
+        },
+        {
+          "id": "c",
+          "text": "A is inviting B to a party."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "look over는 검토해 달라는 의미입니다.",
+      "weakPointLabel": "요청 의도 파악"
+    },
+    {
+      "id": "b2-extra-conversation-choice-004",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상황에 맞는 가장 자연스러운 응답을 고르세요.",
+      "questionText": "I heard your interview did not go as well as you hoped.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, but I learned what to improve next time."
+        },
+        {
+          "id": "b",
+          "text": "No, I have never heard of interviews."
+        },
+        {
+          "id": "c",
+          "text": "Please turn off the printer."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "좋지 않은 결과에 대해 배운 점을 말하는 응답이 자연스럽습니다.",
+      "weakPointLabel": "공감과 후속 반응"
+    },
+    {
+      "id": "b2-extra-conversation-choice-005",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "완곡한 반대 표현의 기능을 고르세요.",
+      "questionText": "I am not sure that would solve the main issue.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "expressing disagreement carefully"
+        },
+        {
+          "id": "b",
+          "text": "confirming a hotel reservation"
+        },
+        {
+          "id": "c",
+          "text": "asking for directions"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "직접 반대하지 않고 해결책에 의문을 제기하는 표현입니다.",
+      "weakPointLabel": "완곡한 의견 표현"
+    },
+    {
+      "id": "b2-extra-conversation-choice-006",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "조건을 붙여 수락하는 표현을 고르세요.",
+      "questionText": "I can summarize the discussion, ___ someone shares the notes with me.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "as long as"
+        },
+        {
+          "id": "b",
+          "text": "even though"
+        },
+        {
+          "id": "c",
+          "text": "instead of"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "as long as는 ~하기만 한다면이라는 조건을 나타냅니다.",
+      "weakPointLabel": "조건 표현"
+    },
+    {
+      "id": "b2-extra-conversation-choice-007",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "대안을 부드럽게 제시하는 표현을 고르세요.",
+      "questionText": "You want to suggest another approach.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Perhaps we could consider a different approach."
+        },
+        {
+          "id": "b",
+          "text": "We must do exactly what I say."
+        },
+        {
+          "id": "c",
+          "text": "There is no possible alternative."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Perhaps와 could가 제안을 부드럽게 만듭니다.",
+      "weakPointLabel": "부드러운 제안"
+    },
+    {
+      "id": "b2-extra-conversation-choice-008",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "마감이 앞당겨졌을 때 실용적인 반응을 고르세요.",
+      "questionText": "The deadline has been moved up to Wednesday.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "That is not ideal, but we can manage if we divide the tasks today."
+        },
+        {
+          "id": "b",
+          "text": "I do not care about deadlines."
+        },
+        {
+          "id": "c",
+          "text": "There is no work in this project."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "어려움을 인정하면서 해결 방안을 제시하고 있습니다.",
+      "weakPointLabel": "협조적 태도"
+    },
+    {
+      "id": "b2-extra-conversation-writing-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 유학이 시야를 넓힐 수 있다는 점에는 동의하지만, 자국에 머무는 것도 가치가 있을 수 있습니다.",
+      "questionText": "Friend: Studying abroad is always better than studying in your own country.",
+      "sampleAnswer": "I agree that studying abroad can broaden your perspective, but staying in your own country can also be valuable.",
+      "evaluationFocusKo": "부분 동의와 반대 관점을 모두 제시했는지 평가합니다.",
+      "expectedKeywords": [
+        "agree",
+        "but",
+        "valuable"
+      ],
+      "explanationKo": "B2 회화에서는 단정적인 반박보다 균형 잡힌 응답이 좋습니다.",
+      "weakPointLabel": "부분 동의 표현"
+    },
+    {
+      "id": "b2-extra-conversation-writing-002",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제가 받은 상품이 파손된 상태로 도착했다는 점을 알려드리고자 합니다.",
+      "sampleAnswer": "I am writing to let you know that the product I received arrived damaged.",
+      "evaluationFocusKo": "정중한 어조로 문제 상황을 분명히 설명했는지 평가합니다.",
+      "expectedKeywords": [
+        "writing to let you know",
+        "product",
+        "damaged"
+      ],
+      "explanationKo": "불만 제기는 문제 사실을 명확히 전달하는 방식이 적절합니다.",
+      "weakPointLabel": "정중한 불만 제기"
+    },
+    {
+      "id": "b2-extra-conversation-writing-003",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 마지막 요점이 무슨 뜻이었는지 설명해 주시겠어요?",
+      "sampleAnswer": "Could you clarify what you meant by the last point?",
+      "evaluationFocusKo": "clarify와 last point를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "clarify",
+        "meant",
+        "point"
+      ],
+      "explanationKo": "회의에서는 clarify로 설명 요청을 할 수 있습니다.",
+      "weakPointLabel": "설명 요청"
+    },
+    {
+      "id": "b2-extra-conversation-writing-004",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그런 큰 결정을 내리기 전에 시간을 더 가져보는 것이 좋을 것 같습니다.",
+      "sampleAnswer": "Maybe you should give yourself more time before making such a big decision.",
+      "evaluationFocusKo": "Maybe와 should를 사용해 부드럽게 조언했는지 평가합니다.",
+      "expectedKeywords": [
+        "maybe",
+        "should",
+        "decision"
+      ],
+      "explanationKo": "조언할 때 maybe를 쓰면 강한 어조를 줄일 수 있습니다.",
+      "weakPointLabel": "조심스러운 조언"
+    },
+    {
+      "id": "b2-extra-conversation-writing-005",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 회의가 월요일 오전에서 화요일 오후로 변경되었음을 알려드립니다.",
+      "questionText": "The meeting has been moved from Monday morning to Tuesday afternoon.",
+      "sampleAnswer": "Please note that our meeting has been moved from Monday morning to Tuesday afternoon.",
+      "evaluationFocusKo": "변경 전후 일정이 명확한지 평가합니다.",
+      "expectedKeywords": [
+        "meeting",
+        "moved",
+        "monday",
+        "tuesday"
+      ],
+      "explanationKo": "일정 변경 안내는 간결하고 정확해야 합니다.",
+      "weakPointLabel": "일정 변경 안내"
+    },
+    {
+      "id": "b2-extra-conversation-writing-006",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 온라인 리뷰는 주관적이지만 공통된 패턴을 보여줄 수 있습니다.",
+      "questionText": "Online reviews are useless because they are only personal opinions.",
+      "sampleAnswer": "Although online reviews are subjective, they can still reveal common patterns.",
+      "evaluationFocusKo": "Although로 부분 인정 후 반박했는지 평가합니다.",
+      "expectedKeywords": [
+        "although",
+        "subjective",
+        "patterns"
+      ],
+      "explanationKo": "Although는 \"비록 ~이지만\"처럼 일부를 인정한 뒤 다른 결론을 말할 때 쓸 수 있습니다.",
+      "weakPointLabel": "논리적 반박"
+    },
+    {
+      "id": "b2-extra-conversation-writing-007",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 계획이 예상보다 더 오래 걸릴 수 있다는 점이 우려됩니다.",
+      "questionText": "You think the plan may take more time than expected.",
+      "sampleAnswer": "I am concerned that this plan may take longer than expected.",
+      "evaluationFocusKo": "I am concerned that과 longer than expected를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "concerned",
+        "longer",
+        "expected"
+      ],
+      "explanationKo": "우려를 말할 때 I am concerned that ...이 자연스럽습니다.",
+      "weakPointLabel": "우려 표현"
+    },
+    {
+      "id": "b2-extra-conversation-writing-008",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 지연에 대해 사과드리며 가능한 한 빨리 업데이트하겠습니다.",
+      "sampleAnswer": "We apologize for the delay and will update you as soon as possible.",
+      "evaluationFocusKo": "apologize, delay, update를 포함했는지 평가합니다.",
+      "expectedKeywords": [
+        "apologize",
+        "delay",
+        "update"
+      ],
+      "explanationKo": "업무 메시지에서는 사과와 다음 조치를 함께 말합니다.",
+      "weakPointLabel": "업무 사과"
+    },
+    {
+      "id": "b2-extra-grammar-choice-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "문법적으로 가장 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Had I known about the delay, I would have taken a later train."
+        },
+        {
+          "id": "b",
+          "text": "Had I knew about the delay, I will take a later train."
+        },
+        {
+          "id": "c",
+          "text": "If I know about the delay, I would have took a later train."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "과거 사실의 반대를 나타내는 가정법 과거완료입니다.",
+      "weakPointLabel": "가정법 과거완료"
+    },
+    {
+      "id": "b2-extra-grammar-choice-002",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈칸에 들어갈 가장 알맞은 표현을 고르세요.",
+      "questionText": "The proposal, ___ was submitted last week, still needs approval.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "which"
+        },
+        {
+          "id": "b",
+          "text": "what"
+        },
+        {
+          "id": "c",
+          "text": "who"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "사물을 설명하는 비제한적 관계절에는 which를 씁니다.",
+      "weakPointLabel": "관계대명사"
+    },
+    {
+      "id": "b2-extra-grammar-choice-003",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈칸에 들어갈 가장 알맞은 표현을 고르세요.",
+      "questionText": "By the time we arrived, the lecture ___.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "had already begun"
+        },
+        {
+          "id": "b",
+          "text": "has already begun"
+        },
+        {
+          "id": "c",
+          "text": "already begins"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "도착한 과거 시점보다 강의 시작이 더 이전이므로 과거완료가 필요합니다.",
+      "weakPointLabel": "과거완료"
+    },
+    {
+      "id": "b2-extra-grammar-choice-004",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "피곤했지만 계속 일했다는 뜻을 가장 자연스럽게 나타내는 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Despite feeling tired, he continued working on the project."
+        },
+        {
+          "id": "b",
+          "text": "Despite he felt tired, he continued working on the project."
+        },
+        {
+          "id": "c",
+          "text": "Despite of feeling tired, he continued working on the project."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Despite 뒤에는 명사나 동명사 형태가 옵니다.",
+      "weakPointLabel": "비록 ~이지만 표현"
+    },
+    {
+      "id": "b2-extra-grammar-choice-005",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈칸에 들어갈 가장 알맞은 조동사를 고르세요.",
+      "questionText": "You ___ have told me earlier; now it is too late to change the booking.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "should"
+        },
+        {
+          "id": "b",
+          "text": "may"
+        },
+        {
+          "id": "c",
+          "text": "can"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "should have p.p.는 과거에 하지 않은 일에 대한 후회나 비판을 나타냅니다.",
+      "weakPointLabel": "조동사 완료형"
+    },
+    {
+      "id": "b2-extra-grammar-choice-006",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈칸에 들어갈 가장 알맞은 표현을 고르세요.",
+      "questionText": "The more carefully you check the data, ___ errors you are likely to find later.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the fewer"
+        },
+        {
+          "id": "b",
+          "text": "the least"
+        },
+        {
+          "id": "c",
+          "text": "the fewest"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "the 비교급, the 비교급 구조이므로 the fewer가 알맞습니다.",
+      "weakPointLabel": "비교급 상관구문"
+    },
+    {
+      "id": "b2-extra-grammar-choice-007",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "Not only로 시작할 때 어순이 가장 자연스러운 문장을 고르세요.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not only did she finish the report, but she also presented it clearly."
+        },
+        {
+          "id": "b",
+          "text": "Not only she finished the report, but also presented it clearly."
+        },
+        {
+          "id": "c",
+          "text": "Not only did she finished the report, but she also presents it clearly."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Not only가 문두에 오면 did she처럼 조동사와 주어의 순서가 바뀝니다.",
+      "weakPointLabel": "Not only 어순"
+    },
+    {
+      "id": "b2-extra-grammar-choice-008",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈칸에 들어갈 가장 알맞은 표현을 고르세요.",
+      "questionText": "I would rather you ___ the information confidential for now.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "kept"
+        },
+        {
+          "id": "b",
+          "text": "keep"
+        },
+        {
+          "id": "c",
+          "text": "will keep"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "would rather 뒤에 다른 주어가 오면 과거형을 씁니다.",
+      "weakPointLabel": "would rather 구문"
+    },
+    {
+      "id": "b2-extra-grammar-choice-009",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "빈칸에 들어갈 가장 알맞은 표현을 고르세요.",
+      "questionText": "No sooner had the announcement been made ___ people started asking questions.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "than"
+        },
+        {
+          "id": "b",
+          "text": "when"
+        },
+        {
+          "id": "c",
+          "text": "while"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "No sooner had ... than 구조가 맞습니다.",
+      "weakPointLabel": "상관 접속 표현"
+    },
+    {
+      "id": "b2-extra-grammar-choice-010",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "직원들에게 인기가 없어서 정책이 빨리 수정됐다는 뜻을 짧게 표현한 문장을 고르세요.",
+      "questionText": "Because the policy was unpopular, it was revised quickly.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unpopular with employees, the policy was revised quickly."
+        },
+        {
+          "id": "b",
+          "text": "Unpopularing employees, the policy revised quickly."
+        },
+        {
+          "id": "c",
+          "text": "Being unpopularity, the policy was revise quickly."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "이유를 짧게 앞에 붙일 때는 Unpopular with employees처럼 형용사구를 사용할 수 있습니다.",
+      "weakPointLabel": "이유를 줄여 말하기"
+    },
+    {
+      "id": "b2-extra-grammar-writing-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 실수를 깨닫고 그녀는 즉시 고객에게 연락했습니다.",
+      "sampleAnswer": "Realizing the mistake, she immediately contacted the client.",
+      "evaluationFocusKo": "앞 행동과 뒤 행동의 주어가 같은지 평가합니다.",
+      "expectedKeywords": [
+        "realizing",
+        "mistake",
+        "contacted"
+      ],
+      "explanationKo": "두 동작의 주어가 같으므로 Realizing the mistake로 시작해 자연스럽게 줄일 수 있습니다.",
+      "weakPointLabel": "문장 줄여 쓰기"
+    },
+    {
+      "id": "b2-extra-grammar-writing-002",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 모든 지원서는 다음 달 위원회가 검토할 예정입니다.",
+      "sampleAnswer": "All applications will be reviewed by the committee next month.",
+      "evaluationFocusKo": "미래 수동태 will be reviewed를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "applications",
+        "will be reviewed",
+        "committee"
+      ],
+      "explanationKo": "미래 수동태는 will be + 과거분사입니다.",
+      "weakPointLabel": "미래 수동태"
+    },
+    {
+      "id": "b2-extra-grammar-writing-003",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 관리자는 새 일정을 검토하고 있다고 말했습니다.",
+      "sampleAnswer": "The manager said that they were considering a new schedule.",
+      "evaluationFocusKo": "시제 이동과 said를 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "manager said",
+        "were considering",
+        "schedule"
+      ],
+      "explanationKo": "are considering은 전달문에서 were considering으로 바뀝니다.",
+      "weakPointLabel": "간접화법"
+    },
+    {
+      "id": "b2-extra-grammar-writing-004",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그녀는 모든 사람이 이해할 수 있도록 천천히 설명했습니다.",
+      "sampleAnswer": "She explained it slowly so that everyone could understand.",
+      "evaluationFocusKo": "목적을 나타내는 so that을 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "explained",
+        "so that",
+        "understand"
+      ],
+      "explanationKo": "so that 뒤에는 목적을 나타내는 절이 옵니다.",
+      "weakPointLabel": "목적절"
+    },
+    {
+      "id": "b2-extra-grammar-writing-005",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 알았더라면 너에게 말했을 텐데.",
+      "sampleAnswer": "If I had known, I would have told you.",
+      "evaluationFocusKo": "If I had known과 would have told를 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "had known",
+        "would have told"
+      ],
+      "explanationKo": "과거 사실의 반대를 말할 때 가정법 과거완료를 씁니다.",
+      "weakPointLabel": "가정법 쓰기"
+    },
+    {
+      "id": "b2-extra-grammar-writing-006",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그녀는 보고서를 끝냈을 뿐만 아니라 발표도 명확하게 했습니다.",
+      "sampleAnswer": "Not only did she finish the report, but she also presented it clearly.",
+      "evaluationFocusKo": "Not only did she와 but she also 구조를 평가합니다.",
+      "expectedKeywords": [
+        "not only",
+        "did she",
+        "but she also"
+      ],
+      "explanationKo": "Not only가 문두에 오면 did she처럼 조동사와 주어의 순서가 바뀝니다.",
+      "weakPointLabel": "Not only 강조"
+    },
+    {
+      "id": "b2-reading-translation-survey-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The survey suggests that flexible schedules may increase productivity among experienced workers.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 80,
+      "readingDifficulty": "easy",
+      "sampleAnswer": "그 설문조사는 유연한 일정이 숙련된 근로자들의 생산성을 높일 수 있음을 시사합니다.",
+      "expectedKeywordsKo": [
+        "설문조사",
+        "유연한 일정",
+        "숙련된 근로자",
+        "생산성",
+        "시사"
+      ],
+      "evaluationFocusKo": "suggests that 절과 may increase의 추정 의미를 번역하는지 평가합니다.",
+      "explanationKo": "suggests that은 ~임을 시사한다는 뜻입니다.",
+      "weakPointLabel": "추상적 조사 문장 번역"
+    },
+    {
+      "id": "b2-reading-translation-report-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Despite initial concerns, the report concludes that the service improved public access.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 80,
+      "readingDifficulty": "easy",
+      "sampleAnswer": "초기의 우려에도 불구하고 그 보고서는 그 서비스가 공공 접근성을 개선했다고 결론짓습니다.",
+      "expectedKeywordsKo": [
+        "초기 우려",
+        "불구하고",
+        "보고서",
+        "서비스",
+        "공공 접근성",
+        "개선"
+      ],
+      "evaluationFocusKo": "despite와 concludes that의 논리 구조를 번역하는지 평가합니다.",
+      "explanationKo": "Despite는 ~에도 불구하고라는 뜻입니다.",
+      "weakPointLabel": "대조와 결론 표현"
+    },
+    {
+      "id": "b2-reading-translation-climate-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Communities are adapting to climate risks by redesigning public spaces and improving drainage systems.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 85,
+      "readingDifficulty": "medium",
+      "sampleAnswer": "지역사회는 공공 공간을 다시 설계하고 배수 시스템을 개선함으로써 기후 위험에 적응하고 있습니다.",
+      "expectedKeywordsKo": [
+        "지역사회",
+        "기후 위험",
+        "공공 공간",
+        "다시 설계",
+        "배수 시스템",
+        "적응"
+      ],
+      "evaluationFocusKo": "by -ing 방법 표현과 병렬 동명사를 번역하는지 평가합니다.",
+      "explanationKo": "by redesigning and improving은 두 방법을 나타냅니다.",
+      "weakPointLabel": "방법과 병렬 구조"
+    },
+    {
+      "id": "b2-reading-translation-automation-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Automation can handle repetitive tasks, but human judgment remains essential in complex situations.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 85,
+      "readingDifficulty": "medium",
+      "sampleAnswer": "자동화는 반복적인 업무를 처리할 수 있지만 복잡한 상황에서는 인간의 판단이 여전히 필수적입니다.",
+      "expectedKeywordsKo": [
+        "자동화",
+        "반복적인 업무",
+        "처리",
+        "인간의 판단",
+        "복잡한 상황",
+        "필수"
+      ],
+      "evaluationFocusKo": "but 대조와 remains essential의 의미를 번역하는지 평가합니다.",
+      "explanationKo": "remains essential은 여전히 필수적이라는 뜻입니다.",
+      "weakPointLabel": "대조와 추상 명사"
+    },
+    {
+      "id": "b2-reading-translation-research-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Researchers warned that short-term savings could lead to higher maintenance costs in the future.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 90,
+      "readingDifficulty": "hard",
+      "sampleAnswer": "연구자들은 단기적인 절약이 미래에 더 높은 유지보수 비용으로 이어질 수 있다고 경고했습니다.",
+      "expectedKeywordsKo": [
+        "연구자",
+        "단기적인 절약",
+        "미래",
+        "유지보수 비용",
+        "이어질 수",
+        "경고"
+      ],
+      "evaluationFocusKo": "warned that와 could lead to의 가능성 있는 결과를 번역하는지 평가합니다.",
+      "explanationKo": "could lead to는 ~로 이어질 수 있다는 뜻입니다.",
+      "weakPointLabel": "경고와 결과 표현"
+    },
+    {
+      "id": "b2-reading-translation-negotiation-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The proposal was accepted only after both sides agreed to revise the most controversial clause.",
+      "answerLanguage": "ko",
+      "timeLimitSeconds": 90,
+      "readingDifficulty": "hard",
+      "sampleAnswer": "양측이 가장 논란이 되는 조항을 수정하기로 동의한 후에야 그 제안은 받아들여졌습니다.",
+      "expectedKeywordsKo": [
+        "양측",
+        "논란",
+        "조항",
+        "수정",
+        "동의",
+        "후에야",
+        "제안",
+        "받아들여졌"
+      ],
+      "evaluationFocusKo": "only after와 수동태 was accepted의 순서를 정확히 번역하는지 평가합니다.",
+      "explanationKo": "only after는 ~한 후에야라는 제한적 시간 표현입니다.",
+      "weakPointLabel": "복합 시간 구조"
+    },
+    {
+      "id": "b2-double-reading-choice-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The proposal gained support because it addressed both cost concerns and environmental goals.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 제안은 비용 우려와 환경 목표를 모두 다루었기 때문에 지지를 얻었습니다."
+        },
+        {
+          "id": "b",
+          "text": "그 도구는 교사를 대체하기보다 반복적인 행정 업무를 줄이려는 목적입니다."
+        },
+        {
+          "id": "c",
+          "text": "연구자는 표본이 너무 작아 넓은 결론을 뒷받침하기 어렵다고 경고했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "addressed both concerns and goals을 이해해야 합니다.",
+      "weakPointLabel": "복합 이유 파악"
+    },
+    {
+      "id": "b2-double-reading-choice-002",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "Rather than replacing teachers, the tool is intended to reduce repetitive administrative work.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 도구는 교사를 대체하기보다 반복적인 행정 업무를 줄이려는 목적입니다."
+        },
+        {
+          "id": "b",
+          "text": "연구자는 표본이 너무 작아 넓은 결론을 뒷받침하기 어렵다고 경고했습니다."
+        },
+        {
+          "id": "c",
+          "text": "개인정보 보호 장치가 시행된다면 그 정책은 효율성을 높일 수 있습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Rather than replacing을 이해해야 합니다.",
+      "weakPointLabel": "목적과 대조"
+    },
+    {
+      "id": "b2-double-reading-choice-003",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The researcher cautioned that the sample was too small to support a broad conclusion.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "연구자는 표본이 너무 작아 넓은 결론을 뒷받침하기 어렵다고 경고했습니다."
+        },
+        {
+          "id": "b",
+          "text": "개인정보 보호 장치가 시행된다면 그 정책은 효율성을 높일 수 있습니다."
+        },
+        {
+          "id": "c",
+          "text": "그 캠페인은 관심을 끌었지만 장기 행동 변화에는 실패했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "too small to support을 이해해야 합니다.",
+      "weakPointLabel": "연구 한계"
+    },
+    {
+      "id": "b2-double-reading-choice-004",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The policy may improve efficiency, provided that privacy safeguards are enforced.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "개인정보 보호 장치가 시행된다면 그 정책은 효율성을 높일 수 있습니다."
+        },
+        {
+          "id": "b",
+          "text": "그 캠페인은 관심을 끌었지만 장기 행동 변화에는 실패했습니다."
+        },
+        {
+          "id": "c",
+          "text": "저자는 편리함만으로는 지속적인 사용자 습관을 만들기에 충분하지 않다고 암시합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "provided that을 이해해야 합니다.",
+      "weakPointLabel": "조건부 주장"
+    },
+    {
+      "id": "b2-double-reading-choice-005",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "While the campaign attracted attention, it failed to change long-term behavior.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 캠페인은 관심을 끌었지만 장기 행동 변화에는 실패했습니다."
+        },
+        {
+          "id": "b",
+          "text": "저자는 편리함만으로는 지속적인 사용자 습관을 만들기에 충분하지 않다고 암시합니다."
+        },
+        {
+          "id": "c",
+          "text": "회사는 테스트 결과의 불일치를 발견한 후 출시를 연기했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "While, failed to change을 이해해야 합니다.",
+      "weakPointLabel": "성과 평가"
+    },
+    {
+      "id": "b2-double-reading-choice-006",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The author implies that convenience alone is not enough to build lasting user habits.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "저자는 편리함만으로는 지속적인 사용자 습관을 만들기에 충분하지 않다고 암시합니다."
+        },
+        {
+          "id": "b",
+          "text": "회사는 테스트 결과의 불일치를 발견한 후 출시를 연기했습니다."
+        },
+        {
+          "id": "c",
+          "text": "그 글은 더 높은 급여가 항상 더 나은 성과로 이어진다는 가정에 의문을 제기합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "not enough to build habits을 이해해야 합니다.",
+      "weakPointLabel": "함축 의미"
+    },
+    {
+      "id": "b2-double-reading-choice-007",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The company postponed the rollout after discovering inconsistencies in the test results.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "회사는 테스트 결과의 불일치를 발견한 후 출시를 연기했습니다."
+        },
+        {
+          "id": "b",
+          "text": "그 글은 더 높은 급여가 항상 더 나은 성과로 이어진다는 가정에 의문을 제기합니다."
+        },
+        {
+          "id": "c",
+          "text": "그 계획은 야심 차지만, 가용 자원을 고려하면 일정은 현실적으로 보입니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "after discovering inconsistencies을 이해해야 합니다.",
+      "weakPointLabel": "업무 판단"
+    },
+    {
+      "id": "b2-double-reading-choice-008",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The article challenges the assumption that higher salaries always lead to better performance.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 글은 더 높은 급여가 항상 더 나은 성과로 이어진다는 가정에 의문을 제기합니다."
+        },
+        {
+          "id": "b",
+          "text": "그 계획은 야심 차지만, 가용 자원을 고려하면 일정은 현실적으로 보입니다."
+        },
+        {
+          "id": "c",
+          "text": "편집자는 중심 주장에 방해가 되었기 때문에 여러 예시를 삭제했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "challenges the assumption을 이해해야 합니다.",
+      "weakPointLabel": "주장 파악"
+    },
+    {
+      "id": "b2-double-reading-choice-009",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The plan is ambitious, yet its timeline appears realistic given the available resources.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 계획은 야심 차지만, 가용 자원을 고려하면 일정은 현실적으로 보입니다."
+        },
+        {
+          "id": "b",
+          "text": "편집자는 중심 주장에 방해가 되었기 때문에 여러 예시를 삭제했습니다."
+        },
+        {
+          "id": "c",
+          "text": "위원회는 위험이 명확히 설명된 뒤에야 예산을 승인했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "yet, given resources을 이해해야 합니다.",
+      "weakPointLabel": "균형 평가"
+    },
+    {
+      "id": "b2-double-reading-choice-010",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The editor removed several examples because they distracted from the central argument.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "편집자는 중심 주장에 방해가 되었기 때문에 여러 예시를 삭제했습니다."
+        },
+        {
+          "id": "b",
+          "text": "위원회는 위험이 명확히 설명된 뒤에야 예산을 승인했습니다."
+        },
+        {
+          "id": "c",
+          "text": "그 연구는 단기 만족도와 장기 유지율을 구분합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "distracted from argument을 이해해야 합니다.",
+      "weakPointLabel": "글 구조 이해"
+    },
+    {
+      "id": "b2-double-reading-choice-011",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The committee approved the budget only after the risks had been clearly explained.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "위원회는 위험이 명확히 설명된 뒤에야 예산을 승인했습니다."
+        },
+        {
+          "id": "b",
+          "text": "그 연구는 단기 만족도와 장기 유지율을 구분합니다."
+        },
+        {
+          "id": "c",
+          "text": "발표자는 시스템이 완벽하지 않다는 점은 인정했지만 개선되고 있다고 주장했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "only after risks explained을 이해해야 합니다.",
+      "weakPointLabel": "조건 강조"
+    },
+    {
+      "id": "b2-double-reading-choice-012",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The study distinguishes between short-term satisfaction and long-term retention.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 연구는 단기 만족도와 장기 유지율을 구분합니다."
+        },
+        {
+          "id": "b",
+          "text": "발표자는 시스템이 완벽하지 않다는 점은 인정했지만 개선되고 있다고 주장했습니다."
+        },
+        {
+          "id": "c",
+          "text": "새 절차는 검토자가 각 단계를 독립적으로 확인하게 하여 오류를 줄였습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "distinguishes between을 이해해야 합니다.",
+      "weakPointLabel": "개념 구분"
+    },
+    {
+      "id": "b2-double-reading-choice-013",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The speaker conceded that the system was imperfect but argued that it was improving.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "발표자는 시스템이 완벽하지 않다는 점은 인정했지만 개선되고 있다고 주장했습니다."
+        },
+        {
+          "id": "b",
+          "text": "새 절차는 검토자가 각 단계를 독립적으로 확인하게 하여 오류를 줄였습니다."
+        },
+        {
+          "id": "c",
+          "text": "저자는 더 강한 내부 시스템 없이 빠른 성장이 지속 가능한지 의문을 제기합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "conceded but argued을 이해해야 합니다.",
+      "weakPointLabel": "양보 후 주장"
+    },
+    {
+      "id": "b2-double-reading-choice-014",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The new process reduced errors by requiring reviewers to check each step independently.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "새 절차는 검토자가 각 단계를 독립적으로 확인하게 하여 오류를 줄였습니다."
+        },
+        {
+          "id": "b",
+          "text": "저자는 더 강한 내부 시스템 없이 빠른 성장이 지속 가능한지 의문을 제기합니다."
+        },
+        {
+          "id": "c",
+          "text": "그 결정은 인기가 없었지만 나중에 더 심각한 문제를 막았습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "by requiring reviewers을 이해해야 합니다.",
+      "weakPointLabel": "방법 파악"
+    },
+    {
+      "id": "b2-double-reading-choice-015",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The author questions whether rapid growth is sustainable without stronger internal systems.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "저자는 더 강한 내부 시스템 없이 빠른 성장이 지속 가능한지 의문을 제기합니다."
+        },
+        {
+          "id": "b",
+          "text": "그 결정은 인기가 없었지만 나중에 더 심각한 문제를 막았습니다."
+        },
+        {
+          "id": "c",
+          "text": "그 결과는 피드백이 너무 오래 지연되면 동기가 떨어진다는 점을 시사합니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "questions whether을 이해해야 합니다.",
+      "weakPointLabel": "비판적 읽기"
+    },
+    {
+      "id": "b2-double-reading-choice-016",
+      "level": "B2",
+      "area": "reading",
+      "kind": "choice",
+      "promptKo": "영어 문장을 읽고 의미가 맞는 것을 고르세요.",
+      "questionText": "The decision was not popular, but it prevented a more serious problem later.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "그 결정은 인기가 없었지만 나중에 더 심각한 문제를 막았습니다."
+        },
+        {
+          "id": "b",
+          "text": "그 결과는 피드백이 너무 오래 지연되면 동기가 떨어진다는 점을 시사합니다."
+        },
+        {
+          "id": "c",
+          "text": "팀은 속도에만 집중하기보다 정확성과 사용자 신뢰를 우선했습니다."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "not popular, but prevented을 이해해야 합니다.",
+      "weakPointLabel": "결과 평가"
+    },
+    {
+      "id": "b2-double-reading-translation-001",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The findings suggest that motivation declines when feedback is delayed for too long.",
+      "sampleAnswer": "그 결과는 피드백이 너무 오래 지연되면 동기가 떨어진다는 점을 시사합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "결과는",
+        "피드백이",
+        "너무"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "motivation declines을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "연구 결과"
+    },
+    {
+      "id": "b2-double-reading-translation-002",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "Rather than focusing only on speed, the team prioritized accuracy and user trust.",
+      "sampleAnswer": "팀은 속도에만 집중하기보다 정확성과 사용자 신뢰를 우선했습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "팀은",
+        "속도에만",
+        "집중하기보다"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "Rather than speed을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "대조 번역"
+    },
+    {
+      "id": "b2-double-reading-translation-003",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The policy will be effective only if managers apply it consistently.",
+      "sampleAnswer": "관리자들이 그것을 일관되게 적용할 때에만 그 정책은 효과적일 것입니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "관리자들이",
+        "그것을",
+        "일관되게"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "only if consistently을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "조건 번역"
+    },
+    {
+      "id": "b2-double-reading-translation-004",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The report does not reject the idea entirely; instead, it recommends a slower rollout.",
+      "sampleAnswer": "그 보고서는 그 아이디어를 완전히 거부하지 않고, 대신 더 느린 도입을 권장합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "보고서는",
+        "아이디어를",
+        "완전히"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "instead recommends을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "대안 표현"
+    },
+    {
+      "id": "b2-double-reading-translation-005",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "By simplifying the form, the team reduced the number of incomplete applications.",
+      "sampleAnswer": "양식을 단순화함으로써 팀은 미완성 신청서 수를 줄였습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "양식을",
+        "단순화함으로써",
+        "팀은"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "By simplifying을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "방법 표현"
+    },
+    {
+      "id": "b2-double-reading-translation-006",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The speaker acknowledged the criticism while defending the overall direction.",
+      "sampleAnswer": "발표자는 전체 방향을 옹호하면서도 비판을 인정했습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "발표자는",
+        "전체",
+        "방향을"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "acknowledged while defending을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "균형 표현"
+    },
+    {
+      "id": "b2-double-reading-translation-007",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The evidence is persuasive, but it does not prove that the effect will last.",
+      "sampleAnswer": "그 증거는 설득력 있지만 그 효과가 지속된다는 것을 증명하지는 않습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "증거는",
+        "설득력",
+        "있지만"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "persuasive but does not prove을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "한계 표현"
+    },
+    {
+      "id": "b2-double-reading-translation-008",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The committee delayed the decision until additional safety data became available.",
+      "sampleAnswer": "위원회는 추가 안전 데이터가 확보될 때까지 결정을 미뤘습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "위원회는",
+        "추가",
+        "안전"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "until data became available을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "의사결정"
+    },
+    {
+      "id": "b2-double-reading-translation-009",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The platform encourages users to review mistakes rather than repeat easy tasks.",
+      "sampleAnswer": "그 플랫폼은 사용자가 쉬운 과제를 반복하기보다 실수를 복습하도록 장려합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "플랫폼은",
+        "사용자가",
+        "쉬운"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "rather than repeat을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "학습 기능"
+    },
+    {
+      "id": "b2-double-reading-translation-010",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The article highlights the tension between personal convenience and public responsibility.",
+      "sampleAnswer": "그 글은 개인의 편리함과 공적 책임 사이의 긴장을 강조합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "글은",
+        "개인의",
+        "편리함과"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "tension between을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "추상 개념"
+    },
+    {
+      "id": "b2-double-reading-translation-011",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The proposal was revised to address concerns raised during the public hearing.",
+      "sampleAnswer": "그 제안은 공청회에서 제기된 우려를 다루기 위해 수정되었습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "제안은",
+        "공청회에서",
+        "제기된"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "concerns raised을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "수동 표현"
+    },
+    {
+      "id": "b2-double-reading-translation-012",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The company admitted that the original timeline had been overly optimistic.",
+      "sampleAnswer": "회사는 원래 일정이 지나치게 낙관적이었다는 점을 인정했습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "회사는",
+        "원래",
+        "일정이"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "had been optimistic을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "과거완료"
+    },
+    {
+      "id": "b2-double-reading-translation-013",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The system is designed to detect unusual activity before it becomes a serious risk.",
+      "sampleAnswer": "그 시스템은 이상 활동이 심각한 위험이 되기 전에 감지하도록 설계되었습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "시스템은",
+        "이상",
+        "활동이"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "designed to detect을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "목적과 시간"
+    },
+    {
+      "id": "b2-double-reading-translation-014",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The author argues that transparency can reduce suspicion even when people disagree.",
+      "sampleAnswer": "저자는 사람들이 의견이 다르더라도 투명성이 의심을 줄일 수 있다고 주장합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "저자는",
+        "사람들이",
+        "의견이"
+      ],
+      "readingDifficulty": "medium",
+      "timeLimitSeconds": 90,
+      "explanationKo": "even when disagree을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "주장 이해"
+    },
+    {
+      "id": "b2-double-reading-translation-015",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The transition was smoother than expected because employees received practical training.",
+      "sampleAnswer": "직원들이 실무 교육을 받았기 때문에 전환은 예상보다 더 순조로웠습니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "직원들이",
+        "실무",
+        "교육을"
+      ],
+      "readingDifficulty": "hard",
+      "timeLimitSeconds": 90,
+      "explanationKo": "smoother than expected을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "비교 번역"
+    },
+    {
+      "id": "b2-double-reading-translation-016",
+      "level": "B2",
+      "area": "reading",
+      "kind": "writing",
+      "promptKo": "영어 지문을 읽고 한글로 번역하세요.",
+      "questionText": "The results should be interpreted cautiously because the survey excluded smaller companies.",
+      "sampleAnswer": "그 설문이 소규모 기업을 제외했기 때문에 결과는 신중하게 해석되어야 합니다.",
+      "evaluationFocusKo": "영어 지문의 핵심 의미를 자연스러운 한국어로 옮겼는지 평가합니다.",
+      "answerLanguage": "ko",
+      "expectedKeywordsKo": [
+        "설문이",
+        "소규모",
+        "기업을"
+      ],
+      "readingDifficulty": "easy",
+      "timeLimitSeconds": 75,
+      "explanationKo": "interpreted cautiously을 자연스럽게 옮기는 것이 핵심입니다.",
+      "weakPointLabel": "연구 한계"
+    },
+    {
+      "id": "b2-double-conversation-choice-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "강한 반대가 아니라 신중한 우려를 표현하는 문장을 고르세요.",
+      "questionText": "You are concerned but polite.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I see the potential benefits, but I am concerned about the risks."
+        },
+        {
+          "id": "b",
+          "text": "I see the potential benefits, but I concerned about the risks."
+        },
+        {
+          "id": "c",
+          "text": "see I the potential benefits, but I am concerned about the risks."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "장점을 인정한 뒤 우려를 말하면 균형 잡힌 표현이 됩니다.",
+      "weakPointLabel": "균형 있는 의견"
+    },
+    {
+      "id": "b2-double-conversation-choice-002",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "회의에서 결정 근거를 요청하는 표현을 고르세요.",
+      "questionText": "You need the reason.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you explain the reasoning behind that decision?"
+        },
+        {
+          "id": "b",
+          "text": "you explain the reasoning behind that decision?"
+        },
+        {
+          "id": "c",
+          "text": "you Could explain the reasoning behind that decision?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "reasoning behind a decision은 결정 근거를 뜻합니다.",
+      "weakPointLabel": "근거 요청"
+    },
+    {
+      "id": "b2-double-conversation-choice-003",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "일정은 가능하지만 범위를 줄여야 한다고 말하는 표현을 고르세요.",
+      "questionText": "You negotiate scope.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The timeline is possible if we reduce the scope."
+        },
+        {
+          "id": "b",
+          "text": "The timeline possible if we reduce the scope."
+        },
+        {
+          "id": "c",
+          "text": "timeline The is possible if we reduce the scope."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "if we reduce the scope가 가능한 조건입니다.",
+      "weakPointLabel": "범위 조정"
+    },
+    {
+      "id": "b2-double-conversation-choice-004",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대 주장에 양보 후 다른 관점을 제시하는 표현을 고르세요.",
+      "questionText": "You respond in discussion.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "That is a fair point, but I would look at it another way."
+        },
+        {
+          "id": "b",
+          "text": "That a fair point, but I would look at it another way."
+        },
+        {
+          "id": "c",
+          "text": "is That a fair point, but I would look at it another way."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "fair point로 인정한 뒤 another way로 다른 관점을 말합니다.",
+      "weakPointLabel": "토론 표현"
+    },
+    {
+      "id": "b2-double-conversation-choice-005",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "추가 자료를 본 뒤 판단하겠다고 말하는 표현을 고르세요.",
+      "questionText": "You need evidence.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I would prefer to review the data before making a decision."
+        },
+        {
+          "id": "b",
+          "text": "I prefer to review the data before making a decision."
+        },
+        {
+          "id": "c",
+          "text": "would I prefer to review the data before making a decision."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "before making a decision이 판단 전 조건입니다.",
+      "weakPointLabel": "신중한 결정"
+    },
+    {
+      "id": "b2-double-conversation-choice-006",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "공식 이메일에서 지연을 사과하는 표현을 고르세요.",
+      "questionText": "You write formal email.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "We apologize for the delay and appreciate your patience."
+        },
+        {
+          "id": "b",
+          "text": "We apologize for delay and appreciate your patience."
+        },
+        {
+          "id": "c",
+          "text": "apologize We for the delay and appreciate your patience."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "We apologize for ... and appreciate ...는 공식적인 사과 표현입니다.",
+      "weakPointLabel": "공식 이메일"
+    },
+    {
+      "id": "b2-double-conversation-choice-007",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대 제안을 바로 거절하지 않고 검토하겠다는 표현을 고르세요.",
+      "questionText": "You respond to a proposal.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will review the proposal and get back to you."
+        },
+        {
+          "id": "b",
+          "text": "I review the proposal and get back to you."
+        },
+        {
+          "id": "c",
+          "text": "will I review the proposal and get back to you."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "get back to you는 다시 연락하겠다는 뜻입니다.",
+      "weakPointLabel": "검토 답변"
+    },
+    {
+      "id": "b2-double-conversation-choice-008",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "회의에서 이해한 내용을 요약하는 표현을 고르세요.",
+      "questionText": "You summarize.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To summarize, we need a simpler process and clearer roles."
+        },
+        {
+          "id": "b",
+          "text": "To summarize, we need simpler process and clearer roles."
+        },
+        {
+          "id": "c",
+          "text": "summarize, To we need a simpler process and clearer roles."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "To summarize로 요약을 시작할 수 있습니다.",
+      "weakPointLabel": "요약 표현"
+    },
+    {
+      "id": "b2-double-conversation-choice-009",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "상대에게 기준을 명확히 해 달라고 요청하는 표현을 고르세요.",
+      "questionText": "You need criteria.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Could you clarify the criteria for approval?"
+        },
+        {
+          "id": "b",
+          "text": "you clarify the criteria for approval?"
+        },
+        {
+          "id": "c",
+          "text": "you Could clarify the criteria for approval?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "criteria for approval은 승인 기준이라는 뜻입니다.",
+      "weakPointLabel": "기준 확인"
+    },
+    {
+      "id": "b2-double-conversation-choice-010",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "제안이 현실적인지 조심스럽게 묻는 표현을 고르세요.",
+      "questionText": "You question feasibility.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you think this plan is realistic within the budget?"
+        },
+        {
+          "id": "b",
+          "text": "you think this plan is realistic within the budget?"
+        },
+        {
+          "id": "c",
+          "text": "you Do think this plan is realistic within the budget?"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "within the budget은 예산 안에서라는 뜻입니다.",
+      "weakPointLabel": "실현 가능성 질문"
+    },
+    {
+      "id": "b2-double-conversation-choice-011",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "갈등을 줄이기 위해 공통점을 찾자는 표현을 고르세요.",
+      "questionText": "You mediate.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Maybe we can start with the points we agree on."
+        },
+        {
+          "id": "b",
+          "text": "Maybe we start with the points we agree on."
+        },
+        {
+          "id": "c",
+          "text": "we Maybe can start with the points we agree on."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "points we agree on은 동의하는 지점을 뜻합니다.",
+      "weakPointLabel": "중재 표현"
+    },
+    {
+      "id": "b2-double-conversation-choice-012",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "choice",
+      "promptKo": "사용자 피드백을 다음 버전에 반영하겠다는 표현을 고르세요.",
+      "questionText": "You discuss product work.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "We will incorporate user feedback into the next version."
+        },
+        {
+          "id": "b",
+          "text": "We incorporate user feedback into the next version."
+        },
+        {
+          "id": "c",
+          "text": "will We incorporate user feedback into the next version."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "incorporate A into B는 A를 B에 반영한다는 뜻입니다.",
+      "weakPointLabel": "제품 논의"
+    },
+    {
+      "id": "b2-double-conversation-writing-001",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 잠재적 장점은 보이지만 위험이 우려됩니다.",
+      "sampleAnswer": "I see the potential benefits, but I am concerned about the risks.",
+      "evaluationFocusKo": "균형 있는 의견 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "see",
+        "the",
+        "potential",
+        "benefits"
+      ],
+      "explanationKo": "장점과 우려를 함께 말할 때 but으로 관점을 전환합니다.",
+      "weakPointLabel": "균형 있는 의견"
+    },
+    {
+      "id": "b2-double-conversation-writing-002",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 결정의 근거를 설명해 주시겠어요?",
+      "sampleAnswer": "Could you explain the reasoning behind that decision?",
+      "evaluationFocusKo": "근거 요청 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "you",
+        "explain",
+        "the",
+        "reasoning"
+      ],
+      "explanationKo": "결정 근거는 reasoning behind that decision으로 말합니다.",
+      "weakPointLabel": "근거 요청"
+    },
+    {
+      "id": "b2-double-conversation-writing-003",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 범위를 줄이면 일정은 가능합니다.",
+      "sampleAnswer": "The timeline is possible if we reduce the scope.",
+      "evaluationFocusKo": "범위 조정 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "the",
+        "timeline",
+        "possible",
+        "reduce"
+      ],
+      "explanationKo": "조건을 붙여 가능성을 말할 수 있습니다.",
+      "weakPointLabel": "범위 조정"
+    },
+    {
+      "id": "b2-double-conversation-writing-004",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그건 타당한 지적이지만 저는 다르게 봅니다.",
+      "sampleAnswer": "That is a fair point, but I see it differently.",
+      "evaluationFocusKo": "토론 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "fair",
+        "point",
+        "but",
+        "see"
+      ],
+      "explanationKo": "상대 의견을 인정한 뒤 다른 관점을 제시합니다.",
+      "weakPointLabel": "토론 표현"
+    },
+    {
+      "id": "b2-double-conversation-writing-005",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 결정하기 전에 데이터를 검토하고 싶습니다.",
+      "sampleAnswer": "I would like to review the data before making a decision.",
+      "evaluationFocusKo": "신중한 결정 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "like",
+        "review",
+        "the",
+        "data"
+      ],
+      "explanationKo": "신중한 결정은 before making a decision으로 조건을 붙입니다.",
+      "weakPointLabel": "신중한 결정"
+    },
+    {
+      "id": "b2-double-conversation-writing-006",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 지연에 대해 사과드리며 기다려 주셔서 감사합니다.",
+      "sampleAnswer": "We apologize for the delay and appreciate your patience.",
+      "evaluationFocusKo": "공식 이메일 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "apologize",
+        "for",
+        "the",
+        "delay"
+      ],
+      "explanationKo": "공식적인 사과와 감사 표현을 함께 쓸 수 있습니다.",
+      "weakPointLabel": "공식 이메일"
+    },
+    {
+      "id": "b2-double-conversation-writing-007",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 제안을 검토한 뒤 다시 연락드리겠습니다.",
+      "sampleAnswer": "I will review the proposal and get back to you.",
+      "evaluationFocusKo": "검토 답변 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "will",
+        "review",
+        "the",
+        "proposal"
+      ],
+      "explanationKo": "get back to you는 다시 연락하겠다는 뜻입니다.",
+      "weakPointLabel": "검토 답변"
+    },
+    {
+      "id": "b2-double-conversation-writing-008",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 요약하면 더 단순한 절차와 더 명확한 역할이 필요합니다.",
+      "sampleAnswer": "To summarize, we need a simpler process and clearer roles.",
+      "evaluationFocusKo": "요약 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "summarize",
+        "need",
+        "simpler",
+        "process"
+      ],
+      "explanationKo": "요약할 때 To summarize로 시작할 수 있습니다.",
+      "weakPointLabel": "요약 표현"
+    },
+    {
+      "id": "b2-double-conversation-writing-009",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 승인 기준을 명확히 해 주시겠어요?",
+      "sampleAnswer": "Could you clarify the criteria for approval?",
+      "evaluationFocusKo": "기준 확인 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "you",
+        "clarify",
+        "the",
+        "criteria"
+      ],
+      "explanationKo": "기준을 명확히 해 달라는 요청입니다.",
+      "weakPointLabel": "기준 확인"
+    },
+    {
+      "id": "b2-double-conversation-writing-010",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 이 계획이 예산 안에서 현실적이라고 생각하시나요?",
+      "sampleAnswer": "Do you think this plan is realistic within the budget?",
+      "evaluationFocusKo": "실현 가능성 질문 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "you",
+        "think",
+        "plan",
+        "realistic"
+      ],
+      "explanationKo": "상대 의견을 묻는 질문 구조를 사용합니다.",
+      "weakPointLabel": "실현 가능성 질문"
+    },
+    {
+      "id": "b2-double-conversation-writing-011",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 우리가 동의하는 지점부터 시작해 봅시다.",
+      "sampleAnswer": "Let's start with the points we agree on.",
+      "evaluationFocusKo": "중재 표현 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "let's",
+        "start",
+        "the",
+        "points"
+      ],
+      "explanationKo": "공통점을 찾을 때 points we agree on을 씁니다.",
+      "weakPointLabel": "중재 표현"
+    },
+    {
+      "id": "b2-double-conversation-writing-012",
+      "level": "B2",
+      "area": "conversation",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 사용자 피드백을 다음 버전에 반영하겠습니다.",
+      "sampleAnswer": "We will incorporate user feedback into the next version.",
+      "evaluationFocusKo": "제품 논의 표현을 정확하고 자연스럽게 사용했는지 평가합니다.",
+      "expectedKeywords": [
+        "will",
+        "incorporate",
+        "user",
+        "feedback"
+      ],
+      "explanationKo": "incorporate A into B는 A를 B에 반영한다는 뜻입니다.",
+      "weakPointLabel": "제품 논의"
+    },
+    {
+      "id": "b2-double-grammar-choice-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 정책은 일관되게 적용될 때에만 효과가 있을 것입니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The policy will work only if it is applied consistently."
+        },
+        {
+          "id": "b",
+          "text": "The policy work only if it is applied consistently."
+        },
+        {
+          "id": "c",
+          "text": "policy The will work only if it is applied consistently."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "only if는 필요한 조건을 강하게 나타냅니다.",
+      "weakPointLabel": "조건 강조"
+    },
+    {
+      "id": "b2-double-grammar-choice-002",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 데이터를 검토한 후 우리는 권고안을 바꿨습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Having reviewed the data, we changed our recommendation."
+        },
+        {
+          "id": "b",
+          "text": "Having reviewed data, we changed our recommendation."
+        },
+        {
+          "id": "c",
+          "text": "reviewed Having the data, we changed our recommendation."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "먼저 완료된 동작은 Having + 과거분사로 줄일 수 있습니다.",
+      "weakPointLabel": "완료 분사구문"
+    },
+    {
+      "id": "b2-double-grammar-choice-003",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 업데이트는 버그를 고쳤을 뿐만 아니라 속도도 개선했습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not only did the update fix bugs, but it also improved speed."
+        },
+        {
+          "id": "b",
+          "text": "Not only the update fix bugs, but it also improved speed."
+        },
+        {
+          "id": "c",
+          "text": "only Not did the update fix bugs, but it also improved speed."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "Not only가 앞에 오면 도치가 필요합니다.",
+      "weakPointLabel": "도치 구조"
+    },
+    {
+      "id": "b2-double-grammar-choice-004",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 우리가 더 일찍 테스트했다면 그 문제를 발견했을 것입니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "If we had tested it earlier, we would have found the issue."
+        },
+        {
+          "id": "b",
+          "text": "If we tested it earlier, we would have found the issue."
+        },
+        {
+          "id": "c",
+          "text": "we If had tested it earlier, we would have found the issue."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "과거 사실과 다른 가정은 가정법 과거완료를 씁니다.",
+      "weakPointLabel": "가정법 과거완료"
+    },
+    {
+      "id": "b2-double-grammar-choice-005",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 아이디어는 유망하지만 여전히 더 많은 증거가 필요합니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "While the idea is promising, it still needs more evidence."
+        },
+        {
+          "id": "b",
+          "text": "While the idea promising, it still needs more evidence."
+        },
+        {
+          "id": "c",
+          "text": "the While idea is promising, it still needs more evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "While은 인정과 한계를 함께 표현할 수 있습니다.",
+      "weakPointLabel": "양보와 한계"
+    },
+    {
+      "id": "b2-double-grammar-choice-006",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 서버에 저장된 파일들이 삭제되었습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The files stored on the server were deleted."
+        },
+        {
+          "id": "b",
+          "text": "The files stored on the server deleted."
+        },
+        {
+          "id": "c",
+          "text": "files The stored on the server were deleted."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "과거분사구가 명사를 뒤에서 설명합니다.",
+      "weakPointLabel": "관계절 축약"
+    },
+    {
+      "id": "b2-double-grammar-choice-007",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 가장 중요한 것은 사용자가 그 시스템을 신뢰하는지입니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "What matters most is whether users trust the system."
+        },
+        {
+          "id": "b",
+          "text": "What matters most whether users trust the system."
+        },
+        {
+          "id": "c",
+          "text": "matters What most is whether users trust the system."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "What matters most가 주어 역할을 합니다.",
+      "weakPointLabel": "명사절 주어"
+    },
+    {
+      "id": "b2-double-grammar-choice-008",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 불만에 대응하여 회사는 정책을 변경했습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In response to the complaint, the company changed its policy."
+        },
+        {
+          "id": "b",
+          "text": "In response to complaint, the company changed its policy."
+        },
+        {
+          "id": "c",
+          "text": "response In to the complaint, the company changed its policy."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "In response to는 ~에 대응하여라는 뜻입니다.",
+      "weakPointLabel": "전치사구"
+    },
+    {
+      "id": "b2-double-grammar-choice-009",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 실수를 일으킨 것은 불명확한 지시였습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It was the unclear instructions that caused the mistake."
+        },
+        {
+          "id": "b",
+          "text": "It the unclear instructions that caused the mistake."
+        },
+        {
+          "id": "c",
+          "text": "was It the unclear instructions that caused the mistake."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "It was ... that으로 특정 원인을 강조할 수 있습니다.",
+      "weakPointLabel": "강조 구문"
+    },
+    {
+      "id": "b2-double-grammar-choice-010",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 결정은 새로운 증거를 고려하여 내려졌습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The decision was made in light of the new evidence."
+        },
+        {
+          "id": "b",
+          "text": "The decision made in light of the new evidence."
+        },
+        {
+          "id": "c",
+          "text": "decision The was made in light of the new evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "in light of는 ~을 고려하여라는 뜻입니다.",
+      "weakPointLabel": "복합 전치사"
+    },
+    {
+      "id": "b2-double-grammar-choice-011",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 절차는 오류를 줄이기 위해 단순화되었습니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The process was simplified to reduce errors."
+        },
+        {
+          "id": "b",
+          "text": "The process simplified to reduce errors."
+        },
+        {
+          "id": "c",
+          "text": "process The was simplified to reduce errors."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "수동태와 목적 표현을 함께 사용합니다.",
+      "weakPointLabel": "수동태와 목적"
+    },
+    {
+      "id": "b2-double-grammar-choice-012",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "choice",
+      "promptKo": "다음 뜻을 가장 자연스러운 영어 문장으로 고르세요: 그 도구는 유용하지만 신중한 설정이 필요합니다.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The tool is useful; however, it requires careful setup."
+        },
+        {
+          "id": "b",
+          "text": "The tool useful; however, it requires careful setup."
+        },
+        {
+          "id": "c",
+          "text": "tool The is useful; however, it requires careful setup."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanationKo": "however는 앞뒤 내용을 대조합니다.",
+      "weakPointLabel": "접속부사"
+    },
+    {
+      "id": "b2-double-grammar-writing-001",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 정책은 일관되게 시행될 때에만 효과가 있을 것입니다.",
+      "sampleAnswer": "The policy will work only if it is applied consistently.",
+      "evaluationFocusKo": "only if 조건 강조",
+      "expectedKeywords": [
+        "the",
+        "policy",
+        "will",
+        "work"
+      ],
+      "explanationKo": "only if는 필요한 조건을 강조합니다.",
+      "weakPointLabel": "조건 강조"
+    },
+    {
+      "id": "b2-double-grammar-writing-002",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 데이터를 검토한 뒤 우리는 권고를 바꿨습니다.",
+      "sampleAnswer": "Having reviewed the data, we changed our recommendation.",
+      "evaluationFocusKo": "Having reviewed 사용",
+      "expectedKeywords": [
+        "having",
+        "reviewed",
+        "the",
+        "data"
+      ],
+      "explanationKo": "Having reviewed는 먼저 완료된 동작을 나타냅니다.",
+      "weakPointLabel": "완료 분사구문"
+    },
+    {
+      "id": "b2-double-grammar-writing-003",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 업데이트는 버그를 고쳤을 뿐 아니라 속도도 개선했습니다.",
+      "sampleAnswer": "Not only did the update fix bugs, but it also improved speed.",
+      "evaluationFocusKo": "Not only 도치 구조",
+      "expectedKeywords": [
+        "not",
+        "only",
+        "did",
+        "the"
+      ],
+      "explanationKo": "Not only가 앞에 오면 did + 주어 + 동사원형 어순을 씁니다.",
+      "weakPointLabel": "도치 구조"
+    },
+    {
+      "id": "b2-double-grammar-writing-004",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 우리가 더 일찍 시험했다면 문제를 발견했을 것입니다.",
+      "sampleAnswer": "If we had tested it earlier, we would have found the issue.",
+      "evaluationFocusKo": "가정법 과거완료 사용",
+      "expectedKeywords": [
+        "had",
+        "tested",
+        "earlier",
+        "have"
+      ],
+      "explanationKo": "과거 사실과 다른 상황은 had + 과거분사와 would have를 씁니다.",
+      "weakPointLabel": "가정법 과거완료"
+    },
+    {
+      "id": "b2-double-grammar-writing-005",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 생각은 유망하지만 여전히 더 많은 증거가 필요합니다.",
+      "sampleAnswer": "While the idea is promising, it still needs more evidence.",
+      "evaluationFocusKo": "While 양보절 사용",
+      "expectedKeywords": [
+        "while",
+        "the",
+        "idea",
+        "promising"
+      ],
+      "explanationKo": "While은 인정과 한계를 함께 말할 때 쓸 수 있습니다.",
+      "weakPointLabel": "양보와 한계"
+    },
+    {
+      "id": "b2-double-grammar-writing-006",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 서버에 저장된 파일들이 삭제됐습니다.",
+      "sampleAnswer": "The files stored on the server were deleted.",
+      "evaluationFocusKo": "stored on the server 사용",
+      "expectedKeywords": [
+        "the",
+        "files",
+        "stored",
+        "server"
+      ],
+      "explanationKo": "stored on the server는 files를 설명하는 과거분사구입니다.",
+      "weakPointLabel": "관계절 축약"
+    },
+    {
+      "id": "b2-double-grammar-writing-007",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 가장 중요한 것은 사용자가 시스템을 신뢰하는지 여부입니다.",
+      "sampleAnswer": "What matters most is whether users trust the system.",
+      "evaluationFocusKo": "What matters most 주어절",
+      "expectedKeywords": [
+        "what",
+        "matters",
+        "most",
+        "whether"
+      ],
+      "explanationKo": "What matters most가 주어 역할을 합니다.",
+      "weakPointLabel": "명사절 주어"
+    },
+    {
+      "id": "b2-double-grammar-writing-008",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 불만에 대한 대응으로 회사는 정책을 바꿨습니다.",
+      "sampleAnswer": "In response to the complaint, the company changed its policy.",
+      "evaluationFocusKo": "In response to 사용",
+      "expectedKeywords": [
+        "response",
+        "the",
+        "complaint",
+        "company"
+      ],
+      "explanationKo": "In response to는 ~에 대한 대응으로라는 뜻입니다.",
+      "weakPointLabel": "전치사구"
+    },
+    {
+      "id": "b2-double-grammar-writing-009",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 실수를 일으킨 것은 불명확한 지시였습니다.",
+      "sampleAnswer": "It was the unclear instructions that caused the mistake.",
+      "evaluationFocusKo": "It was ... that 강조",
+      "expectedKeywords": [
+        "was",
+        "the",
+        "unclear",
+        "instructions"
+      ],
+      "explanationKo": "It was ... that 구조로 원인을 강조합니다.",
+      "weakPointLabel": "강조 구문"
+    },
+    {
+      "id": "b2-double-grammar-writing-010",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 결정은 새 증거를 고려하여 내려졌습니다.",
+      "sampleAnswer": "The decision was made in light of the new evidence.",
+      "evaluationFocusKo": "in light of 사용",
+      "expectedKeywords": [
+        "the",
+        "decision",
+        "was",
+        "made"
+      ],
+      "explanationKo": "in light of는 ~을 고려하여라는 뜻입니다.",
+      "weakPointLabel": "복합 전치사"
+    },
+    {
+      "id": "b2-double-grammar-writing-011",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 절차는 오류를 줄이기 위해 단순화되었습니다.",
+      "sampleAnswer": "The process was simplified to reduce errors.",
+      "evaluationFocusKo": "was simplified to reduce 사용",
+      "expectedKeywords": [
+        "the",
+        "process",
+        "was",
+        "simplified"
+      ],
+      "explanationKo": "was simplified와 to reduce가 각각 수동과 목적을 나타냅니다.",
+      "weakPointLabel": "수동태와 목적"
+    },
+    {
+      "id": "b2-double-grammar-writing-012",
+      "level": "B2",
+      "area": "grammar",
+      "kind": "writing",
+      "promptKo": "다음 문장을 영어로 쓰세요: 그 도구는 유용하지만 신중한 설정이 필요합니다.",
+      "sampleAnswer": "The tool is useful; however, it requires careful setup.",
+      "evaluationFocusKo": "however 대조 사용",
+      "expectedKeywords": [
+        "the",
+        "tool",
+        "useful",
+        "however"
+      ],
+      "explanationKo": "however는 앞뒤 절을 분명히 구분해서 씁니다.",
+      "weakPointLabel": "접속부사"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>레벨핏영어 개인정보처리방침</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7faf8;
+        --surface: #ffffff;
+        --text: #1d2723;
+        --muted: #56635e;
+        --line: #dbe5df;
+        --accent: #117864;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR",
+          "Apple SD Gothic Neo", Arial, sans-serif;
+        line-height: 1.7;
+      }
+
+      main {
+        box-sizing: border-box;
+        width: min(920px, 100%);
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+
+      article {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: clamp(24px, 4vw, 44px);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(30px, 5vw, 46px);
+        line-height: 1.15;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 34px 0 10px;
+        font-size: 22px;
+        line-height: 1.35;
+        letter-spacing: 0;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      p {
+        margin: 10px 0;
+      }
+
+      ul {
+        margin: 10px 0 0;
+        padding-left: 22px;
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 15px;
+      }
+
+      .notice {
+        margin: 20px 0 0;
+        padding: 14px 16px;
+        border-left: 4px solid var(--accent);
+        background: #eef7f3;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>레벨핏영어 개인정보처리방침</h1>
+        <p class="meta">시행일: 2026년 6월 24일</p>
+
+        <p>
+          레벨핏영어는 영어 학습, 문제 풀이, 회화 연습, 영작 및 독해 평가를 제공하는
+          학습 앱입니다. 본 방침은 앱이 어떤 정보를 처리하고, 그 정보를 어떤 목적으로
+          사용하는지 설명합니다.
+        </p>
+
+        <div class="notice">
+          앱은 계정 가입 없이 사용할 수 있습니다. 학습 레벨, 점수, 풀이 기록 등 주요 학습
+          상태는 사용자의 기기 내 로컬 저장소에 저장됩니다.
+        </div>
+
+        <h2>1. 처리하는 정보</h2>
+        <p>앱은 서비스 제공을 위해 다음 정보를 처리할 수 있습니다.</p>
+        <ul>
+          <li>사용자가 입력한 영작 답변, 번역 답변, 회화 메시지</li>
+          <li>문제 풀이 결과, 점수, 레벨, 약점 영역, 최근 학습 기록</li>
+          <li>앱 사용 중 발생하는 오류, 서버 요청 기록, 기기 및 네트워크 관련 기본 로그</li>
+          <li>광고 제공 및 광고 성과 측정을 위해 Google AdMob이 처리하는 광고 식별자 및 광고 관련 데이터</li>
+        </ul>
+
+        <h2>2. 정보의 사용 목적</h2>
+        <p>처리된 정보는 다음 목적으로 사용됩니다.</p>
+        <ul>
+          <li>사용자 수준에 맞는 문제 제공 및 학습 진행 상태 저장</li>
+          <li>영작, 독해, 회화 답변 평가 및 해설 제공</li>
+          <li>사용자의 약점 영역 분석 및 반복 학습 구성</li>
+          <li>서비스 안정성 확인, 오류 분석, 부정 사용 방지</li>
+          <li>광고 표시 및 광고 서비스 운영</li>
+        </ul>
+
+        <h2>3. AI 평가 및 외부 서비스 사용</h2>
+        <p>
+          사용자가 영작 또는 회화 평가 기능을 사용할 경우, 입력한 답변과 관련 문제 정보가
+          평가를 위해 서버로 전송될 수 있습니다. 서버는 AI 평가 결과를 생성하기 위해 OpenAI
+          API를 사용할 수 있습니다.
+        </p>
+        <p>
+          앱은 문제 팩, 회화 시나리오, AI 평가 API 제공을 위해 Firebase Hosting 및 Cloud
+          Functions를 사용합니다. 광고 제공을 위해 Google AdMob을 사용합니다.
+        </p>
+
+        <h2>4. 정보의 저장</h2>
+        <p>
+          학습 레벨, 점수, 풀이 기록 등 학습 상태는 기본적으로 사용자의 기기에 저장됩니다.
+          앱을 삭제하거나 앱 내 초기화 기능을 사용하면 기기에 저장된 학습 상태를 삭제할 수
+          있습니다.
+        </p>
+        <p>
+          서버 요청 기록과 외부 서비스 처리 기록은 서비스 안정성, 보안, 오류 분석을 위해
+          필요한 기간 동안 각 서비스 제공자의 정책에 따라 보관될 수 있습니다.
+        </p>
+
+        <h2>5. 제3자 제공 및 처리 위탁</h2>
+        <p>
+          앱 운영을 위해 다음 외부 서비스를 사용할 수 있습니다. 각 서비스는 자체 개인정보
+          처리방침에 따라 데이터를 처리할 수 있습니다.
+        </p>
+        <ul>
+          <li>Google Firebase: 앱 콘텐츠 호스팅, 서버 API 운영, 로그 및 안정성 관리</li>
+          <li>OpenAI: 사용자가 제출한 답변의 AI 평가</li>
+          <li>Google AdMob: 광고 제공, 광고 성과 측정, 부정 광고 트래픽 방지</li>
+        </ul>
+
+        <h2>6. 광고</h2>
+        <p>
+          앱에는 Google AdMob 광고가 포함될 수 있습니다. 광고 SDK는 광고 표시, 빈도 관리,
+          성과 측정, 부정 사용 방지를 위해 광고 식별자, 앱 활동, 기기 정보 등 관련 데이터를
+          처리할 수 있습니다.
+        </p>
+
+        <h2>7. 아동 개인정보</h2>
+        <p>
+          레벨핏영어는 만 13세 미만 아동을 주 대상 사용자로 설계되지 않았습니다. 만
+          13세 미만 아동의 개인정보가 의도치 않게 처리되었다고 판단되는 경우 아래 연락처로
+          알려주시면 필요한 조치를 검토하겠습니다.
+        </p>
+
+        <h2>8. 사용자의 선택 및 삭제 요청</h2>
+        <p>
+          사용자는 앱 내 설정의 레벨 초기화 기능 또는 앱 삭제를 통해 기기에 저장된 학습
+          상태를 삭제할 수 있습니다. 서버 또는 외부 서비스 처리와 관련된 문의나 삭제 요청은
+          아래 연락처로 보낼 수 있습니다.
+        </p>
+
+        <h2>9. 보안</h2>
+        <p>
+          앱은 서버와 통신할 때 HTTPS를 사용합니다. 다만 인터넷을 통한 데이터 전송이나
+          전자적 저장 방식이 절대적으로 안전하다고 보장할 수는 없으므로, 서비스 운영에 필요한
+          범위에서 합리적인 보호 조치를 적용합니다.
+        </p>
+
+        <h2>10. 방침 변경</h2>
+        <p>
+          앱 기능, 외부 서비스, 관련 법령 또는 정책 변경에 따라 본 개인정보처리방침이 변경될
+          수 있습니다. 변경 시 이 페이지의 시행일을 갱신합니다.
+        </p>
+
+        <h2>11. 연락처</h2>
+        <p>
+          개인정보 관련 문의는 다음 이메일로 연락해 주세요.
+          <a href="mailto:hiwoong12@gmail.com">hiwoong12@gmail.com</a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>

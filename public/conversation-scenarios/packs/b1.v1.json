@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 1,
+  "level": "B1",
+  "version": 1,
+  "publishedAt": "2026-06-11T00:00:00.000Z",
+  "scenarios": [
+    {
+      "id": "b1-workplace-update-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "직장에서 업무 진행 상황 보고하기",
+      "titleEn": "Giving a Workplace Update",
+      "situationKo": "당신은 팀장에게 현재 맡은 업무의 진행 상황, 지연 이유, 다음 단계를 설명해야 합니다.",
+      "descriptionKo": "업무 진행률을 보고하고 문제점을 설명한 뒤 현실적인 마감 일정을 제안하는 연습입니다.",
+      "aiRole": "Team manager",
+      "userRole": "Team member",
+      "userGoalKo": "현재 진행 상황, 생긴 문제, 새 마감 예상일을 명확하게 보고하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I'm almost finished with ...",
+        "The main issue is ...",
+        "I expect to finish it by ..."
+      ],
+      "targetSkills": [
+        "verb_tense",
+        "numbers_dates",
+        "clarification",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hi. Can you give me a quick update on your project?",
+      "completionMessage": "Thanks for the clear update. Please send me the revised timeline after this meeting.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you explain that a little more clearly in English?",
+        "offTopic": "Let's stay with the project update. What is the current status?",
+        "correction": "Thanks for correcting that. Please continue with the update.",
+        "koreanOnly": "Please try to say that in English, even if it is not perfect."
+      },
+      "successCriteria": [
+        "Report the current progress of the task.",
+        "Explain one issue or delay reason.",
+        "Give a concrete next step or revised deadline."
+      ],
+      "requiredSlots": [
+        {
+          "key": "progress",
+          "label": "current progress",
+          "prompt": "What is the current status of the project?",
+          "matchKeywords": [
+            "finished",
+            "almost finished",
+            "in progress",
+            "halfway done",
+            "about 50 percent",
+            "about 70 percent",
+            "completed the draft",
+            "working on the report",
+            "still reviewing"
+          ]
+        },
+        {
+          "key": "issue",
+          "label": "issue or delay reason",
+          "prompt": "Is there any issue blocking your work?",
+          "matchKeywords": [
+            "waiting for feedback",
+            "missing data",
+            "technical problem",
+            "client feedback",
+            "client feedback delay",
+            "blocked by review",
+            "need approval",
+            "took longer than expected"
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "next step or revised deadline",
+          "prompt": "When do you expect to finish it, and what will you do next?",
+          "matchKeywords": [
+            "by monday",
+            "by tuesday",
+            "by friday",
+            "tomorrow afternoon",
+            "end of the day",
+            "next step",
+            "send the final version",
+            "finish the review",
+            "complete it by",
+            "deadline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-doctor-appointment-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "병원 진료 예약하기",
+      "titleEn": "Making a Doctor Appointment",
+      "situationKo": "당신은 병원에 전화해서 증상을 설명하고 가능한 진료 시간을 예약해야 합니다.",
+      "descriptionKo": "증상의 기간과 정도를 말하고, 가능한 날짜와 시간을 조율하는 연습입니다.",
+      "aiRole": "Clinic receptionist",
+      "userRole": "Patient",
+      "userGoalKo": "증상, 가능한 예약 시간, 연락처 정보를 말해 진료 예약을 완료하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I'd like to make an appointment.",
+        "I've had ... for ...",
+        "Is there anything available on ...?"
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "verb_tense",
+        "numbers_dates",
+        "question_comprehension",
+        "task_completion"
+      ],
+      "openingMessage": "Good morning, Green Clinic. How can I help you?",
+      "completionMessage": "You're booked for that time. Please arrive ten minutes early.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you repeat the appointment detail in English?",
+        "offTopic": "Let's focus on booking your appointment. What symptoms do you have?",
+        "correction": "No problem. I updated that information.",
+        "koreanOnly": "Please try to explain your appointment request in English."
+      },
+      "successCriteria": [
+        "Ask for a doctor appointment.",
+        "Describe a symptom and how long it has lasted.",
+        "Agree on a specific appointment date or time.",
+        "Provide contact or name information."
+      ],
+      "requiredSlots": [
+        {
+          "key": "appointmentRequest",
+          "label": "appointment request",
+          "prompt": "Would you like to make an appointment?",
+          "matchKeywords": [
+            "make an appointment",
+            "book an appointment",
+            "see a doctor",
+            "schedule a visit",
+            "available appointment",
+            "doctor appointment",
+            "come in for a checkup"
+          ]
+        },
+        {
+          "key": "symptom",
+          "label": "symptom and duration",
+          "prompt": "What symptoms are you having, and how long have you had them?",
+          "matchKeywords": [
+            "fever for",
+            "cough for",
+            "headache for",
+            "sore throat",
+            "stomach pain",
+            "since yesterday",
+            "for two days",
+            "for three days",
+            "for a week",
+            "getting worse"
+          ]
+        },
+        {
+          "key": "appointmentTime",
+          "label": "preferred appointment time",
+          "prompt": "What day or time works for you?",
+          "matchKeywords": [
+            "monday morning",
+            "tuesday afternoon",
+            "wednesday",
+            "friday",
+            "this afternoon",
+            "tomorrow morning",
+            "after 3",
+            "before noon",
+            "at 10",
+            "at 2"
+          ]
+        },
+        {
+          "key": "contactInfo",
+          "label": "name or phone number",
+          "prompt": "May I have your name and phone number?",
+          "matchKeywords": [
+            "my name is",
+            "this is",
+            "phone number is",
+            "my number is",
+            "you can reach me",
+            "contact number",
+            "under the name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-apartment-maintenance-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "아파트 수리 요청하기",
+      "titleEn": "Requesting Apartment Maintenance",
+      "situationKo": "당신은 집주인이나 관리 사무소에 연락해 집 안의 고장 문제를 설명하고 수리 방문 시간을 잡아야 합니다.",
+      "descriptionKo": "문제의 위치와 심각성을 설명하고, 수리 가능한 시간을 조율하는 연습입니다.",
+      "aiRole": "Building maintenance coordinator",
+      "userRole": "Tenant",
+      "userGoalKo": "고장 난 부분, 문제의 위치, 가능한 방문 시간을 말해 수리 요청을 완료하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "There seems to be a problem with ...",
+        "It has been happening since ...",
+        "Could someone come to check it?"
+      ],
+      "targetSkills": [
+        "prepositions",
+        "polite_requests",
+        "verb_tense",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Maintenance office. What problem are you reporting today?",
+      "completionMessage": "Thank you. We will send a technician during the time window you requested.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you describe the maintenance problem again in English?",
+        "offTopic": "Let's focus on the repair request. What is broken or not working?",
+        "correction": "Got it. I corrected that detail in the request.",
+        "koreanOnly": "Please try describing the issue in English."
+      },
+      "successCriteria": [
+        "Describe the maintenance problem.",
+        "State where the problem is located.",
+        "Say when the issue started or how serious it is.",
+        "Give a time when a technician can visit."
+      ],
+      "requiredSlots": [
+        {
+          "key": "problemType",
+          "label": "maintenance problem",
+          "prompt": "What exactly is not working?",
+          "matchKeywords": [
+            "leaking faucet",
+            "water leak",
+            "heater is not working",
+            "air conditioner",
+            "broken window",
+            "blocked drain",
+            "power outlet",
+            "door lock",
+            "no hot water",
+            "ceiling leak"
+          ]
+        },
+        {
+          "key": "location",
+          "label": "problem location",
+          "prompt": "Where in the apartment is the problem?",
+          "matchKeywords": [
+            "in the bathroom",
+            "in the kitchen",
+            "under the sink",
+            "near the window",
+            "in the bedroom",
+            "living room",
+            "on the ceiling",
+            "by the door",
+            "unit 302",
+            "apartment 405"
+          ]
+        },
+        {
+          "key": "urgency",
+          "label": "duration or urgency",
+          "prompt": "How long has this been happening, and is it urgent?",
+          "matchKeywords": [
+            "since yesterday",
+            "for two days",
+            "for a week",
+            "getting worse",
+            "urgent",
+            "not urgent",
+            "every time",
+            "all night",
+            "started this morning"
+          ]
+        },
+        {
+          "key": "visitTime",
+          "label": "available visit time",
+          "prompt": "When can a technician visit your apartment?",
+          "matchKeywords": [
+            "tomorrow morning",
+            "tomorrow afternoon",
+            "after work",
+            "before noon",
+            "between 2 and 4",
+            "after 6",
+            "on saturday",
+            "this evening",
+            "any weekday"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-customer-support-refund-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "고객센터에 환불 요청하기",
+      "titleEn": "Requesting a Refund from Customer Support",
+      "situationKo": "온라인으로 산 물건에 문제가 있어 고객센터 상담원에게 환불을 요청해야 합니다.",
+      "descriptionKo": "주문 정보, 문제 상황, 원하는 해결 방법을 정중하게 설명하는 연습입니다.",
+      "aiRole": "Customer support agent",
+      "userRole": "Customer",
+      "userGoalKo": "주문 번호, 상품 문제, 원하는 환불 방식을 말해 환불 절차를 시작하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I'm calling about order number ...",
+        "The item arrived ...",
+        "I'd like to request a refund."
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "numbers_dates",
+        "verb_tense",
+        "clarification",
+        "task_completion"
+      ],
+      "openingMessage": "Thank you for contacting customer support. What can I help you with today?",
+      "completionMessage": "I have submitted the refund request. You should receive an email confirmation shortly.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you repeat the order or refund detail in English?",
+        "offTopic": "Let's return to your refund request. What happened with the item?",
+        "correction": "Thanks. I updated the information in your case.",
+        "koreanOnly": "Please try to explain the refund issue in English."
+      },
+      "successCriteria": [
+        "Provide an order number or purchase detail.",
+        "Explain the problem with the item or service.",
+        "Clearly request a refund or replacement.",
+        "Answer a follow-up question about timing or evidence."
+      ],
+      "requiredSlots": [
+        {
+          "key": "orderInfo",
+          "label": "order information",
+          "prompt": "Can you provide your order number or purchase date?",
+          "matchKeywords": [
+            "order number",
+            "order id",
+            "purchase date",
+            "bought it on",
+            "ordered it on",
+            "invoice",
+            "receipt",
+            "confirmation email",
+            "number is",
+            "order 123"
+          ]
+        },
+        {
+          "key": "itemProblem",
+          "label": "item problem",
+          "prompt": "What is wrong with the item?",
+          "matchKeywords": [
+            "arrived damaged",
+            "broken",
+            "wrong item",
+            "missing part",
+            "does not work",
+            "doesn't work",
+            "late delivery",
+            "not as described",
+            "defective",
+            "package was open"
+          ]
+        },
+        {
+          "key": "refundRequest",
+          "label": "requested resolution",
+          "prompt": "What would you like us to do for you?",
+          "matchKeywords": [
+            "request a refund",
+            "full refund",
+            "refund to my card",
+            "return the item",
+            "replace it",
+            "send a replacement",
+            "money back",
+            "cancel the order",
+            "store credit"
+          ]
+        },
+        {
+          "key": "evidenceOrTiming",
+          "label": "evidence or timing detail",
+          "prompt": "When did you receive it, or do you have photos of the problem?",
+          "matchKeywords": [
+            "received it yesterday",
+            "received it today",
+            "arrived last week",
+            "photo",
+            "photos",
+            "picture",
+            "email proof",
+            "tracking number",
+            "delivery date",
+            "opened the box"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-class-discussion-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "수업 토론에서 의견 말하기",
+      "titleEn": "Joining a Class Discussion",
+      "situationKo": "당신은 영어 수업에서 주제에 대한 자신의 의견을 말하고 다른 학생의 의견에 반응해야 합니다.",
+      "descriptionKo": "의견, 이유, 예시를 말하고 상대 의견에 동의하거나 정중히 다른 의견을 제시하는 연습입니다.",
+      "aiRole": "Classmate",
+      "userRole": "Student",
+      "userGoalKo": "자신의 의견과 이유를 말하고, 상대 의견에 반응하며 토론에 참여하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 5,
+      "targetExpressions": [
+        "In my opinion, ...",
+        "I agree with you because ...",
+        "I see your point, but ..."
+      ],
+      "targetSkills": [
+        "natural_phrasing",
+        "vocabulary_range",
+        "clarification",
+        "verb_tense",
+        "task_completion"
+      ],
+      "openingMessage": "Our topic is remote learning. Do you think online classes are better than in-person classes?",
+      "completionMessage": "That was a clear opinion with a reason and example. Thanks for adding to the discussion.",
+      "repairPolicy": {
+        "unclear": "Could you explain your opinion in a clearer sentence?",
+        "offTopic": "Let's stay on the class discussion topic. What do you think about online classes?",
+        "correction": "Thanks for rephrasing. Please continue your point.",
+        "koreanOnly": "Please try to share your opinion in English."
+      },
+      "successCriteria": [
+        "State a clear opinion about the topic.",
+        "Give at least one reason or example.",
+        "Respond to the classmate's opinion.",
+        "Ask for or give clarification if needed."
+      ],
+      "requiredSlots": [
+        {
+          "key": "opinion",
+          "label": "clear opinion",
+          "prompt": "What is your opinion about online classes?",
+          "matchKeywords": [
+            "in my opinion",
+            "i think",
+            "i believe",
+            "i prefer",
+            "online classes are",
+            "in-person classes are",
+            "better than",
+            "worse than",
+            "more useful"
+          ]
+        },
+        {
+          "key": "reason",
+          "label": "reason or example",
+          "prompt": "Why do you think so?",
+          "matchKeywords": [
+            "because it",
+            "because we",
+            "for example",
+            "one reason is",
+            "it helps",
+            "it saves time",
+            "more flexible",
+            "hard to focus",
+            "easier to ask questions",
+            "learn better"
+          ]
+        },
+        {
+          "key": "responseToOther",
+          "label": "response to another opinion",
+          "prompt": "Do you agree or disagree with my point?",
+          "matchKeywords": [
+            "i agree",
+            "i disagree",
+            "i see your point",
+            "that's true",
+            "however i think",
+            "i see your point but",
+            "but i think",
+            "you are right",
+            "not completely",
+            "partly agree"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-travel-delay-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "여행 지연 문제 해결하기",
+      "titleEn": "Handling a Travel Delay",
+      "situationKo": "기차나 비행기가 지연되어 직원에게 현재 상황과 대체 방법을 물어봐야 합니다.",
+      "descriptionKo": "지연 정보를 확인하고, 연결편이나 환불 같은 대안을 정중하게 문의하는 연습입니다.",
+      "aiRole": "Travel service staff",
+      "userRole": "Traveler",
+      "userGoalKo": "예약 정보, 지연으로 생긴 문제, 원하는 대체 방법을 설명하고 도움을 요청하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "My flight has been delayed.",
+        "I have a connection to ...",
+        "What are my options?"
+      ],
+      "targetSkills": [
+        "question_comprehension",
+        "numbers_dates",
+        "polite_requests",
+        "prepositions",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. I can help with travel delays. What is your booking or flight information?",
+      "completionMessage": "I understand. I have found an alternative option and noted your connection issue.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you repeat the travel detail in English?",
+        "offTopic": "Let's focus on the travel delay. Which train or flight is delayed?",
+        "correction": "Thanks. I corrected that travel detail.",
+        "koreanOnly": "Please try to explain the travel delay in English."
+      },
+      "successCriteria": [
+        "Provide travel booking, train, or flight information.",
+        "Explain how the delay affects the trip.",
+        "Ask about a specific option such as rebooking, refund, or connection help.",
+        "Confirm the next action."
+      ],
+      "requiredSlots": [
+        {
+          "key": "bookingInfo",
+          "label": "booking or flight information",
+          "prompt": "What is your flight, train, or booking information?",
+          "matchKeywords": [
+            "flight number",
+            "train number",
+            "booking reference",
+            "reservation number",
+            "gate",
+            "platform",
+            "flight aa",
+            "train ktx",
+            "ticket number",
+            "confirmation code"
+          ]
+        },
+        {
+          "key": "delayImpact",
+          "label": "delay impact",
+          "prompt": "How is the delay affecting your trip?",
+          "matchKeywords": [
+            "miss my connection",
+            "connecting flight",
+            "next train",
+            "arrive late",
+            "hotel check-in",
+            "meeting at",
+            "too late",
+            "delayed by two hours",
+            "delayed by 30 minutes",
+            "cannot wait"
+          ]
+        },
+        {
+          "key": "requestedOption",
+          "label": "requested option",
+          "prompt": "What option would you like to ask about?",
+          "matchKeywords": [
+            "rebook",
+            "refund",
+            "another flight",
+            "earlier train",
+            "later train",
+            "hotel voucher",
+            "meal voucher",
+            "different route",
+            "change my ticket",
+            "available seats"
+          ]
+        },
+        {
+          "key": "confirmation",
+          "label": "next action confirmation",
+          "prompt": "Does that option work for you?",
+          "matchKeywords": [
+            "that works",
+            "please book it",
+            "please change it",
+            "i confirm",
+            "sounds good",
+            "i will take it",
+            "can you send confirmation",
+            "email me",
+            "print the ticket"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-bank-account-issue-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "은행 계좌 문제 상담하기",
+      "titleEn": "Discussing a Bank Account Issue",
+      "situationKo": "당신은 은행 직원에게 계좌나 카드 거래 문제를 설명하고 확인 또는 조치를 요청해야 합니다.",
+      "descriptionKo": "문제 유형, 거래 정보, 원하는 조치를 정확하게 말하는 연습입니다.",
+      "aiRole": "Bank representative",
+      "userRole": "Bank customer",
+      "userGoalKo": "계좌 문제, 거래 날짜나 금액, 원하는 조치를 설명해 은행 직원의 도움을 받으세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "I noticed an unusual charge.",
+        "The transaction was on ...",
+        "Could you check my account?"
+      ],
+      "targetSkills": [
+        "numbers_dates",
+        "polite_requests",
+        "clarification",
+        "vocabulary_range",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. What kind of account issue can I help you with today?",
+      "completionMessage": "I have opened a case for this account issue. We will contact you after reviewing it.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you repeat the account issue more clearly in English?",
+        "offTopic": "Let's focus on your bank account issue. What transaction or card problem did you notice?",
+        "correction": "Thank you. I updated the account detail.",
+        "koreanOnly": "Please try to explain the bank issue in English."
+      },
+      "successCriteria": [
+        "Describe the bank account or card issue.",
+        "Give a transaction date, amount, or account detail.",
+        "Ask for a specific action such as checking, blocking, or refunding.",
+        "Confirm identity or contact detail if asked."
+      ],
+      "requiredSlots": [
+        {
+          "key": "issueType",
+          "label": "account issue type",
+          "prompt": "What problem did you notice with your account?",
+          "matchKeywords": [
+            "unusual charge",
+            "wrong charge",
+            "card was declined",
+            "lost my card",
+            "blocked card",
+            "transfer failed",
+            "missing deposit",
+            "unauthorized transaction",
+            "double charged",
+            "account locked"
+          ]
+        },
+        {
+          "key": "transactionDetail",
+          "label": "transaction detail",
+          "prompt": "Can you tell me the date, amount, or merchant name?",
+          "matchKeywords": [
+            "on june",
+            "yesterday",
+            "last friday",
+            "for 50 dollars",
+            "for 100 dollars",
+            "amount was",
+            "merchant",
+            "atm",
+            "online payment",
+            "transaction id",
+            "card ending"
+          ]
+        },
+        {
+          "key": "requestedAction",
+          "label": "requested bank action",
+          "prompt": "What would you like the bank to do?",
+          "matchKeywords": [
+            "check my account",
+            "block my card",
+            "cancel the card",
+            "refund the charge",
+            "open a dispute",
+            "reverse the transaction",
+            "send a new card",
+            "unlock my account",
+            "investigate it"
+          ]
+        },
+        {
+          "key": "identityContact",
+          "label": "identity or contact detail",
+          "prompt": "Can you confirm your name or contact information?",
+          "matchKeywords": [
+            "my name is",
+            "account number ends",
+            "phone number is",
+            "email address",
+            "date of birth",
+            "you can contact me",
+            "last four digits",
+            "billing address"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-job-interview-scheduling-001",
+      "level": "B1",
+      "area": "conversation",
+      "titleKo": "취업 면접 일정 조율하기",
+      "titleEn": "Scheduling a Job Interview",
+      "situationKo": "채용 담당자와 연락해 면접 가능한 시간을 조율하고 필요한 준비 사항을 확인해야 합니다.",
+      "descriptionKo": "면접 제안을 받고 가능한 시간, 면접 방식, 준비 자료를 자연스럽게 확인하는 연습입니다.",
+      "aiRole": "Recruiter",
+      "userRole": "Job applicant",
+      "userGoalKo": "가능한 면접 시간과 방식, 준비해야 할 자료를 확인하고 일정을 확정하세요.",
+      "difficulty": "intermediate",
+      "maxUserTurns": 6,
+      "targetExpressions": [
+        "Thank you for the opportunity.",
+        "I'm available on ...",
+        "Could you let me know what I should prepare?"
+      ],
+      "targetSkills": [
+        "polite_requests",
+        "numbers_dates",
+        "question_comprehension",
+        "natural_phrasing",
+        "task_completion"
+      ],
+      "openingMessage": "Hello. We'd like to schedule an interview with you for the marketing assistant position.",
+      "completionMessage": "Great. Your interview is scheduled, and I will send the details by email.",
+      "repairPolicy": {
+        "unclear": "Sorry, could you repeat your availability in English?",
+        "offTopic": "Let's focus on scheduling the interview. When are you available?",
+        "correction": "No problem. I updated that interview detail.",
+        "koreanOnly": "Please try to discuss the interview schedule in English."
+      },
+      "successCriteria": [
+        "Respond politely to the interview invitation.",
+        "Give one or more available dates or times.",
+        "Confirm interview format or location.",
+        "Ask what to prepare or confirm next steps."
+      ],
+      "requiredSlots": [
+        {
+          "key": "politeResponse",
+          "label": "polite interview response",
+          "prompt": "How would you respond to the interview invitation?",
+          "matchKeywords": [
+            "thank you for the opportunity",
+            "thank you for inviting me",
+            "i appreciate",
+            "i would be happy",
+            "i'm interested",
+            "glad to hear",
+            "thank you for considering me"
+          ]
+        },
+        {
+          "key": "availability",
+          "label": "interview availability",
+          "prompt": "When are you available for the interview?",
+          "matchKeywords": [
+            "available on monday",
+            "available on tuesday",
+            "available friday",
+            "tomorrow afternoon",
+            "next week",
+            "after 2",
+            "before noon",
+            "between 10 and 12",
+            "wednesday morning",
+            "thursday afternoon"
+          ]
+        },
+        {
+          "key": "formatConfirmation",
+          "label": "format or location confirmation",
+          "prompt": "Would you like to confirm the interview format or location?",
+          "matchKeywords": [
+            "online interview",
+            "video call",
+            "zoom",
+            "in person",
+            "at your office",
+            "office address",
+            "phone interview",
+            "where should i go",
+            "meeting link",
+            "interview format"
+          ]
+        },
+        {
+          "key": "preparationQuestion",
+          "label": "preparation or next step question",
+          "prompt": "Do you have any questions about what to prepare?",
+          "matchKeywords": [
+            "what should i prepare",
+            "bring my resume",
+            "portfolio",
+            "references",
+            "documents",
+            "dress code",
+            "how long will it take",
+            "next steps",
+            "send me the details",
+            "confirmation email"
+          ]
+        }
+      ]
+    }
+  ]
+}
