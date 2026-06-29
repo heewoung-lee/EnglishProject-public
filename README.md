@@ -12,8 +12,6 @@
 
 [Google Play에서 다운로드](https://play.google.com/store/apps/details?id=com.LevelFitEnglish.LevelFitEnglish)
 
-앱이 아직 배포 심사 중이거나 특정 지역에 순차 반영 중이면 링크가 바로 열리지 않을 수 있습니다.
-
 ## 목적
 
 이 프로젝트의 목적은 사용자가 매번 학습 범위를 직접 고르지 않아도, 현재 실력에 맞는 문제를 풀고 자연스럽게 다음 단계로 이동할 수 있게 만드는 것입니다.
@@ -86,24 +84,3 @@
 |-- firebase.json                 # Firebase Functions/Hosting 설정
 `-- package.json                  # 루트 실행 스크립트
 ```
-
-## 보안과 공개 리포 운영
-
-이 프로젝트는 공개용 리포에 민감한 파일과 private git history가 들어가지 않도록 별도의 public mirror 방식을 사용합니다.
-
-- 실제 `.env` 파일은 ignore 처리합니다.
-- 로컬 브라우저 프로필, 빌드 산출물, Firebase 캐시, agent 캐시 디렉터리는 공개 snapshot에서 제외합니다.
-- 공개 리포에는 private repo의 git history를 push하지 않고, 정리된 snapshot만 발행합니다.
-- GitHub Actions에서 민감 파일명과 주요 secret 패턴을 검사합니다.
-- OpenAI 호출은 Firebase Functions 서버를 통해서만 수행합니다.
-
-API 키가 한 번이라도 커밋되었다면 파일을 삭제하는 것만으로는 충분하지 않습니다. 해당 키를 폐기하거나 재발급해야 합니다.
-
-## 공개 리포
-
-공개 소스 snapshot은 아래 리포에 발행됩니다.
-
-[heewoung-lee/EnglishProject-public](https://github.com/heewoung-lee/EnglishProject-public)
-
-원본 리포의 `Publish public mirror` GitHub Action은 민감 파일을 제외한 snapshot을 만들고, 보안 스캔을 통과한 경우에만 공개 리포로 발행합니다.
-
