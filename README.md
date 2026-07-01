@@ -59,7 +59,6 @@
 
 - **앱**: Expo, React Native, React, TypeScript
 - **상태 저장**: AsyncStorage 기반 로컬 학습 상태 저장
-- **테스트**: Vitest, TypeScript typecheck
 - **서버**: Firebase Functions, Node.js 22
 - **호스팅**: Firebase Hosting
 - **AI 연동**: OpenAI Responses API
